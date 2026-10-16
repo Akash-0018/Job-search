@@ -1,0 +1,311 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Morning jobs</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌼</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Public+Sans:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #EEF1F6; --surface: #FFFFFF; --ink: #18213A; --muted: #59627A; --line: #D6DCE7;
+  --marigold: #D98E04; --marigold-soft: #FCEBC7; --teal: #1C746A; --teal-soft: #DCEFEB;
+  --rose: #A83E55; --rose-soft: #F6E1E6;
+  --display: "Bricolage Grotesque", "Segoe UI", system-ui, sans-serif;
+  --body: "Public Sans", "Segoe UI", system-ui, -apple-system, sans-serif;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #10151F; --surface: #171F2E; --ink: #E5E9F1; --muted: #9AA3B8; --line: #2A3447;
+    --marigold: #F2B33D; --marigold-soft: #3A2D10; --teal: #5CC6B6; --teal-soft: #15322E;
+    --rose: #E78C9F; --rose-soft: #3A1D25; color-scheme: dark;
+  }
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 400 16px/1.55 var(--body); }
+a { color: inherit; }
+:focus-visible { outline: 3px solid var(--marigold); outline-offset: 2px; border-radius: 4px; }
+.wrap { max-width: 920px; margin: 0 auto; padding: 40px 20px 80px; }
+
+header h1 { font: 700 clamp(2.2rem, 6vw, 3.6rem)/1.02 var(--display); letter-spacing: -0.02em; margin: 0; }
+.date { color: var(--muted); margin: 10px 0 0; font-size: 1.05rem; }
+.summary { font-size: 1.15rem; max-width: 60ch; margin: 18px 0 0; }
+
+.notice { margin-top: 24px; padding: 14px 16px; border-left: 4px solid var(--rose); background: var(--rose-soft); border-radius: 0 8px 8px 0; }
+.notice h2 { font: 600 1rem/1.3 var(--body); margin: 0 0 6px; }
+.notice ul { margin: 0; padding-left: 18px; }
+
+.lead-label { font: 700 1.25rem/1.2 var(--display); margin: 40px 0 12px; }
+
+.controls { position: sticky; top: 0; z-index: 5; background: var(--bg); padding: 14px 0; margin-top: 36px; border-bottom: 1px solid var(--line); display: flex; flex-wrap: wrap; gap: 10px 18px; align-items: center; }
+.seg { display: inline-flex; max-width: 100%; overflow-x: auto; scrollbar-width: none; background: var(--surface); border: 1px solid var(--line); border-radius: 999px; padding: 3px; }
+.seg button { border: 0; background: none; color: var(--muted); font: 600 0.88rem var(--body); padding: 6px 13px; border-radius: 999px; cursor: pointer; white-space: nowrap; flex: none; }
+.seg button[aria-pressed="true"] { background: var(--ink); color: var(--bg); }
+.toggle { display: inline-flex; gap: 6px; align-items: center; font-size: 0.9rem; color: var(--muted); cursor: pointer; }
+.toggle input { accent-color: var(--marigold); width: 16px; height: 16px; }
+select { font: 600 0.88rem var(--body); color: var(--ink); background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 6px 10px; }
+.count { color: var(--muted); font-size: 0.9rem; margin: 18px 0 0; }
+
+.job { background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: 0 22px 20px; margin-top: 14px; position: relative; overflow: hidden; }
+.job.lead { border: 2px solid var(--marigold); border-radius: 10px; padding: 0 28px 26px; }
+.job.applied { opacity: 0.55; }
+.meter { height: 6px; background: var(--marigold-soft); margin: 0 -22px 18px; }
+.job.lead .meter { height: 10px; margin: 0 -28px 22px; }
+.meter span { display: block; height: 100%; background: var(--marigold); }
+.head { display: flex; justify-content: space-between; gap: 16px; align-items: flex-start; }
+.head h3 { font: 700 1.3rem/1.2 var(--display); margin: 0; }
+.job.lead .head h3 { font-size: clamp(1.5rem, 4vw, 2rem); }
+.head h3 a { text-decoration: none; }
+.head h3 a:hover { text-decoration: underline; text-decoration-thickness: 2px; text-underline-offset: 3px; }
+.co { margin: 4px 0 0; color: var(--muted); font-weight: 600; display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.score { text-align: right; flex: none; }
+.score strong { display: block; font: 700 1.9rem/1 var(--display); color: var(--marigold); }
+.job.lead .score strong { font-size: 2.6rem; }
+.score span { font-size: 0.78rem; color: var(--muted); }
+
+.trend { font-size: 0.78rem; font-weight: 600; padding: 2px 9px; border-radius: 999px; border: 1px solid var(--line); color: var(--muted); }
+.trend.up { background: var(--teal-soft); color: var(--teal); border-color: transparent; }
+.trend.down { background: var(--rose-soft); color: var(--rose); border-color: transparent; }
+
+.facts { list-style: none; padding: 0; margin: 14px 0 0; display: flex; flex-wrap: wrap; gap: 6px; }
+.facts li { font-size: 0.85rem; padding: 3px 10px; border-radius: 4px; background: var(--bg); }
+.facts li.pay { background: var(--teal-soft); color: var(--teal); font-weight: 600; }
+.facts li.pay.est { background: none; border: 1px dashed var(--teal); }
+.facts li.pay.none { background: var(--bg); color: var(--muted); font-weight: 400; }
+
+.why { margin: 14px 0 0; max-width: 70ch; }
+.skills { margin: 10px 0 0; font-size: 0.9rem; display: grid; gap: 4px; }
+.skills b { font-weight: 600; }
+.skills .has { color: var(--teal); }
+.skills .gap { color: var(--rose); }
+.trendline { margin: 10px 0 0; font-size: 0.85rem; color: var(--muted); }
+
+details { margin-top: 14px; border-top: 1px solid var(--line); padding-top: 10px; }
+summary { cursor: pointer; font-weight: 600; font-size: 0.92rem; }
+details p { white-space: pre-wrap; max-width: 70ch; margin: 10px 0; }
+
+.actions { margin-top: 16px; display: flex; flex-wrap: wrap; gap: 10px; }
+.btn { font: 600 0.9rem var(--body); padding: 9px 16px; border-radius: 8px; border: 1px solid var(--line); background: var(--surface); color: var(--ink); cursor: pointer; text-decoration: none; }
+.btn.primary { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+.btn.small { padding: 5px 11px; font-size: 0.82rem; }
+.day { font: 700 1.1rem var(--display); margin: 34px 0 0; color: var(--muted); }
+
+.empty { margin-top: 30px; padding: 28px; border: 1px dashed var(--line); border-radius: 8px; text-align: center; color: var(--muted); }
+footer { margin-top: 60px; padding-top: 22px; border-top: 1px solid var(--line); font-size: 0.88rem; color: var(--muted); }
+footer h2 { font: 700 1.05rem var(--display); color: var(--ink); margin: 0 0 8px; }
+footer ul { padding-left: 18px; margin: 6px 0 14px; }
+@media (max-width: 560px) {
+  .wrap { padding-top: 28px; }
+  .job { padding: 0 16px 18px; } .meter { margin: 0 -16px 16px; }
+  .job.lead { padding: 0 18px 22px; } .job.lead .meter { margin: 0 -18px 18px; }
+  .controls { position: static; }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .job.lead .meter span { animation: fill 900ms cubic-bezier(.2,.7,.2,1) both; }
+  @keyframes fill { from { width: 0 !important; } }
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1 id="hello">Good morning</h1>
+    <p class="date" id="date"></p>
+    <p class="summary" id="summary"></p>
+  </header>
+  <div id="notice"></div>
+  <div id="lead"></div>
+
+  <nav class="controls" aria-label="Filter jobs">
+    <div class="seg" role="group" aria-label="Period" data-key="view">
+      <button data-v="today">Today</button><button data-v="week">Last 7 days</button>
+    </div>
+    <div class="seg" role="group" aria-label="Role" data-key="role" id="roleSeg">
+      <button data-v="all">All roles</button>
+    </div>
+    <div class="seg" role="group" aria-label="Location" data-key="where">
+      <button data-v="all">Anywhere</button><button data-v="bangalore">Bangalore</button>
+      <button data-v="chennai">Chennai</button><button data-v="remote">Remote</button>
+    </div>
+    <label class="toggle"><input type="checkbox" id="listed"> Listed salary only</label>
+    <label class="toggle"><input type="checkbox" id="hideApplied"> Hide applied</label>
+    <select id="sort" aria-label="Sort by">
+      <option value="fit">Best fit first</option>
+      <option value="pay">Highest pay first</option>
+      <option value="new">Newest first</option>
+    </select>
+  </nav>
+  <p class="count" id="count"></p>
+  <main id="list"></main>
+  <footer id="footer"></footer>
+</div>
+
+<script>
+const DATA = __DATA__;
+const state = { view: "today", role: "all", where: "all", listed: false, hideApplied: false, sort: "fit" };
+let applied = {}, leadId = null;
+try { applied = JSON.parse(localStorage.getItem("jr-applied") || "{}") || {}; } catch (e) { applied = {}; }
+const saveApplied = () => { try { localStorage.setItem("jr-applied", JSON.stringify(applied)); } catch (e) {} };
+
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const fmtDate = iso => new Date(iso + "T00:00:00").toLocaleDateString("en-IN", { weekday: "long", day: "numeric", month: "long" });
+const lpa = v => (Math.round(v * 10) / 10).toString();
+const place = j => {
+  const l = (j.location || "").toLowerCase();
+  if (l.includes("chennai")) return "chennai";
+  if (l.includes("bangalore") || l.includes("bengaluru")) return "bangalore";
+  return j.remote ? "remote" : "other";
+};
+
+function allJobs() {
+  if (state.view === "today") return (DATA.days[DATA.today] || []).filter(j => j.id !== leadId).map(j => ({ ...j, _day: DATA.today }));
+  const seen = new Set(), out = [];
+  Object.keys(DATA.days).sort().reverse().forEach(d => (DATA.days[d] || []).forEach(j => {
+    if (!seen.has(j.id)) { seen.add(j.id); out.push({ ...j, _day: d }); }
+  }));
+  return out;
+}
+
+function filtered() {
+  let jobs = allJobs().filter(j =>
+    (state.role === "all" || j.role_bucket === state.role) &&
+    (state.where === "all" || (state.where === "remote" ? j.remote : place(j) === state.where)) &&
+    (!state.listed || (j.salary_min_lpa != null && !j.salary_estimated)) &&
+    (!state.hideApplied || !applied[j.id]));
+  const fit = j => (j.fit && j.fit.fit_score) || 0;
+  if (state.sort === "pay") jobs.sort((a, b) => (b.salary_max_lpa || 0) - (a.salary_max_lpa || 0));
+  else if (state.sort === "new") jobs.sort((a, b) => b._day.localeCompare(a._day) || fit(b) - fit(a));
+  else jobs.sort((a, b) => fit(b) - fit(a));
+  return jobs;
+}
+
+function payChip(j) {
+  if (j.salary_min_lpa == null) return `<li class="pay none">Salary not listed</li>`;
+  const range = j.salary_max_lpa && j.salary_max_lpa !== j.salary_min_lpa
+    ? `₹${lpa(j.salary_min_lpa)}–${lpa(j.salary_max_lpa)} LPA` : `₹${lpa(j.salary_min_lpa)} LPA`;
+  return j.salary_estimated
+    ? `<li class="pay est" title="Not listed in the posting. AI estimate for this role, company and city.">${range}, estimated</li>`
+    : `<li class="pay">${range}</li>`;
+}
+
+function card(j, lead) {
+  const f = j.fit || {}, t = j.trend || {}, score = f.fit_score || 0;
+  const exp = j.exp_min != null ? `${lpa(j.exp_min)}${j.exp_max ? "–" + lpa(j.exp_max) : "+"} yrs` : "";
+  const facts = [
+    j.location ? `<li>${esc(j.location)}</li>` : "",
+    j.remote ? `<li>Fully remote</li>` : "",
+    payChip(j),
+    exp ? `<li>${esc(exp)}</li>` : "",
+    `<li>${esc(DATA.roles[j.role_bucket] || "Other")}</li>`,
+    `<li>via ${esc(j.source)}</li>`,
+  ].join("");
+  const has = (f.matched_skills || []).length ? `<div class="has"><b>You have:</b> ${esc(f.matched_skills.join(", "))}</div>` : "";
+  const gap = (f.gaps || []).length ? `<div class="gap"><b>Gaps:</b> ${esc(f.gaps.join(", "))}</div>` : "";
+  const note = f.application_note ? `<details><summary>Note for the recruiter</summary>
+      <p id="note-${j.id}">${esc(f.application_note)}</p>
+      <button class="btn small" data-copy="${j.id}">Copy note</button></details>` : "";
+  const trendLine = [t.detail, t.board].filter(Boolean).map(esc).join(". ");
+  return `<article class="job${lead ? " lead" : ""}${applied[j.id] ? " applied" : ""}">
+    <div class="meter" aria-hidden="true"><span style="width:${score}%"></span></div>
+    <div class="head">
+      <div><h3><a href="${esc(j.url)}" target="_blank" rel="noopener">${esc(j.title)}</a></h3>
+        <p class="co">${esc(j.company)}${t.label ? `<span class="trend ${esc(t.tone)}" title="${esc(trendLine)}">${esc(t.label)}</span>` : ""}</p></div>
+      <div class="score" aria-label="Fit score ${score} out of 100"><strong>${score}</strong><span>fit</span></div>
+    </div>
+    <ul class="facts">${facts}</ul>
+    ${f.summary ? `<p class="why">${esc(f.summary)}</p>` : ""}
+    ${has || gap ? `<div class="skills">${has}${gap}</div>` : ""}
+    ${trendLine ? `<p class="trendline">Hiring: ${trendLine}.</p>` : ""}
+    ${note}
+    <div class="actions">
+      <a class="btn primary" href="${esc(j.url)}" target="_blank" rel="noopener">Open job posting</a>
+      <button class="btn" data-applied="${j.id}">${applied[j.id] ? "Applied ✓" : "Mark as applied"}</button>
+    </div>
+  </article>`;
+}
+
+function renderList() {
+  const jobs = filtered();
+  const list = document.getElementById("list");
+  document.getElementById("count").textContent =
+    state.view === "week" ? `${jobs.length} ${jobs.length === 1 ? "role" : "roles"} from the last 7 days`
+      : `${jobs.length} more ${jobs.length === 1 ? "role" : "roles"} today` + (leadId ? ", after the best fit above" : "");
+  if (!jobs.length) {
+    list.innerHTML = `<div class="empty">${state.view === "today"
+      ? (leadId && state.role === "all" && state.where === "all" && !state.listed && !state.hideApplied
+          ? "That's everything new today. “Last 7 days” has earlier matches."
+          : "No other matches for these filters today. Try “Last 7 days” or clear a filter.")
+      : "No matches for these filters this week. Clear a filter to see more."}</div>`;
+    return;
+  }
+  if (state.view === "week" && state.sort === "new") {
+    let html = "", last = "";
+    jobs.forEach(j => { if (j._day !== last) { last = j._day; html += `<h2 class="day">${fmtDate(j._day)}</h2>`; } html += card(j); });
+    list.innerHTML = html;
+  } else list.innerHTML = jobs.map(j => card(j)).join("");
+}
+
+function renderTop() {
+  const r = DATA.run, todays = DATA.days[DATA.today] || [];
+  document.getElementById("hello").textContent = DATA.name ? `Good morning, ${DATA.name}` : "Good morning";
+  document.getElementById("date").textContent = `${fmtDate(DATA.today)}. Updated at ${r.time}.`;
+  document.getElementById("summary").textContent = todays.length
+    ? `${todays.length} ${todays.length === 1 ? "role fits" : "roles fit"} you today, picked from ${r.new} new postings across your sources.`
+    : `No new roles cleared your filters today (${r.new} new postings checked). Earlier matches are under “Last 7 days”.`;
+  if (r.errors && r.errors.length) {
+    document.getElementById("notice").innerHTML = `<section class="notice"><h2>Some sources need attention</h2>
+      <ul>${r.errors.map(e => `<li>${esc(e)}</li>`).join("")}</ul></section>`;
+  }
+  if (todays.length) {
+    const best = [...todays].sort((a, b) => (b.fit.fit_score || 0) - (a.fit.fit_score || 0))[0];
+    leadId = best.id;
+    document.getElementById("lead").innerHTML = `<h2 class="lead-label">Best fit today</h2>${card(best, true)}`;
+  }
+  const skipped = Object.entries(r.skipped || {});
+  const sources = Object.entries(r.sources || {}).map(([k, v]) => `${esc(k)}: ${v.jobs ?? 0} jobs`).join(", ");
+  document.getElementById("footer").innerHTML = `<h2>How today's list was made</h2>
+    <p>Collected ${r.collected} postings (${r.unique} after removing duplicates, ${r.new} not seen before) from ${sources || "no sources"}.
+    ${r.passed_filters} passed the filters, ${r.scored} were ${r.ai_scoring ? "scored by AI" : "scored by keyword match (AI scoring is off)"}, and ${r.shortlisted} made the list.</p>
+    ${skipped.length ? `<p>Why the rest were left out:</p><ul>${skipped.map(([k, v]) => `<li>${esc(k)}: ${v}</li>`).join("")}</ul>` : ""}
+    <p>Hiring trends get more reliable over time; ${r.tracking_days} day${r.tracking_days === 1 ? "" : "s"} of history so far.
+    Estimated salaries are AI guesses for postings that hide pay, so confirm them with the recruiter.</p>
+    ${r.mock ? "<p><b>This page uses sample data for testing.</b></p>" : ""}`;
+}
+
+function wire() {
+  const roleSeg = document.getElementById("roleSeg");
+  Object.entries(DATA.roles).forEach(([k, label]) => roleSeg.insertAdjacentHTML("beforeend", `<button data-v="${esc(k)}">${esc(label)}</button>`));
+  document.querySelectorAll(".seg").forEach(seg => {
+    const key = seg.dataset.key;
+    const sync = () => seg.querySelectorAll("button").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.v === state[key])));
+    seg.addEventListener("click", e => { const b = e.target.closest("button"); if (!b) return; state[key] = b.dataset.v; sync(); renderList(); });
+    sync();
+  });
+  document.getElementById("listed").addEventListener("change", e => { state.listed = e.target.checked; renderList(); });
+  document.getElementById("hideApplied").addEventListener("change", e => { state.hideApplied = e.target.checked; renderList(); });
+  document.getElementById("sort").addEventListener("change", e => { state.sort = e.target.value; renderList(); });
+  document.body.addEventListener("click", async e => {
+    const a = e.target.closest("[data-applied]");
+    if (a) {
+      const id = a.dataset.applied;
+      if (applied[id]) delete applied[id]; else applied[id] = new Date().toISOString();
+      saveApplied(); renderTop(); renderList(); return;
+    }
+    const c = e.target.closest("[data-copy]");
+    if (c) {
+      const text = document.getElementById("note-" + c.dataset.copy).textContent;
+      try { await navigator.clipboard.writeText(text); c.textContent = "Copied"; }
+      catch (err) { c.textContent = "Select the text to copy"; }
+      setTimeout(() => (c.textContent = "Copy note"), 1800);
+    }
+  });
+}
+
+renderTop(); wire(); renderList();
+</script>
+</body>
+</html>
