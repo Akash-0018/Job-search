@@ -16109,13 +16109,2227 @@
    "t": "Python Software Developer",
    "d": "2026-10-16",
    "s": "Naukri"
+  },
+  "9c432a0babcecdf1": {
+   "c": "apple",
+   "t": "Software Engineer : AI",
+   "d": "2026-10-16",
+   "s": "Indeed"
+  },
+  "9884255c2bb45bc1": {
+   "c": "gwc data ai",
+   "t": "AI Engineer",
+   "d": "2026-10-16",
+   "s": "Indeed"
+  },
+  "6c97b7b05aab6699": {
+   "c": "intel corporation",
+   "t": "LLM & Agentic AI Performance Engineer",
+   "d": "2026-10-16",
+   "s": "Indeed"
+  },
+  "74da5974c7b60450": {
+   "c": "cisco",
+   "t": "AI Operations Engineer- AI Agent, AI Tool",
+   "d": "2026-10-16",
+   "s": "Indeed"
+  },
+  "6db8c4f0d1bd78fb": {
+   "c": "weaverminds",
+   "t": "Junior Full Stack Java Engineer with AI",
+   "d": "2026-10-16",
+   "s": "Indeed"
+  },
+  "1a9523e3a1b672ff": {
+   "c": "luxoft",
+   "t": "Regular AI Engineer",
+   "d": "2026-10-16",
+   "s": "Indeed"
+  },
+  "d5c62e9acd7ef52f": {
+   "c": "ikea",
+   "t": "Junior Systems Engineer",
+   "d": "2026-10-16",
+   "s": "Indeed"
+  },
+  "85f5405c70f0573c": {
+   "c": "ge aerospace",
+   "t": "Senior Staff Engineer - AI",
+   "d": "2026-10-16",
+   "s": "Indeed"
+  },
+  "e10538cf75a99739": {
+   "c": "mckinsey company",
+   "t": "Software Engineer II - Tech and AI",
+   "d": "2026-10-16",
+   "s": "Indeed"
+  },
+  "b2d45bbdfb27f75b": {
+   "c": "pepperfry",
+   "t": "Head - Engineering",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "870724b3d235de91": {
+   "c": "useready",
+   "t": "Senior Data Scientist",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "4d7d0b3177407987": {
+   "c": "kornferry",
+   "t": "Principal Engineer",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "03c5c67a22b9813d": {
+   "c": "worldpay",
+   "t": "Senior Associate Software Engineer",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "088ed316690fe404": {
+   "c": "epam systems",
+   "t": "Lead Software Engineer - Java with Spring Boot",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "fc3868caf88bb00d": {
+   "c": "zf",
+   "t": "Urgent Hiring For Senior Data Scientist- ZF Group- Hyderabad location",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "d8f4be1a75a56dd8": {
+   "c": "nagarro",
+   "t": "Senior Staff Engineer (Python fullstack+Gen AI)",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "70c525d5add6d1d9": {
+   "c": "moody s analytics",
+   "t": "Financial Engineer",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "490b58c55a520f88": {
+   "c": "medrisk",
+   "t": "MLops Engineer",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "dd354de5740a5c4c": {
+   "c": "mccreade software",
+   "t": "Job Opening For Artificial Intell For Bangalore and Chennai (C2H)",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "71447df416f7ba2d": {
+   "c": "nagarro",
+   "t": "Staff Engineer (Python+ Gen AI)",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "c173701f1856d91e": {
+   "c": "aniaaz consulting",
+   "t": "Data Support Analyst",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "8d13381d9e37f354": {
+   "c": "iide education",
+   "t": "Generative AI Video Editor",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "68b6081854e4d29d": {
+   "c": "hucon solutions",
+   "t": "Python Fullstack Developer",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "094d24e4bd614274": {
+   "c": "cognizant",
+   "t": "Product Integrator(ISG)",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "f4462381ee5e9eee": {
+   "c": "tata consultancy services",
+   "t": "C/C++",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "7d7a15e8e0b8efcc": {
+   "c": "info edge",
+   "t": "Voice Process",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "696c0c0fb584f4e3": {
+   "c": "ct automotive",
+   "t": "Full Stack AI Engineer",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "b6c3457a1eae5650": {
+   "c": "corenza",
+   "t": "Chief Technology Officer",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "7c9b551a478e9cc6": {
+   "c": "sigma allied services",
+   "t": "Sr AI Engineer",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "aef275a83fd438b0": {
+   "c": "infopie business solutions",
+   "t": "Python & MongoDB Developer",
+   "d": "2026-10-16",
+   "s": "Indeed"
+  },
+  "bfbef58bf8701af0": {
+   "c": "infopie business solutions",
+   "t": "Python Developer",
+   "d": "2026-10-16",
+   "s": "Indeed"
+  },
+  "a177639bb2cbdcc2": {
+   "c": "rds digital",
+   "t": "Backend Developer",
+   "d": "2026-10-16",
+   "s": "Indeed"
+  },
+  "1b9b05c9d293d161": {
+   "c": "apple",
+   "t": "Senior Cellular Virtual Platform Developer",
+   "d": "2026-10-16",
+   "s": "Indeed"
+  },
+  "dfc51dfa389fd9ae": {
+   "c": "mouser",
+   "t": "UV Developer",
+   "d": "2026-10-16",
+   "s": "Indeed"
+  },
+  "f5ce8c69b9ee447c": {
+   "c": "talherova pvt ltd",
+   "t": "Python Developer",
+   "d": "2026-10-16",
+   "s": "Indeed"
+  },
+  "ae0ccf0322dc396c": {
+   "c": "talherova pvt ltd",
+   "t": "Software Architect – AI & Python",
+   "d": "2026-10-16",
+   "s": "Indeed"
+  },
+  "f76861f82022a752": {
+   "c": "bosch",
+   "t": "Embedded_C++ Developer_EBH",
+   "d": "2026-10-16",
+   "s": "Indeed"
+  },
+  "237e17d4fefd42f2": {
+   "c": "bosch",
+   "t": "Senior Python Developer_EDC3",
+   "d": "2026-10-16",
+   "s": "Indeed"
+  },
+  "57ec51d707c797c4": {
+   "c": "cigres technologies",
+   "t": "Full Stack Developer - S C",
+   "d": "2026-10-16",
+   "s": "Indeed"
+  },
+  "ff700116ad8df1e0": {
+   "c": "cyberpwn",
+   "t": "Technical Lead",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "fe17395de6954893": {
+   "c": "trinity consulting services",
+   "t": "Senior Full Stack Developer",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "75329640a56bc59d": {
+   "c": "wissen technology",
+   "t": "python developer, reactjs,react hooks",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "3dfbf928d28f9d0b": {
+   "c": "sunbrilo technology",
+   "t": "Plc Programmer",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "d58002691d6eb29e": {
+   "c": "infosys",
+   "t": "Automation Test Engineer",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "688d93b6847d1635": {
+   "c": "tekskills",
+   "t": "Python Fullstack Developer",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "1d9e8cc1bfdf57fc": {
+   "c": "virinchi technologies",
+   "t": "Walk-in || Vibe Coder / AI-Augmented Software Engineer",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "b62b74ce6df3c254": {
+   "c": "crisil",
+   "t": "Investment Risk Management",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "0eee132162eb441c": {
+   "c": "summit consulting services",
+   "t": "Software Engineer",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "a97c04933a5a0e50": {
+   "c": "covasant technologies",
+   "t": "Python Developer",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "c11e5a9209f5d67d": {
+   "c": "future pipe industries",
+   "t": "Application Analyst & Developer",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "3a05ac0ee71f31d0": {
+   "c": "bounteous",
+   "t": "Software Engineer- IHBHA",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "dfff22acb89baa58": {
+   "c": "zorder technologies",
+   "t": ".NET Software Developer",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "7be3e1d452559d38": {
+   "c": "ford motor company",
+   "t": "Technical Lead",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "4935432488426fea": {
+   "c": "tesslogs it solutions",
+   "t": "AWS Agentic AI Engineer",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "483a0225795a2f67": {
+   "c": "bnp paribas",
+   "t": "AI Solutions Developer for Cybersecurity",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "62db89a88a4fd0ee": {
+   "c": "citi",
+   "t": "Senior Lead Python AI/ML Engineer",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "e9dbccd5a4261d11": {
+   "c": "connect tech talent",
+   "t": "Senior AI /ML Engineer",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "3c718e37f436514e": {
+   "c": "appxcess technologies",
+   "t": "AI Engineer – On-Premises AI Infra & LLM",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "c5ceaf82414469a1": {
+   "c": "ntt data north america",
+   "t": "Software Development Specialist",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "d0a19d4979b36f61": {
+   "c": "orion innovation",
+   "t": "GenAI Engineer/ Senior Engineer",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "fd964b0a77d884d2": {
+   "c": "ncr",
+   "t": "Software Engineer II",
+   "d": "2026-10-16",
+   "s": "Indeed"
+  },
+  "0d7afbb30cfa9e98": {
+   "c": "digitaltolk",
+   "t": "Associate Software Engineering Manager/Team Lead Remote",
+   "d": "2026-10-16",
+   "s": "Indeed"
+  },
+  "4fb34a366c7ffec8": {
+   "c": "ford motor company",
+   "t": "Lead Frontend Engineer",
+   "d": "2026-10-16",
+   "s": "Indeed"
+  },
+  "9d968763fb3e480e": {
+   "c": "epam systems",
+   "t": "Lead Software Engineer - Java with Spring Boot",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "afb92c03003636f4": {
+   "c": "nagarro",
+   "t": "Senior Staff Engineer (Python fullstack+Gen AI)",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "8f411b56b51f7fea": {
+   "c": "moody s analytics",
+   "t": "Financial Engineer",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "8dbd7d2d2c0185ef": {
+   "c": "medrisk",
+   "t": "MLops Engineer",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "c63ec20c3c872ff6": {
+   "c": "mccreade software",
+   "t": "Job Opening For Artificial Intell For Bangalore and Chennai (C2H)",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "8b2d608a48bd77e5": {
+   "c": "nagarro",
+   "t": "Staff Engineer (Python+ Gen AI)",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "8b05ed4a72c0e2a3": {
+   "c": "tata consultancy services",
+   "t": "C/C++",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "0633abefc70e8066": {
+   "c": "hid",
+   "t": "Software Engineer",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "d24b2d96bf101453": {
+   "c": "deloitte",
+   "t": "GenAI Full-stack Engineer - Software Engineer II",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "248fefea15ded90b": {
+   "c": "capco",
+   "t": "Python with Spark Developer (5.1-7 years)-Chennai",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "689868b97c510615": {
+   "c": "gnani ai",
+   "t": "Senior Forward Deployed Engineer",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "328e1ea253c69558": {
+   "c": "tocumulus",
+   "t": "Lead Python Engineer",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "60b91b87e9e71bf2": {
+   "c": "cognizant",
+   "t": "Sr. Software Engineer B3",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "65bc5f1338994b74": {
+   "c": "drugwrite",
+   "t": "Python and AI Developer Intern",
+   "d": "2026-10-16",
+   "s": "Indeed"
+  },
+  "8cf270ba9485d102": {
+   "c": "best cast it ltd",
+   "t": "Full Stack Developer",
+   "d": "2026-10-16",
+   "s": "Indeed"
+  },
+  "598727336dea1849": {
+   "c": "agaram technologies",
+   "t": "Intern Engineer Software Testing",
+   "d": "2026-10-16",
+   "s": "Indeed"
+  },
+  "8279893a47607009": {
+   "c": "infosys",
+   "t": "Automation Test Engineer",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "b8f027c3317ab166": {
+   "c": "infosys",
+   "t": "Automation Test Engineer",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "c2e1f9707474437b": {
+   "c": "tekskills",
+   "t": "Python Fullstack Developer",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "bc0e683db2620a1e": {
+   "c": "zensar technologies",
+   "t": "AI Forward Deployed Engineer (Offshore)",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "55015998f8acd64d": {
+   "c": "ntt data north america",
+   "t": "Forward Deployed Engineer",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "642442ea4dfcf21a": {
+   "c": "cisco",
+   "t": "Forward Deployed Engineer",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "d26ae9aec9088146": {
+   "c": "cisco",
+   "t": "Senior Forward Deployed Engineer",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "afdc5c3d49c0e127": {
+   "c": "capabiliq",
+   "t": "Forward Deployment Engineer (FDE)",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "3cd22b0f413a6a88": {
+   "c": "milestone technologies",
+   "t": "Lead AI/ML Engineer",
+   "d": "2026-10-16",
+   "s": "Indeed"
+  },
+  "6a576360ce3a738d": {
+   "c": "cleartax",
+   "t": "Forward Deployed Engineer",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "8c9e60ca0057f28f": {
+   "c": "deloitte",
+   "t": "Agentic AI Engineer - AI and Data Science Engineer II",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "ec7f68f9277e2628": {
+   "c": "roche",
+   "t": "Full-Stack AI Engineer / Data Scientist – Agentic Systems",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "aeb83e79aa2cec5c": {
+   "c": "capticks llp",
+   "t": "Full Stack Developer",
+   "d": "2026-10-16",
+   "s": "Indeed"
+  },
+  "2ed45a77d3e0dcb5": {
+   "c": "fractal",
+   "t": "GenAI-Engineer",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "287afb63f485f632": {
+   "c": "milestone technologies inc",
+   "t": "Senior AI/ML Engineer",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "aa2c81118956760a": {
+   "c": "shoolin growth solutions llp",
+   "t": "Full Stack Engineer - AI Native",
+   "d": "2026-10-16",
+   "s": "Indeed"
+  },
+  "b75d56cab759d203": {
+   "c": "deepintent",
+   "t": "Director, Engineering",
+   "d": "2026-10-16",
+   "s": "Indeed"
+  },
+  "0520ac57f1eb449f": {
+   "c": "talsolution",
+   "t": "Senior AI Engineer – Data & Intelligence Platform",
+   "d": "2026-10-16",
+   "s": "Indeed"
+  },
+  "22ef734e702b1d0f": {
+   "c": "zensar",
+   "t": "AI Engineer",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "397201c3afff27c8": {
+   "c": "talentrabbit",
+   "t": "DevOps Engineer",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "d65579f790f7e5b9": {
+   "c": "whitefield careers",
+   "t": "Senior DevOps Engineer",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "4331df2d266ec20a": {
+   "c": "infosys",
+   "t": "Azure Devops Engineer",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "9392df6aa16be764": {
+   "c": "wipro",
+   "t": "DEVOPS ENGINEER L3",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "5151b0ec7e1051a6": {
+   "c": "fractal",
+   "t": "Senior GCP DevOps & Platform Engineer (5-9 Years)",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "0dc21782819cf8de": {
+   "c": "gale",
+   "t": "Senior Associate, DevOps",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "22baae4f7df1b924": {
+   "c": "bizom",
+   "t": "Junior DevOps Engineer",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "3ea91c72be0b2f68": {
+   "c": "wipro",
+   "t": "DEVOPS ENGINEER L4",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "69080290643c0fae": {
+   "c": "deloitte",
+   "t": "DevOps Engineer",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "f9a1a54aca6775fa": {
+   "c": "ust",
+   "t": "DevOps Engineer (GitHub Actions, Kubernetes & Helm)",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "8b47c9f79ea4e654": {
+   "c": "our links india",
+   "t": "Senior DevOps Engineer",
+   "d": "2026-10-16",
+   "s": "Indeed"
+  },
+  "d118149495434913": {
+   "c": "recruiterflow",
+   "t": "DevOps Engineer",
+   "d": "2026-10-16",
+   "s": "Indeed"
+  },
+  "2b4a616d7aa013c9": {
+   "c": "deloitte",
+   "t": "DevSecOps Engineer - DevOps Engineer II",
+   "d": "2026-10-16",
+   "s": "Indeed"
+  },
+  "8c4938d462937755": {
+   "c": "luxoft",
+   "t": "DevOps Engineer - AWS",
+   "d": "2026-10-16",
+   "s": "Indeed"
+  },
+  "2d6cc7c407c43a4c": {
+   "c": "deloitte",
+   "t": "DevSecOps Engineer - DevOps Engineer III",
+   "d": "2026-10-16",
+   "s": "Indeed"
+  },
+  "0262350427bc9af3": {
+   "c": "kyndryl",
+   "t": "Linux DevOps Engineer",
+   "d": "2026-10-16",
+   "s": "Indeed"
+  },
+  "ef8a6f7dd6e5239a": {
+   "c": "bosch",
+   "t": "DevOps Engineer (Application Deployment & Configuration - K8S)",
+   "d": "2026-10-16",
+   "s": "Indeed"
+  },
+  "e349d872e6ca4ce1": {
+   "c": "luxoft",
+   "t": "Senior DevOps Engineer - Linux",
+   "d": "2026-10-16",
+   "s": "Indeed"
+  },
+  "bb85b4a20c62277f": {
+   "c": "amadeus",
+   "t": "Service Reliability Engineer 4",
+   "d": "2026-10-16",
+   "s": "Indeed"
+  },
+  "9cf8ba3370ceaa31": {
+   "c": "prismforce private limited",
+   "t": "Associate DevOps Engineer",
+   "d": "2026-10-16",
+   "s": "Indeed"
+  },
+  "5f59582ae7f86dee": {
+   "c": "msg",
+   "t": "Devops Engineer",
+   "d": "2026-10-16",
+   "s": "Indeed"
+  },
+  "be9464a2bea6ff92": {
+   "c": "hewlett packard enterprise hpe",
+   "t": "DevOps Engineer",
+   "d": "2026-10-16",
+   "s": "Indeed"
+  },
+  "62a019eac3a47174": {
+   "c": "planview",
+   "t": "DevOps Engineer II",
+   "d": "2026-10-16",
+   "s": "Indeed"
+  },
+  "6127f77aad0028e3": {
+   "c": "abb",
+   "t": "IS DevOps Engineer",
+   "d": "2026-10-16",
+   "s": "Indeed"
+  },
+  "8ecb1c72c353d127": {
+   "c": "hewlett packard enterprise hpe",
+   "t": "Senior DevOps Engineer",
+   "d": "2026-10-16",
+   "s": "Indeed"
+  },
+  "be51f5a1f7571bdf": {
+   "c": "deloitte",
+   "t": "Consultant | AWS Devops | Bengaluru | Engineering | Hybrid Cloud Engineering",
+   "d": "2026-10-16",
+   "s": "Indeed"
+  },
+  "7e5e662bf8b7b915": {
+   "c": "optum",
+   "t": "Sr Software Engineer - Azure DevOps-Terraform, Docker, Kubernetes",
+   "d": "2026-10-16",
+   "s": "Indeed"
+  },
+  "76d95f74dd564e65": {
+   "c": "unisys",
+   "t": "DevOps Engineer - Azure Databricks & Azure Cloud Operations",
+   "d": "2026-10-16",
+   "s": "Indeed"
+  },
+  "0a229d1d58130b79": {
+   "c": "accenture",
+   "t": "DevOps Engineer",
+   "d": "2026-10-16",
+   "s": "Indeed"
+  },
+  "0f737e061b358e34": {
+   "c": "nvidia",
+   "t": "Senior DevOps Engineer",
+   "d": "2026-10-16",
+   "s": "Indeed"
+  },
+  "52ce38286957a1f5": {
+   "c": "arohak technologies",
+   "t": "Azure Devops Engineer",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "12164c9b0e85069a": {
+   "c": "bulwark global services",
+   "t": "DevOps Engineer",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "38a42f6e4fa76c93": {
+   "c": "3shool technology consultants",
+   "t": "Devops Engineer",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "72d91075df6b8938": {
+   "c": "lancesoft",
+   "t": "Devops And Automation Engineer",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "08354f09ed44e066": {
+   "c": "people hire consulting",
+   "t": "Cloud Platform Engineer(Infrastructure & SQL)- Gurgaon(Hybrid)",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "a1664ed8e8183217": {
+   "c": "wissen technology",
+   "t": "SRE DevOps Engineer",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "c8a93743a6c8d8bb": {
+   "c": "accenture",
+   "t": "Cloud Platform Engineer",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "bdf1e03a26f5fc0d": {
+   "c": "accenture",
+   "t": "DevOps Engineer",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "386b4989e8106b99": {
+   "c": "valuelabs",
+   "t": "Azure DevOps Engineer",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "1ea765793d42ac3e": {
+   "c": "capgemini",
+   "t": "Azure Devops Engineer",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "d6fea311e03dbdf0": {
+   "c": "tata consultancy services",
+   "t": "GCP Migration Engineer",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "f67bbf7d5ec9e5a9": {
+   "c": "tata consultancy services",
+   "t": "GCP DevOps Engineer",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "09c2cec280f7d4d7": {
+   "c": "cognizant",
+   "t": "DevOps Engineer",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "d90e85b5a9df9ad2": {
+   "c": "infosys",
+   "t": "DevOps Engineer",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "93c0aa66a9892764": {
+   "c": "sidgs digisol",
+   "t": "Platform Engineer with GCP and Kubernetes",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "18633e6e7d3fc2de": {
+   "c": "rapyder",
+   "t": "Walk-in || Aws Devops Engineer",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "d57df1a3be53025b": {
+   "c": "tata consultancy services",
+   "t": "DevOps Engineer",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "da4432801ffb448f": {
+   "c": "staples india",
+   "t": "Senior Lead Cloud Engineer",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "237ddde7f670e08f": {
+   "c": "infobeans",
+   "t": "InfoBeans Technologies - Senior DevOps Engineer",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "ec31713e3157d0be": {
+   "c": "cloudbees",
+   "t": "Staff/Senior Operations Engineer",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "19c1195e236ad51c": {
+   "c": "revolut",
+   "t": "Infrastructure Engineer (Compute)",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "5ea7afedfc38f712": {
+   "c": "kumaran systems",
+   "t": "Devops Engineer",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "68bc2cdd7d0aa7f3": {
+   "c": "deloitte",
+   "t": "DevSecOps Engineer - DevOps Engineer II",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "47c89bfa643e267f": {
+   "c": "deloitte",
+   "t": "DevSecOps Engineer - DevOps Engineer III",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "0f415e882bafccfe": {
+   "c": "agivant technologies",
+   "t": "DevOps Engineer",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "5e7313a5d6f7f6a5": {
+   "c": "wolters kluwer",
+   "t": "Senior Enterprise Cloud Software Engineer (Cloud Operations, AI Engineering, Azure & AWS)",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "1346f964cf442260": {
+   "c": "societe generale global solution centre",
+   "t": "Specialist Software Engineer - Public Cloud DevOps",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "b2acb1d2f91160f4": {
+   "c": "accenture in india",
+   "t": "DevOps Engineer",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "e1f874d792a200a3": {
+   "c": "tata consultancy services",
+   "t": "Platform Engineer(Kubernetes,Terraform) 6 to 12 years",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "d5a1de392608210a": {
+   "c": "gwayerp",
+   "t": "DevOps Engineer",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "4ad231f65d3b0a6b": {
+   "c": "cinergy technology inc",
+   "t": "GPU DevOps / Infrastructure Setup Engineer",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "cd3605439b5f857f": {
+   "c": "wipro",
+   "t": "Openshift Lead",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "1591d68f8deb9747": {
+   "c": "pdi technologies",
+   "t": "CloudOps Engineer IV",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "c4088e4e7116230a": {
+   "c": "pdi technologies",
+   "t": "DevOps Engineer III",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "9d98e720c38323dc": {
+   "c": "htc global services",
+   "t": "DevOps Engineer",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "5226ec0201cb5c2d": {
+   "c": "tekion corp",
+   "t": "Senior DevOps, DBA engineer",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "d67b0ebdae5516f8": {
+   "c": "tekion",
+   "t": "Senior DevOps, DBA engineer",
+   "d": "2026-10-16",
+   "s": "Indeed"
+  },
+  "818d388e1a96b5ef": {
+   "c": "accenture",
+   "t": "Custom Software Engineer",
+   "d": "2026-10-16",
+   "s": "Indeed"
+  },
+  "b74d560d3f8018eb": {
+   "c": "accenture",
+   "t": "DevOps Engineer",
+   "d": "2026-10-16",
+   "s": "Indeed"
+  },
+  "3a6e6ce836f9ab39": {
+   "c": "bulwark global services",
+   "t": "DevOps Engineer",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "59396b52d418699b": {
+   "c": "people hire consulting",
+   "t": "Cloud Platform Engineer(Infrastructure & SQL)- Gurgaon(Hybrid)",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "b79471de81ed82a0": {
+   "c": "capgemini",
+   "t": "Azure Devops Engineer",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "67a808dbb8c52811": {
+   "c": "tata consultancy services",
+   "t": "GCP Migration Engineer",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "60545430abb7d84c": {
+   "c": "tata consultancy services",
+   "t": "GCP DevOps Engineer",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "7c1f9ae0890f5293": {
+   "c": "infosys",
+   "t": "Aws Devops Engineer",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "529ef33c783343f7": {
+   "c": "infosys",
+   "t": "DevOps Engineer",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "b29ef84cbffd9ae1": {
+   "c": "lseg",
+   "t": "Cloud Platform Engineer",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "38a8b58d21283569": {
+   "c": "abb",
+   "t": "Senior Azure Cloud Platform Engineer",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "868b556296880205": {
+   "c": "fis",
+   "t": "Cloud Engg (AWS ,Azure)",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "425df57f790bbe85": {
+   "c": "the standard india",
+   "t": "Cloud Platform Engineer III",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "d2324489766fdbc0": {
+   "c": "the standard india",
+   "t": "Cloud Platform Engineer II",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "863ae5926c57c192": {
+   "c": "bearingpoint",
+   "t": "Cloud & Infrastructure Expert Full-Stack Engineer",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "40399a5a726b407e": {
+   "c": "reorbit",
+   "t": "Senior Cloud Infrastructure Engineer (Mission Control & Ground Segment)",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "9b50f7a460841b68": {
+   "c": "cgi",
+   "t": "Senior Azure Cloud Engineer",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "42842da225facf58": {
+   "c": "visa",
+   "t": "Sr Systems Engineer - AWS, Kubernetes, Automation, Platform Engineering",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "8eb7dc3bffc7f62f": {
+   "c": "fivetran",
+   "t": "Staff Software Engineer - Infrastructure",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "32d4c0514c8489fa": {
+   "c": "american express",
+   "t": "Infrastructure Engineer III",
+   "d": "2026-10-16",
+   "s": "Indeed"
+  },
+  "ae6dbea7a0a3a96c": {
+   "c": "american express",
+   "t": "Infrastructure Engineer I",
+   "d": "2026-10-16",
+   "s": "Indeed"
+  },
+  "21865e7047459668": {
+   "c": "talentlo",
+   "t": "Cloud Engineer",
+   "d": "2026-10-16",
+   "s": "Indeed"
+  },
+  "fa282bf283aea7a2": {
+   "c": "revolut",
+   "t": "Infrastructure Engineer (Compute)",
+   "d": "2026-10-16",
+   "s": "Indeed"
+  },
+  "dd42a36356063a44": {
+   "c": "deloitte",
+   "t": "Technical Architect - Associate Architect",
+   "d": "2026-10-16",
+   "s": "Indeed"
+  },
+  "1da726c82f0fd79d": {
+   "c": "information services group",
+   "t": "Cloud Infrastructure Engineer",
+   "d": "2026-10-16",
+   "s": "Indeed"
+  },
+  "1a2d6c4676ee3327": {
+   "c": "mercedes benz group",
+   "t": "Data Engineer",
+   "d": "2026-10-16",
+   "s": "Indeed"
+  },
+  "22aef38f0abb6875": {
+   "c": "ntt data",
+   "t": "Remote Engineer",
+   "d": "2026-10-16",
+   "s": "Indeed"
+  },
+  "5a676ba3827c3e14": {
+   "c": "inoptra digital",
+   "t": "AWS Cloud Engineer (L1/L2 Support & Operations)",
+   "d": "2026-10-16",
+   "s": "Indeed"
+  },
+  "2cca38a5df19e7f6": {
+   "c": "symphonyai",
+   "t": "Technical Support Engineer",
+   "d": "2026-10-16",
+   "s": "Indeed"
+  },
+  "312dddfa620c7672": {
+   "c": "wells fargo",
+   "t": "Lead Information Security Engineer - Cloud Security",
+   "d": "2026-10-16",
+   "s": "Indeed"
+  },
+  "032b0b80fff0df07": {
+   "c": "inoptra digital",
+   "t": "Azure Cloud Engineer (L1/L2 Support & Operations)",
+   "d": "2026-10-16",
+   "s": "Indeed"
+  },
+  "62958a96de31f265": {
+   "c": "bce global technology centre",
+   "t": "Site Reliability Engineer- GCP Cloud",
+   "d": "2026-10-16",
+   "s": "Indeed"
+  },
+  "1bd9e03ebca91293": {
+   "c": "payoda",
+   "t": "Cloud Engineer",
+   "d": "2026-10-16",
+   "s": "Indeed"
+  },
+  "e4303cc2624ce3c6": {
+   "c": "accenture",
+   "t": "Cloud Platform Engineer",
+   "d": "2026-10-16",
+   "s": "Indeed"
+  },
+  "5dbf8e44bafd6bbf": {
+   "c": "acceldata",
+   "t": "Staff Product Support Engineer - Cloud Support",
+   "d": "2026-10-16",
+   "s": "Indeed"
+  },
+  "3dbf8165bb9f74d0": {
+   "c": "hewlett packard enterprise hpe",
+   "t": "Cloud Developer / Data Engineer",
+   "d": "2026-10-16",
+   "s": "Indeed"
+  },
+  "16a2d7bf83dfe795": {
+   "c": "career tree hr solutions",
+   "t": "Power System Studies Engineer",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "9ba84112e8d1d262": {
+   "c": "useready",
+   "t": "Data Engineer - Snowflake AND Azure",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "6aaea8a624752e4f": {
+   "c": "experteye consulting",
+   "t": "Cloud Security Engineer",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "87f84d9ca4284037": {
+   "c": "axtel industries",
+   "t": "Electrical Design Engineer",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "cfb6f2e72d929825": {
+   "c": "vriba technologies",
+   "t": "AI and Data Quality Engineer",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "7d8ee81998e34e0a": {
+   "c": "infosys",
+   "t": "Dot Net Developer",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "ba952662a7a303a1": {
+   "c": "infosys",
+   "t": ".NET Software Developer",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "75d44d60980f7b53": {
+   "c": "codinova technologies",
+   "t": "MERN Stack - Engineer/Senior Engineer",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "989a1ecb0fb29606": {
+   "c": "vanguard",
+   "t": "Application Engineer - III",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "b190c3fdac1fcad0": {
+   "c": "vanguard",
+   "t": "Application Engineer - III (Java - React - AWS)",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "5fade3d5d0d08771": {
+   "c": "invesco",
+   "t": "Principal Cloud Solutions Engineer",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "ced7c5f98c756d95": {
+   "c": "optum",
+   "t": "AI ML Engineer",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "79766b520c415679": {
+   "c": "optum",
+   "t": "Senior Data Analyst",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "ce2aedb10653a0fb": {
+   "c": "fiserv",
+   "t": "Systems Engineering - Advisor II",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "f6b2791a083c9eff": {
+   "c": "cbts",
+   "t": "Lead Engineer - Public Cloud",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "c5a808ab34896652": {
+   "c": "mycareernet",
+   "t": "Lead IT Infrastructure Engineer_104856",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "fceb8e57275bf646": {
+   "c": "yitroglobal",
+   "t": "Senior Cloud Engineer",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "e76f01f928af76c1": {
+   "c": "careernet",
+   "t": "Cloud Architect",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "ef0d527857406a80": {
+   "c": "yitroglobal",
+   "t": "GCP DevOps and Cloud Engineer",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "b7bd6a3893e5d901": {
+   "c": "citi",
+   "t": "AWS Application Developer lead Engineer",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "c1e77561c439d9f6": {
+   "c": "societe generale global solution centre",
+   "t": "Consultant Expert - Migration",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "a51fc80d8842d1e5": {
+   "c": "fiserv",
+   "t": "Systems Engineering - Advisor II",
+   "d": "2026-10-16",
+   "s": "Indeed"
+  },
+  "5b4044b39acf74de": {
+   "c": "l t technology services ltd",
+   "t": "Civil & Structural lead",
+   "d": "2026-10-16",
+   "s": "Indeed"
+  },
+  "8eaeea98ca1acc11": {
+   "c": "revolut",
+   "t": "Infrastructure Engineer (Compute)",
+   "d": "2026-10-16",
+   "s": "Indeed"
+  },
+  "02284b3eb242f0f9": {
+   "c": "deloitte",
+   "t": "Deputy Manager | Data Engineering | Chennai | Engineering as a Service/ Operate",
+   "d": "2026-10-16",
+   "s": "Indeed"
+  },
+  "f4dab69706b6378b": {
+   "c": "deloitte",
+   "t": "Assistant Manager | Data Engineering | Chennai | Engineering as a Service/ Operate",
+   "d": "2026-10-16",
+   "s": "Indeed"
+  },
+  "034146f1d6d5d4d6": {
+   "c": "deloitte",
+   "t": "Manager | Data Engineering | Chennai | Engineering as a Service/ Operate",
+   "d": "2026-10-16",
+   "s": "Indeed"
+  },
+  "2a2e26eb30e0e452": {
+   "c": "l t technology services ltd",
+   "t": "Discipline Lead",
+   "d": "2026-10-16",
+   "s": "Indeed"
+  },
+  "78d5d3ecb1e01735": {
+   "c": "ford motor company",
+   "t": "Senior Software Engineer – Java & Cloud",
+   "d": "2026-10-16",
+   "s": "Indeed"
+  },
+  "d0a03e757d35af6f": {
+   "c": "infosys",
+   "t": "Network Engineer",
+   "d": "2026-10-16",
+   "s": "Indeed"
+  },
+  "22f4c2e18b43fbbd": {
+   "c": "amazon com",
+   "t": "ML Data Associate III, AWS Quick",
+   "d": "2026-10-16",
+   "s": "Indeed"
+  },
+  "8b232fe46238e444": {
+   "c": "ncr",
+   "t": "Data Engineer",
+   "d": "2026-10-16",
+   "s": "Indeed"
+  },
+  "0e56af186d5f41a3": {
+   "c": "ntt data",
+   "t": "Systems Analyst - U.S Debit/Credit card, Payments",
+   "d": "2026-10-16",
+   "s": "Indeed"
+  },
+  "2bedc4b817e10781": {
+   "c": "tata communications",
+   "t": "Sr Engineer - Platform Engineering",
+   "d": "2026-10-16",
+   "s": "Indeed"
+  },
+  "cc6e999eefd9e0dd": {
+   "c": "useready",
+   "t": "Data Engineer - Snowflake AND Azure",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "6bf198c86be846c0": {
+   "c": "infosys",
+   "t": "Dot Net Developer",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "8695be1d22a4e86a": {
+   "c": "optum",
+   "t": "Quality Engineering Manager",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "5fa2b718625cbda5": {
+   "c": "akron intel",
+   "t": "DevOps Engineer",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "436e9e71c4968dea": {
+   "c": "tata consultancy services",
+   "t": "DevOps Engineer",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "706b607dd0a4cd3d": {
+   "c": "chevron",
+   "t": "Cloud Engineer - Infrastructure as Code",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "f183618627c84656": {
+   "c": "ust",
+   "t": "Sr. Devops Engineer",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "f8ff70d46542aeac": {
+   "c": "skillyt",
+   "t": "Azure DevOps Engineer",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "7120e70800383b13": {
+   "c": "jenoptik",
+   "t": "DevOps Engineer",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "0e21a01609f7c3bb": {
+   "c": "sita",
+   "t": "DevOps Engineer(Jenkins, Ansible, Azure DevOps)",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "c3b043805509225a": {
+   "c": "natus sensory",
+   "t": "DevOps Engineer",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "51d4f829cd4b48aa": {
+   "c": "optum india",
+   "t": "Sr Software Engineer - Azure DevOps-Terraform, Docker, Kubernetes",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "198ac66de415833e": {
+   "c": "abb",
+   "t": "IS DevOps Engineer",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "43772cb719f7c669": {
+   "c": "mckesson compile",
+   "t": "Senior DevOps Engineer",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "ae4317fad352b206": {
+   "c": "multi recruit",
+   "t": "Senior DevOps Engineer",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "28ebae09b822bf27": {
+   "c": "societe generale global solution centre",
+   "t": "SSE DevOps Engineer",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "7927c54c1584dc4e": {
+   "c": "happiest minds technologies",
+   "t": "TECHNICAL LEAD - Azure",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "f3b0d0555028aac7": {
+   "c": "biocon biologics",
+   "t": "AI DevOps Engineer (GenAIOps)",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "96b177a37f8d0ca1": {
+   "c": "the standard india",
+   "t": "Cloud DevOps Engineer III",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "d79a5200e446fa96": {
+   "c": "the standard india",
+   "t": "Cloud DevOps Engineer II",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "4ab9f1814c13b384": {
+   "c": "lseg",
+   "t": "Senior Azure DevOps Engineer",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "262e6167e600086c": {
+   "c": "pwc india",
+   "t": "IN_Senior Associate_DevOps_Application Technology_ Advisory _Bangalore",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "bfa1c5584f4c647c": {
+   "c": "finastra",
+   "t": "Senior System Engineer",
+   "d": "2026-10-16",
+   "s": "Indeed"
+  },
+  "6342982190a4587c": {
+   "c": "ust",
+   "t": "Senior AWS EKS DevOps Engineer",
+   "d": "2026-10-16",
+   "s": "Indeed"
+  },
+  "67b9e235b63ebed8": {
+   "c": "bosch",
+   "t": "Cloud Architect MS Azure - DevOps",
+   "d": "2026-10-16",
+   "s": "Indeed"
+  },
+  "90dc54624a44bc40": {
+   "c": "cgi",
+   "t": "Senior Azure Cloud Engineer",
+   "d": "2026-10-16",
+   "s": "Indeed"
+  },
+  "686914c6df6be9b6": {
+   "c": "alstom",
+   "t": "DevOps Architect",
+   "d": "2026-10-16",
+   "s": "Indeed"
+  },
+  "f5edda9fb22a76ee": {
+   "c": "acl digital",
+   "t": "Senior Automation Engineer || PB",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "574478b4fcc9a24a": {
+   "c": "tata consultancy services",
+   "t": "Plm Teamcenter Developer",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "52ce6e14f5c3676a": {
+   "c": "epam systems",
+   "t": "Senior DevOps Architecture",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "1e9c5ae97054b70e": {
+   "c": "convegenius edu",
+   "t": "Software Development Engineer-2",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "6d03ab757da2d75e": {
+   "c": "infosys",
+   "t": "Api Tester",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "5aff683b198c12b0": {
+   "c": "infosys",
+   "t": "API Testing",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "dac4f4887e1102c0": {
+   "c": "ingram micro",
+   "t": "Sr Principal Engineer",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "91ee952624b17be9": {
+   "c": "happiffie",
+   "t": "DevOps Manager",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "a05878a1e64b6fb2": {
+   "c": "husky technologies",
+   "t": "Senior Developer - Azure Full Stack / Custom Business Applications - Husky (Guindy, Chennai)",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "ba9fbf5246e76787": {
+   "c": "rocket software",
+   "t": "Senior Software Engineer",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "c42f132ac64e55ae": {
+   "c": "optimum solutions pte ltd",
+   "t": "Senior .NET Developer",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "5cb9f283efedc4dd": {
+   "c": "bnp paribas",
+   "t": "Tech Lead - Devops Java",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "c5fa9bced45a841b": {
+   "c": "kaleris",
+   "t": "Associate Cloud Ops Engineer - Intern",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "0fb8d5ba551e29d3": {
+   "c": "prophoenix chenosa group",
+   "t": "Azure Certified Engineer",
+   "d": "2026-10-16",
+   "s": "Indeed"
+  },
+  "34f96736ce402820": {
+   "c": "tekion",
+   "t": "Senior Site Reliability Engineer",
+   "d": "2026-10-16",
+   "s": "Indeed"
+  },
+  "16806f20af0ab1c6": {
+   "c": "tata consultancy services",
+   "t": "Plm Teamcenter Developer",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "ef6dd11ab6ba46e1": {
+   "c": "infosys",
+   "t": "Api Tester",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "d9f8abd313ab35d0": {
+   "c": "infosys",
+   "t": "API Testing",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "dc2f65ff465f0928": {
+   "c": "infosys",
+   "t": "API Testing",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "cf7d3090a78d2880": {
+   "c": "teradata",
+   "t": "Senior Cloud AI Engineer",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "411697f1bb100e2f": {
+   "c": "happiest minds technologies",
+   "t": "SENIOR SOFTWARE ENGINEER - Cloud Management",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "1e5a0083a31a65fe": {
+   "c": "target",
+   "t": "Sr Engineer - Managed Kubernetes",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "774c41731f59662c": {
+   "c": "natus sensory",
+   "t": "Senior Software Engineer, Platform & Infrastructure",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "f1967d501dbe2682": {
+   "c": "guidewire software",
+   "t": "Staff Software Engineer - Platform Engineering",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "6c75ce083cc521a2": {
+   "c": "jiostar",
+   "t": "Senior Software Development Engineer",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "5a3d91a0af441be5": {
+   "c": "arm",
+   "t": "Platform Engineer",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "e538f24fc05f114d": {
+   "c": "natwest group",
+   "t": "AWS Software Engineer, AVP",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "4cf4f7a4a704e070": {
+   "c": "amagi",
+   "t": "Platform Engineer Il",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "ac5d01c8a52b6088": {
+   "c": "jpmorganchase",
+   "t": "Lead Software Engineer - Cloud Platform Engineer",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "437426ffdb9d55ac": {
+   "c": "esper",
+   "t": "Software Development Engineer III - Platform",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "6b22501d0c2ae213": {
+   "c": "swiggy",
+   "t": "Software Dev Engineer III",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "1d8176a5113855a8": {
+   "c": "nokia",
+   "t": "Senior Software Development Engineer - DevOps",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "fd91efffcb612111": {
+   "c": "salesforce",
+   "t": "Software Engineering SMTS (Backend - Distributed Systems)",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "3c8d4a4b57ef06b8": {
+   "c": "target",
+   "t": "Lead Engineer - Managed Kubernetes",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "4e0b51ba629b4bd1": {
+   "c": "mantra consultancy services",
+   "t": "Urgent Hiring – CyberArk Conjur Engineer / Consultant",
+   "d": "2026-10-16",
+   "s": "Indeed"
+  },
+  "7ba0b42a9ceb669e": {
+   "c": "commonwealth bank of australia",
+   "t": "Staff Platform Engineer",
+   "d": "2026-10-16",
+   "s": "Indeed"
+  },
+  "f5c43a631e3d05ea": {
+   "c": "kadel labs",
+   "t": "Data Tester",
+   "d": "2026-10-16",
+   "s": "Indeed"
+  },
+  "c3245367740ac0e5": {
+   "c": "nespresso",
+   "t": "Senior Mobile Platform Engineer (iOS)",
+   "d": "2026-10-16",
+   "s": "Indeed"
+  },
+  "7573d8d8b363fbda": {
+   "c": "ananta services",
+   "t": "Lead Computer Vision Engineer",
+   "d": "2026-10-16",
+   "s": "Indeed"
+  },
+  "9014ca83195a2feb": {
+   "c": "bandhoo solutions and services pvt ltd",
+   "t": "Product Manager – CONSTRA",
+   "d": "2026-10-16",
+   "s": "Indeed"
+  },
+  "0afe04a12390d66a": {
+   "c": "ananta services",
+   "t": "Data Analyst",
+   "d": "2026-10-16",
+   "s": "Indeed"
+  },
+  "11a5aa6b368c8086": {
+   "c": "aumovio",
+   "t": "Process Engineer",
+   "d": "2026-10-16",
+   "s": "Indeed"
+  },
+  "041a51889b58bc9f": {
+   "c": "quess it solutions",
+   "t": "Principal Linux Platform Engineer - GPFS/OpenShift",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "5f3e11cbf62019db": {
+   "c": "infosys",
+   "t": "Etl Test Engineer",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "398915163c84a3cd": {
+   "c": "bahwan cybertek",
+   "t": "Data Engineer",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "24cc6e2486a016a7": {
+   "c": "mccreade software",
+   "t": "Job Opening For Azure Data Engineer For Our Reputed Client",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "c64ca1b756c137a5": {
+   "c": "hucon solutions",
+   "t": "Sap Bods Consultant",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "9aa82a3e8023c180": {
+   "c": "infosys",
+   "t": "Etl Tester",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "2cffe0fd266ce365": {
+   "c": "kaar technologies",
+   "t": "Data Analyst",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "cf1c82406fb5d80b": {
+   "c": "infosys",
+   "t": "Etl Tester-INFY 26",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "755acc0ac6daa613": {
+   "c": "covasant technologies",
+   "t": "Data Engineer",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "b3f4d9f0ad7192b1": {
+   "c": "careerfit ai",
+   "t": "Senior Technical Recruiter",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "4f4af37390996ada": {
+   "c": "clover infotech",
+   "t": "OBIEE Developer - Clover Infotech",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "6447ee6fc17f4ed5": {
+   "c": "diebold",
+   "t": "Sr AI Platform/AgentOps Engineer (Azure)",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "7883ff227defc823": {
+   "c": "abacus service",
+   "t": "D365 F&O Functional Solution Architect",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "77673521813d4ca2": {
+   "c": "gitlab",
+   "t": "Site Reliability Engineer, Cells Infrastructure",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "c64e01a82ba520ef": {
+   "c": "ibm",
+   "t": "Staff Site Reliability Engineer - Confluent Cloud Infrastructure",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "a2b3a8600cb732c6": {
+   "c": "lseg",
+   "t": "Engineer, Site Reliability Engineering",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "53609834e90ac6af": {
+   "c": "synchrony",
+   "t": "AVP, Site Reliability Engineer - CloudOps (L10)",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "4e9095f969f7d29a": {
+   "c": "cme group",
+   "t": "Site Reliability Engineer III - India",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "3535fcdb36da6f55": {
+   "c": "natwest group",
+   "t": "Site Reliability Engineer, Vice President",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "1f62bb9ed4960b7b": {
+   "c": "lseg",
+   "t": "Technical Lead - Site Reliability Engineering",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "9e879a9ab95f7932": {
+   "c": "sabre",
+   "t": "Site Reliability Engineer IV",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "04a4c68206f10ff0": {
+   "c": "telus digital",
+   "t": "Software Development Engineer III - DevOps",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "c6613231e14f0a24": {
+   "c": "jpmorganchase",
+   "t": "Site Reliability Engineer II - Python, AWS, Unix",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "070c470182448ef0": {
+   "c": "ebay",
+   "t": "MTS-1, Site Reliability Engineer",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "958ee4689eb1b4f1": {
+   "c": "ecolibrium",
+   "t": "Senior DevOps / Site Reliability Engineer (SMTS)",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "071f4ba0a23fd27e": {
+   "c": "akamai technologies",
+   "t": "Senior Site Reliability Engineer (Compute Platform Services Team)",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "d6e7f0fde2df0363": {
+   "c": "tecsys inc",
+   "t": "Site Reliability Engineer",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "4c8b05ca82a37087": {
+   "c": "guidewire software",
+   "t": "Site Reliability Engineer III (Kubernetes Platform)",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "a0b3502fa6b30a00": {
+   "c": "societe generale global solution centre",
+   "t": "Lead Software Engineer - DMP SRE",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "80e22966d2fd7c25": {
+   "c": "ntt data north america",
+   "t": "SRE Reliability Engineer",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "f19631aa6ac8bf9b": {
+   "c": "wells fargo",
+   "t": "Lead Systems Operations Engineer",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "af81457089a3952e": {
+   "c": "goldman sachs",
+   "t": "The Core Engineering-L2-Bengaluru-Associate-Software Engineering",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "16b4c4bdccd526e1": {
+   "c": "cgi",
+   "t": "SRE Engineer",
+   "d": "2026-10-16",
+   "s": "LinkedIn"
+  },
+  "2cf3f6594aa749fe": {
+   "c": "gitlab inc",
+   "t": "Site Reliability Engineer, Cells Infrastructure",
+   "d": "2026-10-16",
+   "s": "Indeed"
+  },
+  "848ef30457b1961e": {
+   "c": "amadeus",
+   "t": "Data Science Engineer 3",
+   "d": "2026-10-16",
+   "s": "Indeed"
+  },
+  "0b403ab32ccbf272": {
+   "c": "netapp",
+   "t": "Site Reliability Engineer",
+   "d": "2026-10-16",
+   "s": "Indeed"
+  },
+  "51c9d4703e7259e2": {
+   "c": "calabrio",
+   "t": "Sr. SRE Engineer",
+   "d": "2026-10-16",
+   "s": "Indeed"
+  },
+  "436b105b7b3741f6": {
+   "c": "jll",
+   "t": "Observability Engineer",
+   "d": "2026-10-16",
+   "s": "Indeed"
+  },
+  "50e6e43f47cb6537": {
+   "c": "guidewire",
+   "t": "Site Reliability Engineer III (Kubernetes Platform)",
+   "d": "2026-10-16",
+   "s": "Indeed"
+  },
+  "be782881d14a827e": {
+   "c": "jll",
+   "t": "Senior Site Reliability Engineer",
+   "d": "2026-10-16",
+   "s": "Indeed"
+  },
+  "eff9902795fc4924": {
+   "c": "epsilon",
+   "t": "Client Support Engineer",
+   "d": "2026-10-16",
+   "s": "Indeed"
+  },
+  "8045b16bf32e240d": {
+   "c": "get well network",
+   "t": "Staff AI Engineer",
+   "d": "2026-10-16",
+   "s": "Indeed"
+  },
+  "4610996cee995ef8": {
+   "c": "collins aerospace",
+   "t": "Principal Engineer Software C++ & CICD (Hybrid)",
+   "d": "2026-10-16",
+   "s": "Indeed"
+  },
+  "c5fe4ac6ffff2609": {
+   "c": "ntt data",
+   "t": "TechOps Engineer",
+   "d": "2026-10-16",
+   "s": "Indeed"
+  },
+  "8b9a42ddde4a11f1": {
+   "c": "accenture",
+   "t": "Application Support Engineer",
+   "d": "2026-10-16",
+   "s": "Indeed"
+  },
+  "d0862588920df7ec": {
+   "c": "magna international",
+   "t": "Senior System Engineer, IT Engineering",
+   "d": "2026-10-16",
+   "s": "Indeed"
+  },
+  "9f451559b72831cd": {
+   "c": "baldor technologies",
+   "t": "Product Reliability Engineer",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "19d3e2fd46e17b68": {
+   "c": "epam systems",
+   "t": "Senior Software Engineer/ Software Engineer - Java with Spring Boot",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "933195f5b50ebf3d": {
+   "c": "codilar",
+   "t": "AEM Guides QA",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "54c5ee05c0fbc59d": {
+   "c": "gazon communications",
+   "t": "ASM/Manager-Corporate Sales",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "1a7a6bd3a5f776e0": {
+   "c": "lifestyle",
+   "t": "IT Procurement - Assistant Manager/Manager",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "5b374e939c0ead0c": {
+   "c": "tech mahindra",
+   "t": "Site Reliability Engineer",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "94eec0fa5a3050c1": {
+   "c": "nxtwave disruptive technologies hiring for client",
+   "t": "Technical Lead /Data Analytics & Cloud",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "147cb7645c14b9d0": {
+   "c": "ford business solutions",
+   "t": "Software Engineering Manager",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "2ba945e77255a312": {
+   "c": "infosys",
+   "t": "Salesforce Testing Engineer",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "8ee5541d35607e49": {
+   "c": "infosys",
+   "t": "Salesforce Testing Engineer -@ Infosys",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "7c2d139776ae5756": {
+   "c": "radiant dynamic services",
+   "t": "EMS Firmware Developer",
+   "d": "2026-10-16",
+   "s": "Indeed"
+  },
+  "ae9c283b1c51aac6": {
+   "c": "cognizant",
+   "t": "Sr. Test Analyst",
+   "d": "2026-10-16",
+   "s": "Indeed"
+  },
+  "f48a74e7011ab737": {
+   "c": "ford motor company",
+   "t": "Data Scientist",
+   "d": "2026-10-16",
+   "s": "Indeed"
+  },
+  "05cdd6a4af985447": {
+   "c": "pearson",
+   "t": "Senior Software Engineer",
+   "d": "2026-10-16",
+   "s": "Indeed"
+  },
+  "d0a8733a51cbe2b2": {
+   "c": "epam systems",
+   "t": "Senior Software Engineer/ Software Engineer - Java with Spring Boot",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "f6636220100f353d": {
+   "c": "tech mahindra",
+   "t": "Site Reliability Engineer",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "c71fe7baaea99fae": {
+   "c": "infosys",
+   "t": "Salesforce Testing Engineer",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "84cad800c3946dc7": {
+   "c": "infosys",
+   "t": "Salesforce Testing Engineer -@ Infosys",
+   "d": "2026-10-16",
+   "s": "Naukri"
+  },
+  "5820fb51ed0be397": {
+   "c": "databricks",
+   "t": "Senior Specialist Solutions Architect (AI/ML)",
+   "d": "2026-10-16",
+   "s": "Career page"
   }
  },
  "board_counts": {
   "databricks": {
    "2026-10-16": {
     "total": 899,
-    "india": 96
+    "india": 95
    }
   },
   "mongodb": {
@@ -16150,8 +18364,8 @@
   },
   "meesho": {
    "2026-10-16": {
-    "total": 58,
-    "india": 56
+    "total": 59,
+    "india": 57
    }
   },
   "sarvam ai": {
@@ -16163,6 +18377,112 @@
  },
  "shortlist": {
   "2026-10-16": [
+   {
+    "title": "Forward Deployed Engineer",
+    "company": "Cleartax",
+    "location": "Bengaluru, India",
+    "url": "https://www.naukri.com/job-listings-forward-deployed-engineer-cleartax-bengaluru-1-to-4-years-161026025271",
+    "description": "About the Role We are seeking a hands-on Forward Deployed Engineer (FDE) for our Clear Compliance Cloud (direct and indirect tax) team. You will build, configure, and evaluate production-grade AI agents natively. Operating at the intersection of technical execution and customer success, you will partner with CSMs and work directly with \"build-with\" enterprise customers to deliver cost-effective agentic solutions, drive adoption, and feed learnings back into our core product.\n**What You Will Do:**\n**Agent Architecture & Optimization**\nAdvise customers on agent system design, balancing cost, per",
+    "salary_text": "",
+    "experience_text": "1-4 Yrs",
+    "posted": "2026-10-16",
+    "source": "Naukri",
+    "remote": false,
+    "workplace": "Work from office",
+    "id": "6a576360ce3a738d",
+    "role_bucket": "fde",
+    "salary_min_lpa": 8.0,
+    "salary_max_lpa": 12.0,
+    "salary_estimated": true,
+    "exp_min": 1.0,
+    "exp_max": 4.0,
+    "prescore": 8,
+    "fit": {
+     "job": "J4",
+     "fit_score": 90,
+     "role_type": "fde",
+     "summary": "Near-perfect fit for an FDE role requiring Python, SQL, and production agent experience with direct customer exposure.",
+     "matched_skills": [
+      "Python",
+      "SQL",
+      "Agent architecture",
+      "Prompt engineering",
+      "SDLC"
+     ],
+     "gaps": [
+      "Direct enterprise CSM partnering experience"
+     ],
+     "experience_ok": true,
+     "remote_open_to_india": false,
+     "salary_estimate_lpa": {
+      "min": 8.0,
+      "max": 12.0
+     },
+     "application_note": "As an AI and backend engineer who has built production multi-tenant AI agents using Gemini agents and Google ADK, I fit the technical requirements of this FDE role. I have also handled over 18 freelance client projects directly, navigating requirements and managing deployments end-to-end. I am comfortable writing production Python and SQL, building data pipelines, and working closely with users to deliver reliable agentic solutions."
+    },
+    "trend": {
+     "label": "Tracking",
+     "tone": "neutral",
+     "detail": "1 role seen in 1 day of tracking",
+     "board": "",
+     "recent": 1
+    },
+    "first_seen": "2026-10-16"
+   },
+   {
+    "title": "AI Engineer – On-Premises AI Infra & LLM",
+    "company": "AppXcess Technologies",
+    "location": "Chennai, Tamil Nadu, India",
+    "url": "https://www.linkedin.com/jobs/view/4478456092",
+    "description": "**Job Description:**\nAI Engineer – On-Premises AI, LLM & Infrastructure\n**Experience:**\n1–5 Years\n**Employment Type:**\nFull-Time\n**Job Overview**\nWe are looking for an AI Engineer with hands-on experience in developing, deploying, and optimizing AI applications on on-premises infrastructure. The candidate should have knowledge of Large Language Models (LLMs), Retrieval-Augmented Generation (RAG), intent parsing, tool calling, Model Context Protocol (MCP), AI orchestration, and GPU-accelerated computing.\nThe role involves working with locally hosted AI models and NVIDIA GPU infrastructure, incl",
+    "salary_text": "",
+    "experience_text": "",
+    "posted": "2026-10-14",
+    "source": "LinkedIn",
+    "remote": false,
+    "workplace": "",
+    "id": "3c718e37f436514e",
+    "role_bucket": "ai_engineer",
+    "salary_min_lpa": 6.5,
+    "salary_max_lpa": 9.5,
+    "salary_estimated": true,
+    "exp_min": 1.0,
+    "exp_max": 5.0,
+    "prescore": 12,
+    "fit": {
+     "job": "J3",
+     "fit_score": 88,
+     "role_type": "ai_engineer",
+     "summary": "Exceptional fit for local LLM deployment, RAG, tool calling, and FastAPI backend development based in Chennai.",
+     "matched_skills": [
+      "LLMs",
+      "RAG",
+      "Tool calling",
+      "FastAPI",
+      "Python",
+      "Vector search"
+     ],
+     "gaps": [
+      "On-premises NVIDIA hardware management",
+      "Microsoft Hyper-V virtualization"
+     ],
+     "experience_ok": true,
+     "remote_open_to_india": false,
+     "salary_estimate_lpa": {
+      "min": 6.5,
+      "max": 9.5
+     },
+     "application_note": "I have direct experience building RAG pipelines, tool-calling workflows, and intent-routing systems using Python and FastAPI. At Emergere, I built event-driven integrations connecting application data to vector layers and worked with LLM orchestrations. Based in Chennai, I am eager to apply my practical AI engineering skills to deploy and optimize workloads on your on-premises infrastructure."
+    },
+    "trend": {
+     "label": "Tracking",
+     "tone": "neutral",
+     "detail": "1 role seen in 1 day of tracking",
+     "board": "",
+     "recent": 1
+    },
+    "first_seen": "2026-10-16"
+   },
    {
     "title": "Backend Developer - Python",
     "company": "SWITS DIGITAL Private Limited",
@@ -16265,6 +18585,60 @@
      "detail": "1 role seen in 1 day of tracking",
      "board": "",
      "recent": 1
+    },
+    "first_seen": "2026-10-16"
+   },
+   {
+    "title": "Forward Deployed Engineer",
+    "company": "NTT DATA North America",
+    "location": "Bangalore Urban, Karnataka, India",
+    "url": "https://www.linkedin.com/jobs/view/4470604383",
+    "description": "",
+    "salary_text": "",
+    "experience_text": "",
+    "posted": "2026-10-14",
+    "source": "LinkedIn",
+    "remote": false,
+    "workplace": "",
+    "id": "55015998f8acd64d",
+    "role_bucket": "fde",
+    "salary_min_lpa": 7.5,
+    "salary_max_lpa": 11.0,
+    "salary_estimated": true,
+    "exp_min": null,
+    "exp_max": null,
+    "prescore": 2,
+    "fit": {
+     "job": "J1",
+     "fit_score": 82,
+     "role_type": "fde",
+     "summary": "Akash is a strong match for this Forward Deployed Engineer role given his direct client-facing freelance background and backend/AI engineering experience, though location requires relocation to Bangalore.",
+     "matched_skills": [
+      "Python",
+      "FastAPI",
+      "REST APIs",
+      "AWS",
+      "Docker",
+      "PostgreSQL"
+     ],
+     "gaps": [
+      "Enterprise client deployment experience at scale",
+      "On-site presence in Bangalore"
+     ],
+     "experience_ok": true,
+     "remote_open_to_india": false,
+     "salary_estimate_lpa": {
+      "min": 7.5,
+      "max": 11.0
+     },
+     "application_note": "Akash has nearly 2 years of experience building Python backends, FastAPI architectures, and Generative AI solutions while handling direct client requirements and deployments. At CampusAI and through his freelance work, he has successfully delivered production-ready systems integrating AWS, databases, and third-party APIs. His client-facing experience and strong engineering foundation make him well-suited to step into a Forward Deployed Engineer role at NTT DATA. He is currently based in Coimbatore and is ready to relocate to Bangalore for the position."
+    },
+    "trend": {
+     "label": "Tracking",
+     "tone": "neutral",
+     "detail": "7 roles seen in 1 day of tracking",
+     "board": "",
+     "recent": 7
     },
     "first_seen": "2026-10-16"
    },
@@ -16477,6 +18851,56 @@
      "detail": "4 roles seen in 1 day of tracking",
      "board": "",
      "recent": 4
+    },
+    "first_seen": "2026-10-16"
+   },
+   {
+    "title": "AWS Agentic AI Engineer",
+    "company": "Tesslogs IT Solutions",
+    "location": "Chennai, Tamil Nadu, India",
+    "url": "https://www.linkedin.com/jobs/view/4477061210",
+    "description": "",
+    "salary_text": "",
+    "experience_text": "",
+    "posted": "2026-10-15",
+    "source": "LinkedIn",
+    "remote": false,
+    "workplace": "",
+    "id": "4935432488426fea",
+    "role_bucket": "ai_engineer",
+    "salary_min_lpa": 6.5,
+    "salary_max_lpa": 9.5,
+    "salary_estimated": true,
+    "exp_min": null,
+    "exp_max": null,
+    "prescore": 3,
+    "fit": {
+     "job": "J5",
+     "fit_score": 65,
+     "role_type": "ai_engineer",
+     "summary": "Relevant due to AWS and agentic AI focus, but the listing has no detailed description provided.",
+     "matched_skills": [
+      "AWS",
+      "Python",
+      "Generative AI"
+     ],
+     "gaps": [
+      "Specific role requirements unknown"
+     ],
+     "experience_ok": true,
+     "remote_open_to_india": false,
+     "salary_estimate_lpa": {
+      "min": 6.5,
+      "max": 9.5
+     },
+     "application_note": "I have hands-on experience deploying AI applications and backend services on AWS using Lambda, ECS, DynamoDB, and OpenSearch Serverless. My background includes building agentic workflows and multi-tenant AI systems on cloud infrastructure. I am based in Chennai and would be glad to discuss how my AWS and Generative AI skill set aligns with your team's needs."
+    },
+    "trend": {
+     "label": "Tracking",
+     "tone": "neutral",
+     "detail": "1 role seen in 1 day of tracking",
+     "board": "",
+     "recent": 1
     },
     "first_seen": "2026-10-16"
    },
@@ -18000,6 +20424,52 @@
     "needs more experience": 1,
     "AI: experience level doesn't fit": 1,
     "fit score too low": 1
+   },
+   "errors": [],
+   "tracking_days": 1,
+   "mock": false
+  },
+  {
+   "date": "2026-10-16",
+   "time": "18:35",
+   "collected": 2996,
+   "unique": 2698,
+   "new": 369,
+   "passed_filters": 6,
+   "scored": 6,
+   "shortlisted": 4,
+   "ai_scoring": true,
+   "ai_scored": 6,
+   "carried_over": 0,
+   "notes": [],
+   "sources": {
+    "LinkedIn": {
+     "jobs": 270,
+     "searches": 16,
+     "failed": 0
+    },
+    "Indeed": {
+     "jobs": 263,
+     "searches": 16,
+     "failed": 0
+    },
+    "Naukri": {
+     "jobs": 320,
+     "searches": 16,
+     "failed": 0
+    },
+    "Career pages": {
+     "jobs": 2143,
+     "companies": 8
+    }
+   },
+   "skipped": {
+    "title excluded (seniority or stack)": 206,
+    "not a target role": 135,
+    "outside Bangalore/Chennai": 19,
+    "needs more experience": 3,
+    "fit score too low": 1,
+    "AI: experience level doesn't fit": 1
    },
    "errors": [],
    "tracking_days": 1,
