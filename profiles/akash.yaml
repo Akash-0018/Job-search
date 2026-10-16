@@ -1,0 +1,67 @@
+# Akash's job search. The page is published at /akash/
+name: Akash
+resume_file: profiles/akash.md
+
+# Told to the AI when it judges each job.
+preferences: |
+  - Target roles: AI Engineer, Python Backend Developer, Forward Deployed Engineer
+  - Locations: Bangalore or Chennai (on-site or hybrid), or 100% remote open to India-based candidates
+  - About 2 years of experience
+  - Minimum acceptable package: 6 LPA (target 8+ LPA)
+
+# Searches run on LinkedIn, Indeed and Naukri every morning.
+searches:
+  - {term: "AI Engineer", location: "Bengaluru, Karnataka, India"}
+  - {term: "Python Developer", location: "Bengaluru, Karnataka, India"}
+  - {term: "AI Engineer", location: "Chennai, Tamil Nadu, India"}
+  - {term: "Python Developer", location: "Chennai, Tamil Nadu, India"}
+  - {term: "Forward Deployed Engineer", location: "India"}
+  - {term: "Generative AI Engineer", location: "India", remote: true}
+  - {term: "LLM Engineer", location: "India", remote: true}
+
+search:
+  # A job joins a role when its TITLE has a title keyword AND its description
+  # mentions at least one jd_must_mention term.
+  roles:
+    ai_engineer:
+      label: AI engineer
+      title_keywords: [ai engineer, ai developer, ml engineer, machine learning engineer, genai,
+                       gen ai, generative ai, llm, applied ai, nlp engineer, ai/ml, ai ml, agentic]
+      jd_must_mention: [python, llm, rag, genai, generative, langchain, agent, nlp, machine learning]
+    python_backend:
+      label: Python backend
+      title_keywords: [python developer, python engineer, backend engineer, backend developer,
+                       back end, back-end, software engineer, sde, fastapi, django]
+      jd_must_mention: [python]
+    fde:
+      label: Forward deployed
+      title_keywords: [forward deployed, solutions engineer, deployment engineer,
+                       customer engineer, implementation engineer, field engineer]
+      jd_must_mention: [python, api, llm, ai, integration]
+
+  # Titles containing any of these words are skipped (whole words).
+  title_exclude: [senior, sr, lead, staff, principal, manager, head, director, architect,
+                  intern, internship, trainee, java, .net, dotnet, android, ios, frontend,
+                  front-end, front end, qa, sdet, test, sales, devops, data analyst, vp]
+
+  locations: [bangalore, bengaluru, chennai]
+  include_remote: true          # 100% remote roles, if open to India-based people
+  exclude_hybrid_remote: true
+
+  experience:
+    max_min_years: 3            # skip roles whose minimum required experience is above this
+
+  salary:
+    min_lpa: 6                  # the offered MINIMUM must be at least this
+    undisclosed: estimate       # estimate | include | exclude
+    usd_to_inr: 84
+
+  max_age_days: 3
+  first_run_lookback_days: 14
+
+# Skills that make a job a better match (used to pre-rank before the AI scores).
+profile_keywords: [python, fastapi, django, flask, llm, rag, retrieval, embeddings, vector,
+                   langchain, agent, agents, gemini, openai, vertex, google adk, mcp, prompt,
+                   tool calling, postgresql, postgres, sql, aws, lambda, ecs, docker, gcp,
+                   google cloud, pub/sub, rest api, microservices, multi-tenant, saas,
+                   stripe, webhooks, oauth, pytest, n8n, chromadb, opensearch, event-driven]

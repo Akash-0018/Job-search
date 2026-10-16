@@ -1,0 +1,80 @@
+# Surya's job search. The page is published at /surya/
+name: Surya
+resume_file: profiles/surya.md
+
+# Told to the AI when it judges each job.
+preferences: |
+  - Target roles, with the focus he wants in each:
+    1. DevOps Engineer: CI/CD pipelines, Docker, Git, Azure DevOps, automation, deployment troubleshooting
+    2. Cloud Engineer: AWS, Azure, GCP, cloud infrastructure, IAM, networking, application deployment
+    3. Azure DevOps Engineer: Azure Pipelines, YAML, CI/CD automation, Git branching strategies, release management
+    4. Cloud Infrastructure Engineer: resource provisioning, virtual machines, networking, security, infrastructure operations
+    5. Platform Engineer: deployment platforms, developer workflows, infrastructure automation, containers, CI/CD tooling
+    6. Junior Site Reliability Engineer: Prometheus, Grafana, monitoring, Linux troubleshooting, incident investigation, reliability
+  - Locations: Chennai or Bengaluru only, on-site or hybrid. Not remote.
+  - About 2 years of experience; suits junior and mid-level (roughly 1-3 years) roles
+  - Expected package: 7-8 LPA; the offered minimum should be at least 7 LPA
+
+# Searches run on LinkedIn, Indeed and Naukri every morning.
+searches:
+  - {term: "DevOps Engineer", location: "Bengaluru, Karnataka, India"}
+  - {term: "DevOps Engineer", location: "Chennai, Tamil Nadu, India"}
+  - {term: "Cloud Engineer", location: "Bengaluru, Karnataka, India"}
+  - {term: "Cloud Engineer", location: "Chennai, Tamil Nadu, India"}
+  - {term: "Azure DevOps Engineer", location: "Bengaluru, Karnataka, India"}
+  - {term: "Azure DevOps Engineer", location: "Chennai, Tamil Nadu, India"}
+  - {term: "Platform Engineer", location: "Bengaluru, Karnataka, India"}
+  - {term: "Site Reliability Engineer", location: "Bengaluru, Karnataka, India"}
+  - {term: "Site Reliability Engineer", location: "Chennai, Tamil Nadu, India"}
+
+search:
+  roles:
+    devops:
+      label: DevOps
+      title_keywords: [devops, dev ops, devsecops, azure devops, ci/cd, cicd, build and release,
+                       release engineer, build engineer, deployment engineer]
+      jd_must_mention: [ci/cd, cicd, pipeline, pipelines, docker, azure, aws, git, jenkins, deployment]
+    cloud:
+      label: Cloud
+      title_keywords: [cloud engineer, cloud infrastructure, cloud operations, cloud ops,
+                       cloud support engineer, cloud devops, aws engineer, azure engineer,
+                       gcp engineer, aws cloud, azure cloud, infrastructure engineer, cloud developer]
+      jd_must_mention: [aws, azure, gcp, google cloud, cloud]
+    platform:
+      label: Platform
+      title_keywords: [platform engineer, platform engineering, developer platform]
+      jd_must_mention: [docker, kubernetes, ci/cd, pipeline, cloud, aws, azure, infrastructure]
+    sre:
+      label: SRE
+      title_keywords: [site reliability, sre, reliability engineer, production engineer,
+                       monitoring engineer, observability engineer]
+      jd_must_mention: [linux, monitoring, prometheus, grafana, incident, aws, azure, cloud, observability]
+
+  # Titles containing any of these words are skipped (whole words).
+  title_exclude: [senior, sr, lead, staff, principal, manager, head, director, architect, vp,
+                  intern, internship, trainee, fresher, java, .net, dotnet, android, ios,
+                  frontend, front-end, front end, full stack, fullstack, qa, sdet, sales,
+                  presales, pre-sales, data analyst, data engineer, network engineer, salesforce,
+                  sap, mainframe]
+
+  locations: [bangalore, bengaluru, chennai]
+  include_remote: false         # Surya wants on-site or hybrid in Chennai/Bengaluru only
+  exclude_hybrid_remote: true
+
+  experience:
+    max_min_years: 3
+
+  salary:
+    min_lpa: 7                  # expected 7-8 LPA, so the offered minimum must be at least 7
+    undisclosed: estimate
+    usd_to_inr: 84
+
+  max_age_days: 3
+  first_run_lookback_days: 14
+
+profile_keywords: [devops, ci/cd, cicd, pipeline, pipelines, azure devops, yaml, bitbucket, git,
+                   github, docker, multi-stage, aws, ec2, ecs, ecr, lambda, s3, vpc, iam, azure,
+                   app service, key vault, acr, vnet, managed identity, rbac, gcp, cloud run,
+                   linux, ubuntu, bash, shell, python, fastapi, postgresql, pytest, prometheus,
+                   grafana, monitoring, observability, logging, troubleshooting, networking,
+                   subnets, security groups, trivy, devsecops, secrets, release, deployment]
