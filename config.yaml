@@ -58,7 +58,7 @@ profile_keywords: [python, fastapi, django, flask, llm, rag, retrieval, embeddin
 scoring:
   provider: gemini              # gemini | openai | none
   # Check the current model name in Google AI Studio / OpenAI docs; names change.
-  gemini_model: gemini-2.5-flash
+  gemini_model: gemini-3.8-flash
   openai_model: gpt-4o-mini
   max_jobs_per_day: 40          # cap on AI calls per run (keeps you inside free tiers)
   min_fit_score: 65             # jobs below this don't make the page
