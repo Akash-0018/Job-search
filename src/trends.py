@@ -27,6 +27,7 @@ def load(path: Path) -> dict:
     data.setdefault("board_counts", {})
     data.setdefault("shortlist", {})
     data.setdefault("runs", [])
+    data.setdefault("pending", {})
     return data
 
 

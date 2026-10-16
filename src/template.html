@@ -76,6 +76,8 @@ select { font: 600 0.88rem var(--body); color: var(--ink); background: var(--sur
 .facts li.pay { background: var(--teal-soft); color: var(--teal); font-weight: 600; }
 .facts li.pay.est { background: none; border: 1px dashed var(--teal); }
 .facts li.pay.none { background: var(--bg); color: var(--muted); font-weight: 400; }
+.facts li.unchecked { background: none; border: 1px dashed var(--muted); color: var(--muted); }
+.notice.info { border-left-color: var(--marigold); background: var(--marigold-soft); }
 
 .why { margin: 14px 0 0; max-width: 70ch; }
 .skills { margin: 10px 0 0; font-size: 0.9rem; display: grid; gap: 4px; }
@@ -202,6 +204,7 @@ function card(j, lead) {
     exp ? `<li>${esc(exp)}</li>` : "",
     `<li>${esc(DATA.roles[j.role_bucket] || "Other")}</li>`,
     `<li>via ${esc(j.source)}</li>`,
+    f.heuristic ? `<li class="unchecked" title="AI was busy; this is a keyword match. It will be re-checked on the next run.">Not AI-checked yet</li>` : "",
   ].join("");
   const has = (f.matched_skills || []).length ? `<div class="has"><b>You have:</b> ${esc(f.matched_skills.join(", "))}</div>` : "";
   const gap = (f.gaps || []).length ? `<div class="gap"><b>Gaps:</b> ${esc(f.gaps.join(", "))}</div>` : "";
@@ -256,10 +259,12 @@ function renderTop() {
   document.getElementById("summary").textContent = todays.length
     ? `${todays.length} ${todays.length === 1 ? "role fits" : "roles fit"} you today, picked from ${r.new} new postings across your sources.`
     : `No new roles cleared your filters today (${r.new} new postings checked). Earlier matches are under “Last 7 days”.`;
-  if (r.errors && r.errors.length) {
-    document.getElementById("notice").innerHTML = `<section class="notice"><h2>Some sources need attention</h2>
+  let notice = "";
+  if (r.errors && r.errors.length) notice += `<section class="notice"><h2>Some sources need attention</h2>
       <ul>${r.errors.map(e => `<li>${esc(e)}</li>`).join("")}</ul></section>`;
-  }
+  if (r.notes && r.notes.length) notice += `<section class="notice info"><h2>Good to know</h2>
+      <ul>${r.notes.map(e => `<li>${esc(e)}</li>`).join("")}</ul></section>`;
+  document.getElementById("notice").innerHTML = notice;
   if (todays.length) {
     const best = [...todays].sort((a, b) => (b.fit.fit_score || 0) - (a.fit.fit_score || 0))[0];
     leadId = best.id;
@@ -269,7 +274,7 @@ function renderTop() {
   const sources = Object.entries(r.sources || {}).map(([k, v]) => `${esc(k)}: ${v.jobs ?? 0} jobs`).join(", ");
   document.getElementById("footer").innerHTML = `<h2>How today's list was made</h2>
     <p>Collected ${r.collected} postings (${r.unique} after removing duplicates, ${r.new} not seen before) from ${sources || "no sources"}.
-    ${r.passed_filters} passed the filters, ${r.scored} were ${r.ai_scoring ? "scored by AI" : "scored by keyword match (AI scoring is off)"}, and ${r.shortlisted} made the list.</p>
+    ${r.passed_filters} passed the filters${r.carried_over ? ` and ${r.carried_over} were carried over from earlier for an AI check` : ""}. ${r.ai_scored ?? 0} of ${r.scored} were scored by AI${(r.ai_scored ?? 0) < r.scored ? " (the rest by keyword match)" : ""}, and ${r.shortlisted} made the list.</p>
     ${skipped.length ? `<p>Why the rest were left out:</p><ul>${skipped.map(([k, v]) => `<li>${esc(k)}: ${v}</li>`).join("")}</ul>` : ""}
     <p>Hiring trends get more reliable over time; ${r.tracking_days} day${r.tracking_days === 1 ? "" : "s"} of history so far.
     Estimated salaries are AI guesses for postings that hide pay, so confirm them with the recruiter.</p>

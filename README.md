@@ -60,6 +60,16 @@ Delete the lines marked FAIL in `companies.yaml` and add companies you want to t
 In GitHub, open Actions, "Daily job radar", "Run workflow". After it finishes, open your
 Netlify site URL. Bookmark it. From now on it updates every morning.
 
+## When the AI is busy
+Scoring is built to survive busy periods. Jobs are scored 5 at a time, so a day needs
+only about 8 AI calls. If the main Gemini model is overloaded, the Lite model is tried,
+then the optional Groq backup, and if all are busy it waits and tries again for up to
+20 minutes. Any job that still misses out appears with a keyword score and a "Not
+AI-checked yet" label, and is re-checked on the next run.
+
+Optional free backup: create a key at console.groq.com and add it as the
+`GROQ_API_KEY` secret. Without it, that option is simply skipped.
+
 ## Timing
 The workflow is scheduled for 8:00 AM IST because GitHub sometimes starts scheduled
 jobs 5-30 minutes late, and scraping takes a few minutes. That way the page is ready by 9.

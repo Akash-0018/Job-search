@@ -7,17 +7,20 @@ import argparse
 import datetime as dt
 import logging
 from collections import Counter
+from dataclasses import asdict
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
 import yaml
 
 from . import filters, render, trends
+from .models import Job
 from .scorer import Scorer
 from .sources import ats_source, jobspy_source, mock_source
 
 ROOT = Path(__file__).resolve().parent.parent
 log = logging.getLogger("job-radar")
+PENDING_DAYS = 3
 
 
 def collect(cfg, mock, history, today_s, first_run):
@@ -78,18 +81,45 @@ def main():
             j.prescore = filters.prescore(j, cfg["profile_keywords"])
             passed.append(j)
 
-    # 4. AI scoring on the best candidates
+    # 4. AI scoring. Jobs that missed AI scoring on an earlier run go first.
+    pending = history.setdefault("pending", {})
+    carried = []
+    for pid, entry in list(pending.items()):
+        if (today - dt.date.fromisoformat(entry["since"])).days > PENDING_DAYS:
+            del pending[pid]
+            continue
+        try:
+            carried.append(Job(**entry["job"]))
+        except TypeError:
+            del pending[pid]
     passed.sort(key=lambda j: j.prescore, reverse=True)
+    queue, queued_ids = [], set()
+    for j in carried + passed:
+        if j.id not in queued_ids:
+            queue.append(j); queued_ids.add(j.id)
     cap = cfg["scoring"]["max_jobs_per_day"]
-    to_score, overflow = passed[:cap], passed[cap:]
+    to_score, overflow = queue[:cap], queue[cap:]
     if overflow:
         reasons["over the daily AI scoring cap (lower pre-rank)"] += len(overflow)
+
     scorer = Scorer(cfg, profile, disabled=args.no_llm)
+    fits = scorer.score_many(to_score) if scorer.uses_ai else {}
     errors += scorer.errors
+    ai_configured = not args.no_llm and not any("no API key" in e for e in scorer.errors)
     sal = cfg["search"]["salary"]
     shortlist = []
     for j in to_score:
-        fit = scorer.score(j)
+        fit = fits.get(j.id)
+        was_carried = j.id in pending
+        if fit is None:
+            fit = scorer.heuristic(j)
+            if ai_configured and not was_carried:
+                pending[j.id] = {"since": today_s, "job": asdict(j)}
+        else:
+            pending.pop(j.id, None)
+            if was_carried:  # now properly scored: move it to today's list
+                for day in history["shortlist"].values():
+                    day[:] = [d for d in day if d["id"] != j.id]
         j.fit = fit
         if fit.get("role_type") in ("ai_engineer", "python_backend", "fde"):
             j.role_bucket = fit["role_type"]
@@ -97,7 +127,7 @@ def main():
             reasons["AI: experience level doesn't fit"] += 1; continue
         if j.remote and fit.get("remote_open_to_india") is False:
             reasons["AI: remote but not open to India"] += 1; continue
-        if j.salary_min_lpa is None and sal["undisclosed"] == "estimate" and scorer.uses_ai:
+        if j.salary_min_lpa is None and sal["undisclosed"] == "estimate" and not fit.get("heuristic"):
             est = fit.get("salary_estimate_lpa") or {}
             if not est.get("min"):
                 reasons["salary unknown and not estimable"] += 1; continue
@@ -107,6 +137,8 @@ def main():
             j.salary_estimated = True
         if int(fit.get("fit_score", 0)) < cfg["scoring"]["min_fit_score"]:
             reasons["fit score too low"] += 1; continue
+        if was_carried and fit.get("heuristic"):
+            continue  # still unscored and already on an earlier day's list
         j.first_seen = today_s
         shortlist.append(j)
 
@@ -129,7 +161,10 @@ def main():
         "passed_filters": len(passed),
         "scored": len(to_score),
         "shortlisted": len(shortlist),
-        "ai_scoring": scorer.uses_ai,
+        "ai_scoring": bool(fits),
+        "ai_scored": len(fits),
+        "carried_over": len(carried),
+        "notes": scorer.notes,
         "sources": source_stats,
         "skipped": dict(reasons.most_common()),
         "errors": errors,
