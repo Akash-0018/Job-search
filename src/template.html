@@ -156,6 +156,8 @@ const saveApplied = () => { try { localStorage.setItem("jr-applied", JSON.string
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 const fmtDate = iso => new Date(iso + "T00:00:00").toLocaleDateString("en-IN", { weekday: "long", day: "numeric", month: "long" });
 const lpa = v => (Math.round(v * 10) / 10).toString();
+// AI-checked jobs always rank above keyword-only ones, whose scores run high.
+const rank = j => ((j.fit && j.fit.fit_score) || 0) + (j.fit && j.fit.heuristic ? 0 : 1000);
 const place = j => {
   const l = (j.location || "").toLowerCase();
   if (l.includes("chennai")) return "chennai";
@@ -178,10 +180,9 @@ function filtered() {
     (state.where === "all" || (state.where === "remote" ? j.remote : place(j) === state.where)) &&
     (!state.listed || (j.salary_min_lpa != null && !j.salary_estimated)) &&
     (!state.hideApplied || !applied[j.id]));
-  const fit = j => (j.fit && j.fit.fit_score) || 0;
   if (state.sort === "pay") jobs.sort((a, b) => (b.salary_max_lpa || 0) - (a.salary_max_lpa || 0));
-  else if (state.sort === "new") jobs.sort((a, b) => b._day.localeCompare(a._day) || fit(b) - fit(a));
-  else jobs.sort((a, b) => fit(b) - fit(a));
+  else if (state.sort === "new") jobs.sort((a, b) => b._day.localeCompare(a._day) || rank(b) - rank(a));
+  else jobs.sort((a, b) => rank(b) - rank(a));
   return jobs;
 }
 
@@ -266,7 +267,7 @@ function renderTop() {
       <ul>${r.notes.map(e => `<li>${esc(e)}</li>`).join("")}</ul></section>`;
   document.getElementById("notice").innerHTML = notice;
   if (todays.length) {
-    const best = [...todays].sort((a, b) => (b.fit.fit_score || 0) - (a.fit.fit_score || 0))[0];
+    const best = [...todays].sort((a, b) => rank(b) - rank(a))[0];
     leadId = best.id;
     document.getElementById("lead").innerHTML = `<h2 class="lead-label">Best fit today</h2>${card(best, true)}`;
   }

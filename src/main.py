@@ -151,7 +151,8 @@ def main():
     for j in shortlist:
         existing[j.id] = j.to_page_dict()
     history["shortlist"][today_s] = sorted(existing.values(),
-                                           key=lambda d: d["fit"].get("fit_score", 0), reverse=True)
+                                           key=lambda d: (not d["fit"].get("heuristic"), d["fit"].get("fit_score", 0)),
+                                           reverse=True)
     run = {
         "date": today_s,
         "time": now.strftime("%H:%M"),

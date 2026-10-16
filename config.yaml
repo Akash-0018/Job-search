@@ -62,7 +62,7 @@ scoring:
   # and the page tells you which name to put here.
   backends:
     - {provider: gemini, model: gemini-3.8-flash}
-    - {provider: gemini, model: gemini-3.8-flash-lite}   # lighter, usually less busy
+    - {provider: gemini, model: gemini-3.5-flash-lite}   # lighter, usually less busy
     # Optional free backup on a different company's servers. Create a free key at
     # console.groq.com, add it as the GROQ_API_KEY secret, and check the model name
     # in their model list.
