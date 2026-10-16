@@ -30,6 +30,9 @@ body { margin: 0; background: var(--bg); color: var(--ink); font: 400 16px/1.55 
 a { color: inherit; }
 :focus-visible { outline: 3px solid var(--marigold); outline-offset: 2px; border-radius: 4px; }
 .wrap { max-width: 920px; margin: 0 auto; padding: 40px 20px 80px; }
+.people { display: flex; gap: 8px; margin-bottom: 28px; }
+.people a { font: 600 0.9rem var(--body); text-decoration: none; padding: 6px 14px; border-radius: 999px; border: 1px solid var(--line); color: var(--muted); }
+.people a[aria-current="page"] { background: var(--ink); color: var(--bg); border-color: var(--ink); }
 
 header h1 { font: 700 clamp(2.2rem, 6vw, 3.6rem)/1.02 var(--display); letter-spacing: -0.02em; margin: 0; }
 .date { color: var(--muted); margin: 10px 0 0; font-size: 1.05rem; }
@@ -114,6 +117,7 @@ footer ul { padding-left: 18px; margin: 6px 0 14px; }
 </head>
 <body>
 <div class="wrap">
+  <nav class="people" id="people" aria-label="Switch person"></nav>
   <header>
     <h1 id="hello">Good morning</h1>
     <p class="date" id="date"></p>
@@ -129,9 +133,8 @@ footer ul { padding-left: 18px; margin: 6px 0 14px; }
     <div class="seg" role="group" aria-label="Role" data-key="role" id="roleSeg">
       <button data-v="all">All roles</button>
     </div>
-    <div class="seg" role="group" aria-label="Location" data-key="where">
-      <button data-v="all">Anywhere</button><button data-v="bangalore">Bangalore</button>
-      <button data-v="chennai">Chennai</button><button data-v="remote">Remote</button>
+    <div class="seg" role="group" aria-label="Location" data-key="where" id="placeSeg">
+      <button data-v="all">Anywhere</button>
     </div>
     <label class="toggle"><input type="checkbox" id="listed"> Listed salary only</label>
     <label class="toggle"><input type="checkbox" id="hideApplied"> Hide applied</label>
@@ -150,8 +153,8 @@ footer ul { padding-left: 18px; margin: 6px 0 14px; }
 const DATA = __DATA__;
 const state = { view: "today", role: "all", where: "all", listed: false, hideApplied: false, sort: "fit" };
 let applied = {}, leadId = null;
-try { applied = JSON.parse(localStorage.getItem("jr-applied") || "{}") || {}; } catch (e) { applied = {}; }
-const saveApplied = () => { try { localStorage.setItem("jr-applied", JSON.stringify(applied)); } catch (e) {} };
+try { applied = JSON.parse(localStorage.getItem("jr-applied-" + DATA.id) || "{}") || {}; } catch (e) { applied = {}; }
+const saveApplied = () => { try { localStorage.setItem("jr-applied-" + DATA.id, JSON.stringify(applied)); } catch (e) {} };
 
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 const fmtDate = iso => new Date(iso + "T00:00:00").toLocaleDateString("en-IN", { weekday: "long", day: "numeric", month: "long" });
@@ -284,6 +287,10 @@ function renderTop() {
 
 function wire() {
   const roleSeg = document.getElementById("roleSeg");
+  const placeSeg = document.getElementById("placeSeg");
+  (DATA.places || []).forEach(([k, label]) => placeSeg.insertAdjacentHTML("beforeend", `<button data-v="${esc(k)}">${esc(label)}</button>`));
+  if ((DATA.people || []).length > 1) document.getElementById("people").innerHTML = DATA.people.map(p =>
+    `<a href="../${esc(p.id)}/"${p.id === DATA.id ? ' aria-current="page"' : ""}>${esc(p.name)}</a>`).join("");
   Object.entries(DATA.roles).forEach(([k, label]) => roleSeg.insertAdjacentHTML("beforeend", `<button data-v="${esc(k)}">${esc(label)}</button>`));
   document.querySelectorAll(".seg").forEach(seg => {
     const key = seg.dataset.key;

@@ -26,9 +26,7 @@ CANDIDATE PROFILE
 {profile}
 
 CANDIDATE PREFERENCES
-- Target roles: AI Engineer, Python Backend Developer, Forward Deployed Engineer
-- Locations: Bangalore, Chennai, or 100% remote open to India-based candidates
-- About 2 years of experience; minimum acceptable package {min_lpa} LPA
+{preferences}
 
 JOBS
 {jobs}
@@ -37,7 +35,7 @@ Return ONLY a JSON object of the form {{"results": [ ... ]}} with one entry per 
 exactly these keys:
   "job": the job's id exactly as given (e.g. "J1"),
   "fit_score": integer 0-100 (85+ = near-perfect match of skills, level and role; 65-84 = good; below 65 = weak),
-  "role_type": one of "ai_engineer", "python_backend", "fde", "other",
+  "role_type": one of {role_types}, or "other" (which of the candidate's target roles this job is),
   "summary": one sentence on why this fits or does not,
   "matched_skills": up to 6 skills from the JD the candidate clearly has,
   "gaps": up to 4 JD requirements the candidate lacks or has only lightly,
@@ -192,7 +190,10 @@ class Scorer:
             remote=j.remote, salary=j.salary_text or "not listed",
             experience=j.experience_text or "not listed", description=j.description[:3500])
             for i, j in enumerate(batch)]
-        return PROMPT.format(profile=self.profile, min_lpa=self.cfg["search"]["salary"]["min_lpa"],
+        roles = self.cfg["search"]["roles"]
+        role_types = ", ".join(f'"{k}" ({v["label"]})' for k, v in roles.items())
+        prefs = self.cfg.get("preferences") or f"- Minimum acceptable package {self.cfg['search']['salary']['min_lpa']} LPA"
+        return PROMPT.format(profile=self.profile, preferences=prefs.strip(), role_types=role_types,
                              jobs="\n".join(blocks))
 
     @staticmethod

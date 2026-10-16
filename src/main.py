@@ -1,9 +1,10 @@
-"""Daily job radar: collect -> filter -> score -> track trends -> build the page.
+"""Daily job radar: collect once -> for each person: filter -> score -> trends -> page.
 
 Run:  python -m src.main            (real run, needs secrets)
       python -m src.main --mock --no-llm   (offline test with fake jobs)
 """
 import argparse
+import copy
 import datetime as dt
 import logging
 from collections import Counter
@@ -23,43 +24,62 @@ log = logging.getLogger("job-radar")
 PENDING_DAYS = 3
 
 
-def collect(cfg, mock, history, today_s, first_run):
-    jobs, errors, source_stats = [], [], {}
+def load_profiles(cfg):
+    shared = {k: v for k, v in cfg.items() if k != "profiles"}
+    profiles = []
+    for entry in cfg["profiles"]:
+        own = yaml.safe_load((ROOT / entry["file"]).read_text())
+        merged = {**shared, **own, "id": entry["id"], "your_name": own.get("name", entry["id"].title())}
+        merged["scoring"] = {**shared.get("scoring", {}), **own.get("scoring", {})}
+        merged["resume"] = (ROOT / own["resume_file"]).read_text()
+        profiles.append(merged)
+    return profiles
+
+
+def history_path(pid, mock):
+    data = ROOT / "data"
+    path = data / (f"mock-history-{pid}.json" if mock else f"history-{pid}.json")
+    old = data / "history.json"  # single-person history from before profiles existed
+    if not mock and pid == "akash" and old.exists() and not path.exists():
+        old.rename(path)
+        log.info("Moved data/history.json to %s", path.name)
+    return path
+
+
+def collect(cfg, profiles, mock, first_run):
+    """Runs every person's searches once. Returns (jobs, errors, source_stats, board_counts)."""
     if mock:
         jobs = mock_source.fetch()
-        source_stats["Sample data"] = {"jobs": len(jobs)}
-        return jobs, errors, source_stats
+        return jobs, [], {"Sample data": {"jobs": len(jobs)}}, {}
+    jobs, errors, stats, counts = [], [], {}, {}
     src = cfg["sources"]
     if src["job_sites"].get("enabled"):
-        j, e, s = jobspy_source.fetch(src["job_sites"], first_run)
-        jobs += j; errors += e; source_stats.update(s)
+        searches, seen = [], set()
+        for p in profiles:
+            for sch in p.get("searches", []):
+                key = (sch["term"].lower(), sch.get("location", "India").lower(), bool(sch.get("remote")))
+                if key not in seen:
+                    seen.add(key); searches.append(sch)
+        j, e, s = jobspy_source.fetch({**src["job_sites"], "searches": searches}, first_run)
+        jobs += j; errors += e; stats.update(s)
     if src["career_boards"].get("enabled"):
         companies = yaml.safe_load((ROOT / src["career_boards"]["companies_file"]).read_text()) or {}
         j, e, counts = ats_source.fetch(companies)
         jobs += j; errors += e
-        source_stats["Career pages"] = {"jobs": len(j), "companies": len(counts)}
-        trends.record_board_counts(history, counts, today_s)
-    return jobs, errors, source_stats
+        stats["Career pages"] = {"jobs": len(j), "companies": len(counts)}
+    return jobs, errors, stats, counts
 
 
-def main():
-    ap = argparse.ArgumentParser()
-    ap.add_argument("--mock", action="store_true", help="use fake jobs, no network")
-    ap.add_argument("--no-llm", action="store_true", help="skip AI scoring")
-    args = ap.parse_args()
-    logging.basicConfig(level=logging.INFO, format="%(levelname)s %(message)s")
-
-    cfg = yaml.safe_load((ROOT / "config.yaml").read_text())
-    tz = ZoneInfo(cfg.get("timezone", "Asia/Kolkata"))
-    now = dt.datetime.now(tz)
+def run_profile(cfg, all_jobs, collect_errors, source_stats, board_counts, now, args, people):
     today, today_s = now.date(), now.date().isoformat()
-    profile = (ROOT / cfg["profile_file"]).read_text()
-    hist_path = ROOT / "data" / ("history.mock.json" if args.mock else "history.json")
+    profile = cfg["resume"]
+    hist_path = history_path(cfg["id"], args.mock)
     history = trends.load(hist_path)
     first_run = not history["seen"]
-
-    # 1. Collect
-    raw, errors, source_stats = collect(cfg, args.mock, history, today_s, first_run)
+    trends.record_board_counts(history, board_counts, today_s)
+    raw = copy.deepcopy(all_jobs)  # filters annotate jobs, so each person gets their own copy
+    errors = list(collect_errors)
+    log.info("--- %s ---", cfg["your_name"])
 
     # 2. De-duplicate (same company + title + city across sources), prefer ones with salary
     unique = {}
@@ -121,7 +141,7 @@ def main():
                 for day in history["shortlist"].values():
                     day[:] = [d for d in day if d["id"] != j.id]
         j.fit = fit
-        if fit.get("role_type") in ("ai_engineer", "python_backend", "fde"):
+        if fit.get("role_type") in cfg["search"]["roles"]:
             j.role_bucket = fit["role_type"]
         if fit.get("experience_ok") is False:
             reasons["AI: experience level doesn't fit"] += 1; continue
@@ -175,12 +195,34 @@ def main():
     history["runs"].append(run)
     trends.save(hist_path, history, today)
 
-    out = ROOT / "site" / "index.html"
-    render.write(out, history, run, cfg)
-    log.info("Done: %d new, %d passed filters, %d shortlisted. Page: %s",
-             len(new_jobs), len(passed), len(shortlist), out)
+    out = ROOT / "site" / cfg["id"] / "index.html"
+    render.write(out, history, run, cfg, people)
+    log.info("%s: %d new, %d passed filters, %d shortlisted. Page: %s",
+             cfg["your_name"], len(new_jobs), len(passed), len(shortlist), out)
+    for e in scorer.errors:
+        log.warning(e)
+    return {"id": cfg["id"], "name": cfg["your_name"],
+            "today": len(history["shortlist"].get(today_s, []))}
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--mock", action="store_true", help="use fake jobs, no network")
+    ap.add_argument("--no-llm", action="store_true", help="skip AI scoring")
+    args = ap.parse_args()
+    logging.basicConfig(level=logging.INFO, format="%(levelname)s %(message)s")
+
+    cfg = yaml.safe_load((ROOT / "config.yaml").read_text())
+    profiles = load_profiles(cfg)
+    now = dt.datetime.now(ZoneInfo(cfg.get("timezone", "Asia/Kolkata")))
+    any_first = any(not trends.load(history_path(p["id"], args.mock))["seen"] for p in profiles)
+
+    jobs, errors, stats, counts = collect(cfg, profiles, args.mock, any_first)
     for e in errors:
         log.warning(e)
+    people = [{"id": p["id"], "name": p["your_name"]} for p in profiles]
+    summaries = [run_profile(p, jobs, errors, stats, counts, now, args, people) for p in profiles]
+    render.write_index(ROOT / "site" / "index.html", summaries, now)
 
 
 if __name__ == "__main__":

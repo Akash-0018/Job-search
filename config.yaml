@@ -1,59 +1,11 @@
-# Job Radar configuration. Edit freely; the pipeline reads this every run.
-
-profile_file: profile.md
+# Job Radar shared configuration. Each person's own settings are in profiles/.
 timezone: Asia/Kolkata
-your_name: Akash
 
-search:
-  # Role buckets. A job joins a bucket when its TITLE contains one of the
-  # title keywords AND its description mentions at least one jd_must_mention term.
-  roles:
-    ai_engineer:
-      label: AI engineer
-      title_keywords: [ai engineer, ai developer, ml engineer, machine learning engineer, genai,
-                       gen ai, generative ai, llm, applied ai, nlp engineer, ai/ml, ai ml, agentic]
-      jd_must_mention: [python, llm, rag, genai, generative, langchain, agent, nlp, machine learning]
-    python_backend:
-      label: Python backend
-      title_keywords: [python developer, python engineer, backend engineer, backend developer,
-                       back end, back-end, software engineer, sde, fastapi, django]
-      jd_must_mention: [python]
-    fde:
-      label: Forward deployed
-      title_keywords: [forward deployed, solutions engineer, deployment engineer,
-                       customer engineer, implementation engineer, field engineer]
-      jd_must_mention: [python, api, llm, ai, integration]
-
-  # Titles containing any of these words are skipped (matched as whole words).
-  title_exclude: [senior, sr, lead, staff, principal, manager, head, director, architect,
-                  intern, internship, trainee, java, .net, dotnet, android, ios, frontend,
-                  front-end, front end, qa, sdet, test, sales, devops, data analyst, vp]
-
-  locations: [bangalore, bengaluru, chennai]
-  include_remote: true          # 100% remote roles anywhere, if open to India-based people
-  exclude_hybrid_remote: true   # "remote" roles that are really hybrid elsewhere get dropped
-
-  experience:
-    max_min_years: 3            # skip roles whose minimum required experience is above this
-
-  salary:
-    min_lpa: 6                  # the offered MINIMUM must be at least this
-    # When a posting hides the salary (most do):
-    #   estimate = the AI estimates a range; keep only if the estimated minimum >= min_lpa
-    #   include  = keep it and mark "salary not listed"
-    #   exclude  = drop it
-    undisclosed: estimate
-    usd_to_inr: 84
-
-  max_age_days: 3               # ignore postings older than this (when the date is known)
-  first_run_lookback_days: 14
-
-# Skills that make a job a better match. Used to pre-rank jobs before the AI scores them.
-profile_keywords: [python, fastapi, django, flask, llm, rag, retrieval, embeddings, vector,
-                   langchain, agent, agents, gemini, openai, vertex, google adk, mcp, prompt,
-                   tool calling, postgresql, postgres, sql, aws, lambda, ecs, docker, gcp,
-                   google cloud, pub/sub, rest api, microservices, multi-tenant, saas,
-                   stripe, webhooks, oauth, pytest, n8n, chromadb, opensearch, event-driven]
+# One page per person, published at /<id>/ (for example /akash/ and /surya/).
+# To add someone, copy a profile .yaml and .md, edit them, and add a line here.
+profiles:
+  - {id: akash, file: profiles/akash.yaml}
+  - {id: surya, file: profiles/surya.yaml}
 
 scoring:
   # AI options, tried in this order. If one is busy (overloaded or rate-limited), the next
@@ -68,13 +20,14 @@ scoring:
     # in their model list.
     - {provider: groq, model: llama-3.3-70b-versatile}
   batch_size: 5                 # jobs per AI call (fewer calls = less exposure to busy periods)
-  max_jobs_per_day: 40          # cap on jobs sent to AI per run
+  max_jobs_per_day: 40          # cap on jobs sent to AI per person per run
   min_fit_score: 65             # jobs below this don't make the page
   delay_seconds: 4              # pause between AI calls
-  max_minutes: 20               # time budget for AI scoring, including waiting out busy periods
+  max_minutes: 12               # AI time budget per person, including waiting out busy periods
 
 sources:
-  # Free job-site search with JobSpy. No account, no card, no API key.
+  # Free job-site search with JobSpy. Each person's searches are in their profile file;
+  # they all run once and the results are shared, then filtered per person.
   job_sites:
     enabled: true
     sites: [linkedin, indeed, naukri]   # also possible: glassdoor, google
@@ -83,15 +36,7 @@ sources:
     first_run_hours_old: 72
     fetch_description: true             # needed for good matching; makes LinkedIn slower
     delay_seconds: 4                    # pause between searches to avoid blocks
-    max_minutes: 20                     # stop starting new searches after this
-    searches:
-      - {term: "AI Engineer", location: "Bengaluru, Karnataka, India"}
-      - {term: "Python Developer", location: "Bengaluru, Karnataka, India"}
-      - {term: "AI Engineer", location: "Chennai, Tamil Nadu, India"}
-      - {term: "Python Developer", location: "Chennai, Tamil Nadu, India"}
-      - {term: "Forward Deployed Engineer", location: "India"}
-      - {term: "Generative AI Engineer", location: "India", remote: true}
-      - {term: "LLM Engineer", location: "India", remote: true}
+    max_minutes: 25                     # stop starting new searches after this
 
   career_boards:
     enabled: true

@@ -122,9 +122,9 @@ def check(job, cfg: dict, today: dt.date, lookback_days: int):
     loc = job.location.lower()
     in_city = any(c in loc for c in s["locations"])
     is_remote = job.remote or "remote" in loc
+    if is_remote and not s.get("include_remote", True):
+        return "fully remote (on-site or hybrid wanted)"
     if is_remote and not in_city:
-        if not s.get("include_remote", True):
-            return "remote not wanted"
         if "hybrid" in (job.workplace or "").lower() and s.get("exclude_hybrid_remote", True):
             return "hybrid outside target cities"
         if any(w in loc for w in FOREIGN_ONLY) and not any(w in loc for w in INDIA_OK):
@@ -153,6 +153,6 @@ def check(job, cfg: dict, today: dt.date, lookback_days: int):
 def prescore(job, keywords) -> float:
     text = f"{job.title} {job.description}".lower()
     hits = sum(1 for kw in keywords if _has_word(text, kw))
-    bonus = 3 if job.role_bucket == "ai_engineer" else 1
+    bonus = 2
     bonus += 1 if job.salary_min_lpa else 0
     return hits + bonus
