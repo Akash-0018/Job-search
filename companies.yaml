@@ -9,7 +9,6 @@
 # Tip: open a company's careers page, click a job, and look at the URL.
 
 greenhouse:
-  - {name: Postman, slug: postman}
   - {name: Databricks, slug: databricks}
   - {name: MongoDB, slug: mongodb}
   - {name: Twilio, slug: twilio}
