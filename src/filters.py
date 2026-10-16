@@ -58,8 +58,10 @@ EXP_MIN = re.compile(r"(\d+(?:\.\d+)?)\s*\+?\s*(?:yrs?|years?)(?:\s+of)?(?:\s+\w
 EXP_SIMPLE = re.compile(r"(\d+(?:\.\d+)?)\s*\+?\s*(?:yrs?|years?)", re.I)
 
 
-def parse_experience(exp_text: str, description: str):
-    for text, patterns in ((exp_text, (EXP_RANGE, EXP_SIMPLE)), (description, (EXP_RANGE, EXP_MIN))):
+def parse_experience(exp_text: str, description: str, title: str = ""):
+    sources = ((exp_text, (EXP_RANGE, EXP_SIMPLE)), (title, (EXP_RANGE, EXP_SIMPLE)),
+               (description, (EXP_RANGE, EXP_MIN)))
+    for text, patterns in sources:
         if not text:
             continue
         for pat in patterns:
@@ -135,7 +137,7 @@ def check(job, cfg: dict, today: dt.date, lookback_days: int):
     if posted and (today - posted).days > lookback_days:
         return "posting too old"
 
-    job.exp_min, job.exp_max = parse_experience(job.experience_text, job.description)
+    job.exp_min, job.exp_max = parse_experience(job.experience_text, job.description, job.title)
     if job.exp_min is not None and job.exp_min > s["experience"]["max_min_years"]:
         return "needs more experience"
 

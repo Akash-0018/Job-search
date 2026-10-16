@@ -53,6 +53,22 @@ def _extract_json(text: str) -> dict:
     return json.loads(text[start:end + 1])
 
 
+FATAL_CODES = {400, 401, 403, 404}   # wrong key, no access, retired model: retrying won't help
+
+
+def _status(exc):
+    code = getattr(exc, "code", None) or getattr(exc, "status_code", None)
+    try:
+        return int(code)
+    except (TypeError, ValueError):
+        return None
+
+
+def _version(name: str):
+    nums = re.findall(r"\d+(?:\.\d+)?", name.split("/")[-1])
+    return tuple(float(n) for n in nums[:2]) or (0,)
+
+
 class Scorer:
     def __init__(self, cfg: dict, profile: str, disabled: bool = False):
         self.cfg = cfg
@@ -60,8 +76,13 @@ class Scorer:
         sc = cfg["scoring"]
         self.provider = "none" if disabled else sc.get("provider", "gemini")
         self.delay = sc.get("delay_seconds", 6)
+        self.budget_end = time.monotonic() + 60 * sc.get("max_minutes", 15)
         self.client = None
         self.errors = []
+        self.failures_in_a_row = 0
+        self.tried_model_switch = False
+        logging.getLogger("google_genai").setLevel(logging.WARNING)
+        logging.getLogger("httpx").setLevel(logging.WARNING)
         if self.provider == "gemini" and os.getenv("GEMINI_API_KEY"):
             from google import genai
             self.client = genai.Client(api_key=os.environ["GEMINI_API_KEY"])
@@ -92,7 +113,36 @@ class Scorer:
             messages=[{"role": "user", "content": prompt}])
         return _extract_json(resp.choices[0].message.content)
 
+    def _pick_newer_gemini(self):
+        """The configured model was retired: find the newest Flash model this key can use."""
+        try:
+            names = []
+            for m in self.client.models.list():
+                actions = [a.lower() for a in (getattr(m, "supported_actions", None) or [])]
+                name = (m.name or "").split("/")[-1]
+                if "generatecontent" not in actions or "flash" not in name:
+                    continue
+                if any(w in name for w in ("image", "tts", "audio", "live", "embedding", "exp")):
+                    continue
+                names.append(name)
+            if not names:
+                return None
+            # stable before preview, full Flash before Flash-Lite, then newest version
+            names.sort(key=lambda n: ("preview" not in n, "lite" not in n, _version(n)), reverse=True)
+            return names[0]
+        except Exception as exc:
+            log.warning("Could not list Gemini models: %s", exc)
+            return None
+
+    def _disable(self, reason: str):
+        self.errors.append(reason)
+        log.error(reason)
+        self.client = None
+
     def score(self, job) -> dict:
+        if self.uses_ai and time.monotonic() > self.budget_end:
+            self._disable("AI scoring stopped after its time budget (scoring.max_minutes); "
+                          "remaining jobs used keyword scores.")
         if not self.uses_ai:
             return self._heuristic(job)
         prompt = PROMPT.format(
@@ -103,13 +153,35 @@ class Scorer:
         for attempt in range(3):
             try:
                 result = self._call(prompt)
+                self.failures_in_a_row = 0
                 time.sleep(self.delay)
                 return result
             except Exception as exc:
-                wait = self.delay * (attempt + 2) * 2
-                log.warning("Scoring %s failed (%s); retrying in %ss", job.title, exc, wait)
-                time.sleep(wait)
-        self.errors.append(f"Could not score '{job.title}' at {job.company}; used keyword estimate.")
+                code = _status(exc)
+                short = str(exc)[:200]
+                if code == 404 and self.provider == "gemini" and not self.tried_model_switch:
+                    self.tried_model_switch = True
+                    newer = self._pick_newer_gemini()
+                    if newer and newer != self.model:
+                        self.errors.append(f"Gemini model '{self.model}' is no longer available, so today's "
+                                           f"run used '{newer}'. Set scoring.gemini_model to it in config.yaml.")
+                        log.warning("Switching Gemini model %s -> %s", self.model, newer)
+                        self.model = newer
+                        continue
+                if code in FATAL_CODES:
+                    self._disable(f"AI scoring turned off for this run: {self.provider} returned {code} "
+                                  f"({short}). Check the API key secret and the model name in config.yaml.")
+                    return self._heuristic(job)
+                if attempt < 2:
+                    wait = min(60, self.delay * (attempt + 2) * 2)
+                    log.warning("Scoring '%s' failed (%s); retrying in %ss", job.title, short, wait)
+                    time.sleep(wait)
+        self.failures_in_a_row += 1
+        if self.failures_in_a_row >= 3:
+            self._disable("AI scoring turned off for this run after 3 jobs in a row failed; "
+                          "remaining jobs used keyword scores.")
+        else:
+            self.errors.append(f"Could not score '{job.title}' at {job.company}; used keyword estimate.")
         return self._heuristic(job)
 
     def _heuristic(self, job) -> dict:

@@ -57,12 +57,14 @@ profile_keywords: [python, fastapi, django, flask, llm, rag, retrieval, embeddin
 
 scoring:
   provider: gemini              # gemini | openai | none
-  # Check the current model name in Google AI Studio / OpenAI docs; names change.
+  # Model names change. If Google retires this one, the run switches to the newest
+  # available Flash model automatically and tells you at the top of the page.
   gemini_model: gemini-3.8-flash
   openai_model: gpt-4o-mini
   max_jobs_per_day: 40          # cap on AI calls per run (keeps you inside free tiers)
   min_fit_score: 65             # jobs below this don't make the page
   delay_seconds: 6              # pause between AI calls to respect rate limits
+  max_minutes: 15               # time budget for AI scoring; leftovers get keyword scores
 
 sources:
   # Free job-site search with JobSpy. No account, no card, no API key.
@@ -74,6 +76,7 @@ sources:
     first_run_hours_old: 72
     fetch_description: true             # needed for good matching; makes LinkedIn slower
     delay_seconds: 4                    # pause between searches to avoid blocks
+    max_minutes: 20                     # stop starting new searches after this
     searches:
       - {term: "AI Engineer", location: "Bengaluru, Karnataka, India"}
       - {term: "Python Developer", location: "Bengaluru, Karnataka, India"}

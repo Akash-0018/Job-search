@@ -66,10 +66,15 @@ def fetch(cfg: dict, first_run: bool):
     jobs, stats = [], defaultdict(lambda: {"jobs": 0, "searches": 0, "failed": 0})
     failures = defaultdict(list)
     hours = cfg.get("first_run_hours_old", 72) if first_run else cfg.get("hours_old", 24)
+    deadline = time.monotonic() + 60 * cfg.get("max_minutes", 20)
+    skipped_for_time = 0
 
     for search in cfg.get("searches", []):
         for site in cfg.get("sites", []):
             label = SITE_NAMES.get(site, site)
+            if time.monotonic() > deadline:
+                skipped_for_time += 1
+                continue
             stats[label]["searches"] += 1
             try:
                 df = scrape_jobs(
@@ -99,6 +104,9 @@ def fetch(cfg: dict, first_run: bool):
             time.sleep(cfg.get("delay_seconds", 4))
 
     errors = []
+    if skipped_for_time:
+        errors.append(f"Job-site search hit its time budget; {skipped_for_time} searches were skipped. "
+                      "Reduce searches or results_per_search in config.yaml.")
     for label, s in stats.items():
         # JobSpy logs most site errors itself and returns an empty result,
         # so "no jobs from any search" is the reliable sign of a block.

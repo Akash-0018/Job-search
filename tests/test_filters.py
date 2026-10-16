@@ -17,6 +17,7 @@ def test_experience():
     assert parse_experience("", "Need 5+ years of experience in Python") == (5, None)
     assert parse_experience("2 to 4 years", "") == (2, 4)
     assert parse_experience("", "Great team culture") == (None, None)
+    assert parse_experience("", "", "AI/ML Engineer – Agentic AI | 8 yrs experience") == (8, None)
 
 
 def test_jobspy_rows():
