@@ -61535,6 +61535,2424 @@
    "t": "Senior Backend Engineer, Development Health",
    "d": "2026-11-04",
    "s": "Career page"
+  },
+  "54a5e40928a4e620": {
+   "c": "kraft heinz",
+   "t": "Senior AI Engineer",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "5722502f7129cfe3": {
+   "c": "wisdomai",
+   "t": "Machine Learning Engineer",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "7cbe2e79c376a296": {
+   "c": "chubb",
+   "t": "Senior AI/ML Engineer",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "ad68a6fe7d566d1c": {
+   "c": "sony india software centre",
+   "t": "AI/ML Engineer – Generative AI",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "96b8d7b9c51d7f9f": {
+   "c": "optum india",
+   "t": "Senior AI/ML Engineer",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "591c96a9d2c22b10": {
+   "c": "synechron",
+   "t": "AI Engineer – Agentic AI | Bedrock, LangChain & LangGraph",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "b6de8f9c44933078": {
+   "c": "synechron",
+   "t": "AI Engineer – Agentic AI & Multi-Agent Systems | AWS Bedrock, LangChain & LangGraph",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "d719ebc51d9ca799": {
+   "c": "hp",
+   "t": "Agentic AI Engineer",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "1f054c48072a8409": {
+   "c": "hp",
+   "t": "AI Solutions Engineer",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "6dbbffe3358a5c69": {
+   "c": "solventum",
+   "t": "Associate AI/ML Engineer",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "47e1f437a7894597": {
+   "c": "apple",
+   "t": "Software Engineer : Data & AI",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "bb8244d231bc2a0d": {
+   "c": "apple",
+   "t": "Search Engineer - AI/ML",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "1ff14306e77e5c10": {
+   "c": "apple",
+   "t": "Applied AI Engineer",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "a832e6c592b359f9": {
+   "c": "honeywell aerospace",
+   "t": "Mech Design Engr I",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "9ea85695f52b1ea3": {
+   "c": "apple",
+   "t": "Software Site Reliability Engineer - AI & Data Platforms",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "c6e7be5c3853a1f6": {
+   "c": "apple",
+   "t": "Senior Machine Learning Engineer / Senior Applied Scientist, Search & AI",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "ba0dc81340bd80db": {
+   "c": "optum",
+   "t": "Sr AI/ML Engineer",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "a0236dbe60e265c5": {
+   "c": "apple",
+   "t": "Applied Machine Learning Engineer, Apple Intelligence",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "1f2bf44d5b4cf344": {
+   "c": "apple",
+   "t": "Senior Applied AI Engineer - AiDP",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "01823168681b6302": {
+   "c": "jpmorganchase",
+   "t": "Software Engineer III - Back-end Engineer - Chase UK",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "3225a60cd77e274d": {
+   "c": "apple",
+   "t": "Machine Learning Engineer - Apple Store Online",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "766182339b7de8a1": {
+   "c": "jpmorganchase",
+   "t": "Software Engineer II - Java, Spring, React, AWS",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "7003c08f62566757": {
+   "c": "google",
+   "t": "Senior Software Engineer, AI/ML, Discover",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "0f755409fc6802c6": {
+   "c": "jpmorganchase",
+   "t": "Software Engineer III - Java, Kafka",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "2adb5d7f1dbda44b": {
+   "c": "apple",
+   "t": "Machine Learning Engineer, Apple Intelligence",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "8671b57507633fa8": {
+   "c": "jpmorganchase",
+   "t": "Software Engineer II - Java, Spring Boot, Microservices",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "98d2b0dd25a7d6df": {
+   "c": "persistent",
+   "t": "Senior Automation Engineer",
+   "d": "2026-11-05",
+   "s": "Naukri"
+  },
+  "59ed41544cdaafb1": {
+   "c": "qualitas technologies",
+   "t": "Data Scientist Intern",
+   "d": "2026-11-05",
+   "s": "Naukri"
+  },
+  "4fd717d6d3ef19a1": {
+   "c": "vanguard",
+   "t": "Senior Manager, Data Science",
+   "d": "2026-11-05",
+   "s": "Naukri"
+  },
+  "9b3a9026b98c9393": {
+   "c": "okta",
+   "t": "Staff Full-Stack Engineer",
+   "d": "2026-11-05",
+   "s": "Naukri"
+  },
+  "1d09b4f2be2aa058": {
+   "c": "te connectivity",
+   "t": "SR AI TRANSFORMATION ENGINEER",
+   "d": "2026-11-05",
+   "s": "Naukri"
+  },
+  "ff3247463e269e70": {
+   "c": "atkinsr alis",
+   "t": "Engineer/Senior/Lead/Principal Engineer",
+   "d": "2026-11-05",
+   "s": "Naukri"
+  },
+  "e140e68492fd7916": {
+   "c": "pepsico",
+   "t": "Data Engineering Assoc Principal Engineer",
+   "d": "2026-11-05",
+   "s": "Naukri"
+  },
+  "6ea0b4253670cc0a": {
+   "c": "prodapt solutions",
+   "t": "FDE2_AI_D_Engineer",
+   "d": "2026-11-05",
+   "s": "Naukri"
+  },
+  "58529553699d2f78": {
+   "c": "boeing",
+   "t": "Associate Software Engineer - Analytics",
+   "d": "2026-11-05",
+   "s": "Naukri"
+  },
+  "b0bac3a9319f5e92": {
+   "c": "okta",
+   "t": "Software Architect, Java Backend",
+   "d": "2026-11-05",
+   "s": "Naukri"
+  },
+  "22292f3edc4f3fd0": {
+   "c": "okta",
+   "t": "Solutions Engineer, Okta",
+   "d": "2026-11-05",
+   "s": "Naukri"
+  },
+  "27ef65bd749ff428": {
+   "c": "prodapt solutions",
+   "t": "Data Scientist",
+   "d": "2026-11-05",
+   "s": "Naukri"
+  },
+  "4ba86977461ffd2b": {
+   "c": "mufg enterprise",
+   "t": "AI Engineer For IAM - AVP",
+   "d": "2026-11-05",
+   "s": "Naukri"
+  },
+  "39e245e18dd84981": {
+   "c": "fis",
+   "t": "Project Manager Sr Lead, PMO Agentic AI",
+   "d": "2026-11-05",
+   "s": "Naukri"
+  },
+  "b5e0472195620be5": {
+   "c": "capgemini",
+   "t": "Software Engineer",
+   "d": "2026-11-05",
+   "s": "Naukri"
+  },
+  "143102432749adfd": {
+   "c": "boeing",
+   "t": "Lead Software Engineer - Java",
+   "d": "2026-11-05",
+   "s": "Naukri"
+  },
+  "4be69f13fea134c2": {
+   "c": "okta",
+   "t": "Solution Engineer",
+   "d": "2026-11-05",
+   "s": "Naukri"
+  },
+  "f5d12f9606798c94": {
+   "c": "ford business solutions",
+   "t": "Senior Software Developer",
+   "d": "2026-11-05",
+   "s": "Naukri"
+  },
+  "55113af8fea464d5": {
+   "c": "mishipay",
+   "t": "Senior Python Backend Developer (Immediate Joiners Only)",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "a2d232da767f71c3": {
+   "c": "jrd systems",
+   "t": "Python Developer",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "501d3ad2b763f246": {
+   "c": "millennium",
+   "t": "Software Engineer",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "46fa9554cd46b9b9": {
+   "c": "ey",
+   "t": "FSRC - R AND CT - RCT - PYTHON - AI - SENIOR",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "b1d47298bc99f1f5": {
+   "c": "ust",
+   "t": "Python Fullstack Developer",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "f775ce66c6aa7ac2": {
+   "c": "pwc acceleration center india",
+   "t": "Full Stack Python Engineer - Associate",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "15700ba50bc6f15c": {
+   "c": "societe generale global solution centre",
+   "t": "Specialist Software Engineer - Python Developer",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "d83f63a03c526d68": {
+   "c": "auto data catalog",
+   "t": "Software Development Engineer",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "c4d438cd70a23e83": {
+   "c": "planview",
+   "t": "Sr. Software Engineer I",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "46620d16fbe9bd04": {
+   "c": "global technologies",
+   "t": "Senior Python Developer - (Python with SSH/Paramiko + Pytest / Robot Framework ) 5+yrs,Bangalore, Immediate joiners only",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "5eeffe2d0f7b2097": {
+   "c": "pearson",
+   "t": "Senior Software Engineer",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "5651ded3eb6047d6": {
+   "c": "globallogic",
+   "t": "Consultant (Python+React + TypeScript Expertise) with Gen AI/LLM Integration IRC308096",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "0537937cc2df4e70": {
+   "c": "ebay",
+   "t": "Platform Engineer, Python",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "6117f95659faea2e": {
+   "c": "guidewire",
+   "t": "Senior Manager, Software Engineering - Cloud/ Kubernetes Platform",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "1e96b62685d34d44": {
+   "c": "capgemini engineering",
+   "t": "C++ Python Developer",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "9fddd3f1faebe6a8": {
+   "c": "globalfoundries",
+   "t": "Embedded Software Engineer - Zephyr RTOS",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "0eb66fd1b37c5d43": {
+   "c": "google",
+   "t": "Senior Software Engineer, Full Stack, Search",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "025d834d1ff0cd78": {
+   "c": "apple",
+   "t": "Software Engineer, Cloud Networking (Test Automation)",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "47761ac3902622a5": {
+   "c": "apple",
+   "t": "Junior Software Development Engineer in Test, Retail Engineering - IS&T",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "890eb6da9044e05f": {
+   "c": "jazzx ai",
+   "t": "Senior Staff Software Engineer",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "dec81aae55f2da0d": {
+   "c": "apple",
+   "t": "Junior Application Support & Site Reliability Engineer - Sales Engineering,IS&T",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "42f0266467093dba": {
+   "c": "genpact",
+   "t": "Data Architect - Data Engineering 4D",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "9f3950e6eda124e2": {
+   "c": "optimhire",
+   "t": "Senior SDET (Backend QA)",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "fa2e120ef00d9c8e": {
+   "c": "merck kgaa",
+   "t": "Data Analyst",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "0f526275caba7fdb": {
+   "c": "dataart",
+   "t": "Senior Data QE Engineer, Hyderabad-based",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "3f1ff2e33d67f8be": {
+   "c": "alcon",
+   "t": "Principal, Data Science (Sr. AI Engineer)",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "286c46850555daf5": {
+   "c": "hp",
+   "t": "Software Engineer 4",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "6f58405d1bf3e6b4": {
+   "c": "google",
+   "t": "Google Workspace Delivery Manager",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "b3cb844f7d15d40a": {
+   "c": "capgemini",
+   "t": "MS Power Apps Developer -C2",
+   "d": "2026-11-05",
+   "s": "Naukri"
+  },
+  "6f038849abd14c7c": {
+   "c": "ge vernova",
+   "t": "Senior Engineer Grid Integration and Stability",
+   "d": "2026-11-05",
+   "s": "Naukri"
+  },
+  "6be8ae201ab54d02": {
+   "c": "boeing",
+   "t": "Associate Software Developer - Java Full Stack",
+   "d": "2026-11-05",
+   "s": "Naukri"
+  },
+  "63dd28832fdc1435": {
+   "c": "ge vernova",
+   "t": "Operator Training Simulator Release Train Engineer",
+   "d": "2026-11-05",
+   "s": "Naukri"
+  },
+  "c518c10dbbb7ba5e": {
+   "c": "v3 staffing",
+   "t": "Fullstack Developer",
+   "d": "2026-11-05",
+   "s": "Naukri"
+  },
+  "8510f0716b246b35": {
+   "c": "intelli search services",
+   "t": "Web Application Developer",
+   "d": "2026-11-05",
+   "s": "Naukri"
+  },
+  "56c3dd02c0c8187b": {
+   "c": "spes staffing solutions",
+   "t": "Mobile Application Developer",
+   "d": "2026-11-05",
+   "s": "Naukri"
+  },
+  "9573180c599f358f": {
+   "c": "hcltech",
+   "t": "Golang Developer",
+   "d": "2026-11-05",
+   "s": "Naukri"
+  },
+  "10d0bb6fdd2dc7ea": {
+   "c": "whiteblue cloud services",
+   "t": "Desktop Application Developer C++ or C#",
+   "d": "2026-11-05",
+   "s": "Naukri"
+  },
+  "ec474c83dc4ddb59": {
+   "c": "tech mahindra",
+   "t": "Java Full Stack Developer",
+   "d": "2026-11-05",
+   "s": "Naukri"
+  },
+  "d03f2025898a026b": {
+   "c": "bounteous",
+   "t": "Angular Full Stack Developer",
+   "d": "2026-11-05",
+   "s": "Naukri"
+  },
+  "7a3c5d4a7cb0a5e0": {
+   "c": "cerebra",
+   "t": "Java Full Stack Developer",
+   "d": "2026-11-05",
+   "s": "Naukri"
+  },
+  "9a2870fdd676b56f": {
+   "c": "shibaura machine india",
+   "t": "CNC VMC Machine Operator",
+   "d": "2026-11-05",
+   "s": "Naukri"
+  },
+  "680bf8498e195897": {
+   "c": "quess it solutions",
+   "t": "Java Full Stack Developer - Remote",
+   "d": "2026-11-05",
+   "s": "Naukri"
+  },
+  "e49716991090e1c3": {
+   "c": "deloitte legal",
+   "t": "Sr . Generative AI Engineer",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "3f6cfa8f7e1da25c": {
+   "c": "neuranx ai",
+   "t": "AI/ML Engineer – Python (Chennai)",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "9a65647e234063b9": {
+   "c": "aventra ai",
+   "t": "Conversational AI Engineer",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "a7979a4a3ac8c21d": {
+   "c": "datavruti",
+   "t": "Principal AI Engineer - Chennai (WFO) - 3.30 PM to 12.30 AM",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "923e30a9361436b7": {
+   "c": "poshmark",
+   "t": "Staff Engineer, Machine Learning",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "27d7b6a6949699f3": {
+   "c": "ey",
+   "t": "FSRC - R AND CT - RCT - PYTHON - AI - SENIOR",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "5f108cbadfdcd24e": {
+   "c": "larsen toubro",
+   "t": "AI & Automation Engineer",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "31ee59022849d369": {
+   "c": "deloitte",
+   "t": "USI-EH27-Consulting-FT-BF-Finance AI- Analytics and Insights Engineer III",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "8a29c5d6212a4936": {
+   "c": "giggso",
+   "t": "Senior AI/ML Engineer",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "cb33cef1eafb2119": {
+   "c": "skaas skills as a service",
+   "t": "AI/ML Engineer",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "468a9787bdccc22e": {
+   "c": "ust",
+   "t": "Lead I- Data Science FS",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "bdf9a9e0a5fd320b": {
+   "c": "optum",
+   "t": "AI or ML Engineer",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "80c005cf05126454": {
+   "c": "india health link pvt ltd",
+   "t": "Senior Product Engineer ( WFO ) Chennai",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "fd0aff2cc81b43cb": {
+   "c": "quvia",
+   "t": "QA Automation Engineer / Network Automation Engineer.",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "e82c45f916852043": {
+   "c": "kyndryl",
+   "t": "Infrastructure Specialist",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "88635e792fc0d26d": {
+   "c": "aspire systems",
+   "t": "Marketing Partner",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "a0f27f680689c570": {
+   "c": "apple",
+   "t": "Manufacturing Optimization Engineer",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "66c9c0c6810d878e": {
+   "c": "ford motor company",
+   "t": "Senior Data Engineer",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "1409100bc903c1d8": {
+   "c": "cgi",
+   "t": "Data Engineer",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "a6f03c0807f59a77": {
+   "c": "cognizant",
+   "t": "Critical Manufacturing MES developer",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "94b5f7c5def0b289": {
+   "c": "citiustech",
+   "t": "Lead Engineer - II_DevSecOps",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "558fd34d81fe595b": {
+   "c": "nielseniq",
+   "t": "Devops Engineer (1-3 years)",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "f3fb8ffaf9f9a15a": {
+   "c": "prophoenix technologies pvt ltd",
+   "t": "Artificial Intelligence Engineer",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "afae7d6080b3ab62": {
+   "c": "luxoft",
+   "t": "Senior .NET Microservices Engineer",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "ba95f8a3e3ada617": {
+   "c": "microchip technology",
+   "t": "Senior Engineer I - Verification",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "5a13242ccb760b97": {
+   "c": "ntt data",
+   "t": "Systems Integration Senior Specialist",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "07a2ad3b76493e9e": {
+   "c": "ai infotech",
+   "t": "QA Lead",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "56ca4c2438a0b7a6": {
+   "c": "kla",
+   "t": "Senior Research Specialist, AI & ML",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "1ecc4032736f6836": {
+   "c": "efforts solutions it",
+   "t": "Hardware & Network Engineer",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "e2ef9446b12e3ee1": {
+   "c": "vanguard",
+   "t": "AI Investigations & Enforcement Analyst",
+   "d": "2026-11-05",
+   "s": "Naukri"
+  },
+  "4827beaf4f4487e5": {
+   "c": "okta",
+   "t": "Staff Software Engineer",
+   "d": "2026-11-05",
+   "s": "Naukri"
+  },
+  "9811ac69476e5da4": {
+   "c": "ge vernova",
+   "t": "PCS Efficiency/Artificial Intelligence Leader",
+   "d": "2026-11-05",
+   "s": "Naukri"
+  },
+  "841f1aca38cc7eb5": {
+   "c": "sap",
+   "t": "Data and Applied Scientist -(AIREE) ARC - AI Research To Capability",
+   "d": "2026-11-05",
+   "s": "Naukri"
+  },
+  "c1deed6931e030eb": {
+   "c": "okta",
+   "t": "Staff Engineer - Fullstack",
+   "d": "2026-11-05",
+   "s": "Naukri"
+  },
+  "3c6f438617175e01": {
+   "c": "teceze india",
+   "t": "Senior Python Developer",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "765c3e96bbc31b9e": {
+   "c": "teceze india",
+   "t": "Python Developer",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "6af6ee994bc5a442": {
+   "c": "engradar",
+   "t": "Software Engineer",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "635aa1c08dd2d8c4": {
+   "c": "walmart global tech india",
+   "t": "(IND) Software Engineer III",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "edb9e3e6863e0c71": {
+   "c": "ascendion",
+   "t": "Senior Python - Spring Boot Developer with GCP (Immediate Joiner)",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "1b2f6ec15e99ddca": {
+   "c": "ford motor company",
+   "t": "IT Supply Chain Analyst",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "ea5f167aa57ebfbd": {
+   "c": "valeo",
+   "t": "Junior Engineer",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "c17dc07f660a8916": {
+   "c": "newpage digital healthcare solutions",
+   "t": "Senior Manager- Forward Deployed Engineer",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "5c9bd85374b197d0": {
+   "c": "desirous global consulting",
+   "t": "Senior Developer- Python (Full Stack)",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "281232d72a9202df": {
+   "c": "desirous global consulting",
+   "t": "React JS Developer",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "6f4f9d6e45cca3f6": {
+   "c": "desirous global consulting",
+   "t": "Sr. Full Stack Engineer",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "260f708e151df85c": {
+   "c": "standard chartered bank",
+   "t": "Manager, SRE - FCSO",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "4884910fd3c4c1a0": {
+   "c": "desirous global consulting",
+   "t": "Software Developer",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "0931dfc1326909fa": {
+   "c": "india health link pvt ltd",
+   "t": "QA Engineer (WFO) - Chennai",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "fdbffa0ab84c1224": {
+   "c": "desirous global consulting",
+   "t": "Backend Developer - Java/Spring Boot",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "db1edd88c1e0e142": {
+   "c": "okta",
+   "t": "Senior Software Engineer - Java Developer",
+   "d": "2026-11-05",
+   "s": "Naukri"
+  },
+  "591f88fc8666934e": {
+   "c": "ge vernova",
+   "t": "Product Security Analyst",
+   "d": "2026-11-05",
+   "s": "Naukri"
+  },
+  "89475423e92bfafc": {
+   "c": "tech mahindra",
+   "t": "Java Full Stack Developer",
+   "d": "2026-11-05",
+   "s": "Naukri"
+  },
+  "9ef5dafa91497cfe": {
+   "c": "cerebra",
+   "t": "Java Full Stack Developer",
+   "d": "2026-11-05",
+   "s": "Naukri"
+  },
+  "07a972e69a25609b": {
+   "c": "sycamore",
+   "t": "Forward Deployed & Product Engineer",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "1d8d8d14ea3c4789": {
+   "c": "trail",
+   "t": "Forward Deployed Engineer",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "a9a2618c2086f91f": {
+   "c": "metantz",
+   "t": "Forward Deployed Engineer",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "2a0ea28076a1569f": {
+   "c": "enhub ai",
+   "t": "Forward Deployed Engineer",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "5bf1fedcb6dfbd1e": {
+   "c": "google",
+   "t": "Forward Deployed Engineer V, GenAI, Google Cloud",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "702605cd9dce80c3": {
+   "c": "host360",
+   "t": "Forward Deployed Engineer – Cloud & AI Infrastructure",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "d4a33482476ad0a2": {
+   "c": "google",
+   "t": "Forward Deployed Engineer, Data Cloud, Google Cloud",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "f64dd519b3218794": {
+   "c": "globallogic",
+   "t": "Forward Deployed Engineer IRC300053",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "93a29d8e0add8651": {
+   "c": "globallogic",
+   "t": "Forward Deployed Engineer IRC300053",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "802e5ddeae91ab9e": {
+   "c": "wisdomai",
+   "t": "Agentic Context Engineer - Bengaluru, India",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "9f358031d3d96e39": {
+   "c": "jobgether",
+   "t": "Field Engineer",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "571614382b26c4c9": {
+   "c": "mathworks",
+   "t": "Application Engineer - Signal Processing & HDL",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "8d8f23ba46c3cf53": {
+   "c": "pramaana labs",
+   "t": "Forward Deployed Engineer",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "acd321615f4f58bc": {
+   "c": "gsk",
+   "t": "Staff, Forward Deployed Engineer",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "34f31c59dad74be1": {
+   "c": "gsk",
+   "t": "Engineer I, Forward Deployed Engineer",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "3654ec06502ea47e": {
+   "c": "synopsys",
+   "t": "R&D Engineering, Principal Engineer",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "2a42f45519760dbb": {
+   "c": "bolna ai",
+   "t": "Product Manager",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "ddd57d406d8e11fb": {
+   "c": "google",
+   "t": "Forward Deployed Engineering Manager, Data Cloud, Google Cloud",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "e541a4d2ec83a0ff": {
+   "c": "optum",
+   "t": "Principal AI/ML Engineer",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "815385efc2583b5d": {
+   "c": "caterpillar",
+   "t": "Data Specialist",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "e68c92aa28b2be10": {
+   "c": "milestone technologies",
+   "t": "Senior Analytics Engineer",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "f1a7e9e2a0aaf0f6": {
+   "c": "google",
+   "t": "Forward Deployed Engineer, Data Cloud, Google Cloud",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "b7e9cbe3201a8d85": {
+   "c": "google",
+   "t": "Forward Deployed Engineer V, GenAI, Google Cloud",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "1aaf744db07e08c5": {
+   "c": "google",
+   "t": "AI Outcome Customer Engineer, FDE, Google Cloud",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "104482ae2eb63132": {
+   "c": "gsk",
+   "t": "Senior Principal Engineer– Data",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "b2e932f4f656afb1": {
+   "c": "milestone technologies",
+   "t": "AI Solution Engineer",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "055edbb26145149a": {
+   "c": "apple",
+   "t": "Forward-Deployed Engineer - Global Sourcing & Supply Management (GSSM) Solutions",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "25d1ac58c7d8100e": {
+   "c": "accordion partners",
+   "t": "Senior Consultant CPM (Forward Deployed Engineer)",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "f6583af9aebc0579": {
+   "c": "coursera",
+   "t": "Senior Product Manager, Applied AI",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "1ea1391d84e8533d": {
+   "c": "adaequare",
+   "t": "Lead - Forward Deployed Engineer",
+   "d": "2026-11-05",
+   "s": "Naukri"
+  },
+  "4e4238c60d8202fc": {
+   "c": "2coms",
+   "t": "Hiring Forward Deployed Engineer (FDE) - PAN INDIA",
+   "d": "2026-11-05",
+   "s": "Naukri"
+  },
+  "53fb66556e970b4c": {
+   "c": "jobaaj com",
+   "t": "Forward Deployed Engineer",
+   "d": "2026-11-05",
+   "s": "Naukri"
+  },
+  "9ef4ed52e4e8c850": {
+   "c": "infinityquest it services",
+   "t": "Ai Ml Engineer",
+   "d": "2026-11-05",
+   "s": "Naukri"
+  },
+  "0cf89f76677c9dfb": {
+   "c": "tekgence",
+   "t": "Site Reliability Engineer",
+   "d": "2026-11-05",
+   "s": "Naukri"
+  },
+  "3e359662792b7c2d": {
+   "c": "golden opportunities",
+   "t": "Forward Deployed Engineer",
+   "d": "2026-11-05",
+   "s": "Naukri"
+  },
+  "baad1d58ce6f2b92": {
+   "c": "infosys",
+   "t": "Intune Consultant",
+   "d": "2026-11-05",
+   "s": "Naukri"
+  },
+  "69b5cd40e0b4b3d0": {
+   "c": "infosys",
+   "t": "Ignition Developer",
+   "d": "2026-11-05",
+   "s": "Naukri"
+  },
+  "87b651760b42569e": {
+   "c": "infosys",
+   "t": "Aerchain Developer",
+   "d": "2026-11-05",
+   "s": "Naukri"
+  },
+  "5200f15d7de7be6f": {
+   "c": "infosys",
+   "t": "NICE CXone Consultant",
+   "d": "2026-11-05",
+   "s": "Naukri"
+  },
+  "3ff82bdfd8d717c2": {
+   "c": "infosys",
+   "t": "Genesys Developer",
+   "d": "2026-11-05",
+   "s": "Naukri"
+  },
+  "9768773687305c38": {
+   "c": "infosys",
+   "t": "OpenText Archive center Developer",
+   "d": "2026-11-05",
+   "s": "Naukri"
+  },
+  "d4b8a47d174cbdf7": {
+   "c": "infosys",
+   "t": "Kafka Consultant",
+   "d": "2026-11-05",
+   "s": "Naukri"
+  },
+  "4fe81d5b81a03124": {
+   "c": "infosys",
+   "t": "Palantir Foundry Developer",
+   "d": "2026-11-05",
+   "s": "Naukri"
+  },
+  "51d405f4cc899543": {
+   "c": "accenture in india",
+   "t": "AI / ML Engineer",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "f819efa696785268": {
+   "c": "ltm",
+   "t": "Senior Specialist - AI Platform Engineer",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "3a17f8698a4def78": {
+   "c": "cognizant",
+   "t": "Generative AI / LLM Engineer",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "b5a4d6f25182769a": {
+   "c": "aventra ai",
+   "t": "LLM Engineer",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "a43d1724764ac249": {
+   "c": "rootlet solution technology",
+   "t": "Artificial Intelligence Developer",
+   "d": "2026-11-05",
+   "s": "Naukri"
+  },
+  "4f20eba8c7779775": {
+   "c": "tattvam media private limited",
+   "t": "AI Graphic Designer/Video Editor - Generative AI - Remote - Agency",
+   "d": "2026-11-05",
+   "s": "Naukri"
+  },
+  "01b9f18e652c86f6": {
+   "c": "straive",
+   "t": "Director Data Science",
+   "d": "2026-11-05",
+   "s": "Naukri"
+  },
+  "60f1b3a3e9933e63": {
+   "c": "abotts ai india",
+   "t": "Power Virtual Agents (PVA) & Copilot Developer",
+   "d": "2026-11-05",
+   "s": "Naukri"
+  },
+  "902d547ba81171c3": {
+   "c": "lumen technologies",
+   "t": "SR AI ENGINEER CONSULTANT II-INDIA",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "8046ffac8f769e0c": {
+   "c": "pwc india",
+   "t": "IN_Sr Associate_GenAI and Agentic AI_GCC_Advisory_Bangalore",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "4556f364c9230de5": {
+   "c": "health loft",
+   "t": "Product Manager with AI Automation- India",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "b14fff0a55a1f168": {
+   "c": "playlist",
+   "t": "Software Engineer I",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "65ba8de9f5e38331": {
+   "c": "harlax",
+   "t": "Backend Developer",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "080dbc71af7b78b6": {
+   "c": "norstella",
+   "t": "Senior LLMOps Engineer (AWS & GenAI)",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "11bed9afa6705ac0": {
+   "c": "luxoft",
+   "t": "Data Analyst/Data Science, AIOps Engineer",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "1f415651ec7ea83c": {
+   "c": "circle internet financial",
+   "t": "Lead Engineer, AI Platform",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "31f88de20201dd7f": {
+   "c": "intraedge technology",
+   "t": "Data Engineer - AI/ML Engineer",
+   "d": "2026-11-05",
+   "s": "Naukri"
+  },
+  "cfd2cd0333dc52fd": {
+   "c": "straive",
+   "t": "Legal Copy Editor",
+   "d": "2026-11-05",
+   "s": "Naukri"
+  },
+  "2727ef04f44ed1e0": {
+   "c": "quest global",
+   "t": "Senior DevOps Engineer – Jenkins, GitLab, Groovy, Chef, AWS",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "6b18b075df43b5f3": {
+   "c": "enterprise bot",
+   "t": "DevOps Engineer",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "edd46a5fdd9b28eb": {
+   "c": "motorola solutions",
+   "t": "Sr Software Engineer-Devops",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "ff08f5192fa5d0fa": {
+   "c": "bureau",
+   "t": "Senior DevOps Engineer",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "236b94db46d7316e": {
+   "c": "fulfillment iq",
+   "t": "DevOps Engineer (Azure / GCP)",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "c8f3f300add48732": {
+   "c": "trustgrid",
+   "t": "DevOps & Cloud Infrastructure Engineer (GCP)",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "c2b3a458f82cdcdd": {
+   "c": "netradyne",
+   "t": "Senior DevOps Engineer",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "4e812a0428735f37": {
+   "c": "msg global solutions",
+   "t": "Devops Engineer",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "802fe204f13e5937": {
+   "c": "societe generale global solution centre",
+   "t": "Specialist Software Engineer - DevOps",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "2dc416e968f985d8": {
+   "c": "lseg",
+   "t": "Lead Network DevOps Engineer",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "e21a1552af847341": {
+   "c": "infor",
+   "t": "Software Engineer",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "cffabd97075e0847": {
+   "c": "nvidia",
+   "t": "Senior DevOps Engineer",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "1ee0752c4514e78a": {
+   "c": "itc infotech",
+   "t": "DevOps Engineer",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "e08265995f5d458d": {
+   "c": "societe generale global solution centre",
+   "t": "Specialist Software Engineer- Devops SRE",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "7b25e12820bdcb0c": {
+   "c": "sandisk",
+   "t": "Sr. Cloud Engineer - Systems Automation ( 5-9 years) Bangalore",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "caad7bd05c5fa67b": {
+   "c": "quest global",
+   "t": "Senior DevOps Engineer – Jenkins, GitLab, Groovy, Chef, AWS",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "fdf4fb60c7117ded": {
+   "c": "apple",
+   "t": "DevOps Engineer",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "13fc256a7bdca8fc": {
+   "c": "apple",
+   "t": "Site Reliability Engineer - Apple Services Engineering",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "7c7fd5c598718ee5": {
+   "c": "luxoft",
+   "t": "Senior DevOps Engineer - Networking",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "918c6cfd6202902e": {
+   "c": "fulfillment iq",
+   "t": "DevOps Engineer (Azure / GCP)",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "7db9c41f7fc49503": {
+   "c": "ntt data",
+   "t": "Ent. and Bus. App. Prin. Cnslt.",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "59ba4cc9b6f27289": {
+   "c": "enterprise bot",
+   "t": "DevOps Engineer",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "4b12de1357af40ea": {
+   "c": "jpmorganchase",
+   "t": "Lead Software Engineer - Production Support & SRE",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "e47bfd5001292f72": {
+   "c": "atkinsr alis",
+   "t": "Hybrid Cloud Infrastructure Engineer",
+   "d": "2026-11-05",
+   "s": "Naukri"
+  },
+  "43f260a5915aed0b": {
+   "c": "atkinsr alis",
+   "t": "Senior DevOps Engineer",
+   "d": "2026-11-05",
+   "s": "Naukri"
+  },
+  "e79c4405aa5cd23f": {
+   "c": "conqueri technologies",
+   "t": "Cloud Architect",
+   "d": "2026-11-05",
+   "s": "Naukri"
+  },
+  "9895378ab01d4f2c": {
+   "c": "infotech",
+   "t": "IT Recruiter (Night Shift) Earn up To 1 lakh per successful submission",
+   "d": "2026-11-05",
+   "s": "Naukri"
+  },
+  "a1fb585faaa287f8": {
+   "c": "nityo infotech",
+   "t": "Senior Us Technical Recruiter",
+   "d": "2026-11-05",
+   "s": "Naukri"
+  },
+  "02d1ed0b01b54379": {
+   "c": "synerax cloud technologies",
+   "t": "Cloud Architect (GCP)",
+   "d": "2026-11-05",
+   "s": "Naukri"
+  },
+  "aff7091400c8c093": {
+   "c": "nielseniq",
+   "t": "Devops Engineer (1-3 years)",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "7c747d58bb1addfd": {
+   "c": "tata communications",
+   "t": "Manager - Cloud Operations",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "98a4de4edde32195": {
+   "c": "abacus",
+   "t": "Cloud Engineer, Professional Services",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "ed68ff2cc658c821": {
+   "c": "swits digital private limited",
+   "t": "Google Cloud Platform (GCP) - D",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "956242663a9793e0": {
+   "c": "standard chartered india",
+   "t": "Manager, SRE - FCSO",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "2c38d7c1f783fc58": {
+   "c": "freshworks",
+   "t": "Senior Staff Engineer - Systems",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "0cc114de7605b4aa": {
+   "c": "caterpillar inc",
+   "t": "System Architect – Platform Engineering & Cloud",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "56ae1cfb9a16c403": {
+   "c": "purchasing power",
+   "t": "Staff Software Engineer",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "5f828a4247c0e28e": {
+   "c": "dhl",
+   "t": "IT Solutions Consultant",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "27e0be4ca4c287ed": {
+   "c": "desirous global consulting",
+   "t": "DevOps Engineers : Jenkins, Hithub",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "aeb3d4494796720b": {
+   "c": "neurealm",
+   "t": "Lead - Release Engineer",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "a2df826fe856c380": {
+   "c": "atkinsr alis",
+   "t": "Hybrid Cloud Infrastructure Engineer",
+   "d": "2026-11-05",
+   "s": "Naukri"
+  },
+  "7155e73572296694": {
+   "c": "ntt data north america",
+   "t": "Systems Integration Senior Specialist_Cloud-AIML Platform eng",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "8dc73c7b74329a81": {
+   "c": "ntt data north america",
+   "t": "Systems Integration Senior SpecialistCloud-AIML Platform eng",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "5df84030e8c2fd56": {
+   "c": "relevance lab",
+   "t": "Terraform Engineer",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "4a81b9646045181a": {
+   "c": "smarsh",
+   "t": "Platform Engineer III – AWS Network",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "2944c61b7261604c": {
+   "c": "ey",
+   "t": "Oracle Cloud Infra Admin-IPaaS Devops Engineer-Senior",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "9bcb0b0ce7fb9cea": {
+   "c": "societe generale global solution centre",
+   "t": "Lead Software Engineer - AWS automation with Java/Spring Boot, Kubernetes & Spark",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "d11a004485a10f4f": {
+   "c": "wisdomai",
+   "t": "Software Engineer, Platforms",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "9adc025b20a08a88": {
+   "c": "unisys",
+   "t": "DevOps Engineer - Azure Databricks & Azure Cloud Operations",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "f298f9e728d4796f": {
+   "c": "barclays",
+   "t": "Software Engineer",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "ea27b54f962fe5b1": {
+   "c": "barclays",
+   "t": "Senior Site Reliability Engineer - Private Cloud",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "1cf300485da377d9": {
+   "c": "apple",
+   "t": "Software Engineer - Java, Spring Boot and Microservices",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "315db3ffd36deba9": {
+   "c": "quest global",
+   "t": "Java AWS Backend Developer (3–6 Years)",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "516b4a79e2f74c89": {
+   "c": "infosys",
+   "t": "Java SpringBoot Developer",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "fe903461784f691e": {
+   "c": "ey",
+   "t": "DE-.NET-Rheem Staff",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "36eb79a3a1ecfeeb": {
+   "c": "blackrock",
+   "t": "Product Specialist / Platform Engineer, Atlassian Confluence Cloud, Tech & Ops, Associate",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "d5db37505ecc37d1": {
+   "c": "apple",
+   "t": "ML Infrastructure Service Reliability Engineer- Apple Services Engineering",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "d36943fa36265ba8": {
+   "c": "gsk",
+   "t": "Senior Principal Engineer-Digital Marketing Cloud Platform Engineering",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "3cfc34d7de04b16a": {
+   "c": "chevron",
+   "t": "Senior Solution Architect",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "a456a8ebccacb571": {
+   "c": "accel it services",
+   "t": "Walk-in || Desktop Support Engineer L1 And L2",
+   "d": "2026-11-05",
+   "s": "Naukri"
+  },
+  "b6c7313a9d97151c": {
+   "c": "ontime global",
+   "t": "Senior Engineer Npd",
+   "d": "2026-11-05",
+   "s": "Naukri"
+  },
+  "a230eeb3dc690d4e": {
+   "c": "okta",
+   "t": "Principal Software Engineer",
+   "d": "2026-11-05",
+   "s": "Naukri"
+  },
+  "c5e8b877e812a2ca": {
+   "c": "optum",
+   "t": "Architect",
+   "d": "2026-11-05",
+   "s": "Naukri"
+  },
+  "c2c2aa77df988e74": {
+   "c": "synoptek",
+   "t": "Cloud Engineer I – India",
+   "d": "2026-11-05",
+   "s": "Naukri"
+  },
+  "285bafa1c324f764": {
+   "c": "atyeti",
+   "t": "Senior .Net Developer",
+   "d": "2026-11-05",
+   "s": "Naukri"
+  },
+  "72a3c779e8b0e203": {
+   "c": "amity software systems",
+   "t": "Tech Lead For Core Banking Product Development",
+   "d": "2026-11-05",
+   "s": "Naukri"
+  },
+  "310e22e06c3cb6d2": {
+   "c": "oracle",
+   "t": "Senior Application Software Engineer",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "eb1c6581075d9353": {
+   "c": "dotsolved systems inc",
+   "t": "AWS Engineer",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "30905198ae2414d4": {
+   "c": "newpage solutions",
+   "t": "Senior Manager- Forward Deployed Engineer",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "c06fea0669ec84fd": {
+   "c": "swits digital private limited",
+   "t": "AWS Cloud Infrastructure Architect - D",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "8911fe2b593482db": {
+   "c": "accenture in india",
+   "t": "AI Infrastructure Architect",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "7b464637f0eb0b9a": {
+   "c": "ford motor company",
+   "t": "Software Development Engineer",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "c1333df2a1a3fa78": {
+   "c": "telstra",
+   "t": "Senior Network Engineer (Voice & IPX)",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "daf763d95742459b": {
+   "c": "nobl q",
+   "t": "Full Stack Developer - Golang / React",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "b15a395489af2378": {
+   "c": "hewlett packard enterprise hpe",
+   "t": "WLAN Technical Support Engineer",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "5aa2900aa20509ac": {
+   "c": "ncr voyix",
+   "t": "Software Engineer - .NET Developer",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "caa9ecc950c76259": {
+   "c": "natwest group",
+   "t": "Quality Automation Specialist, Power Automate",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "d1eac2c1e302a7c5": {
+   "c": "caterpillar",
+   "t": "System Architect – Platform Engineering & Cloud",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "38a5cee353ff1729": {
+   "c": "neurealm",
+   "t": "Lead Java Full Stack Engineer",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "87a0edfbb46efef0": {
+   "c": "vanguard",
+   "t": "Application Engineer - II Data - ESG/Reference GIFS",
+   "d": "2026-11-05",
+   "s": "Naukri"
+  },
+  "2ae13f636e464bef": {
+   "c": "lseg",
+   "t": "Senior Platform Reliability Engineer - Azure",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "f709533332097612": {
+   "c": "first citizens india",
+   "t": "Lead Software Engineer - DevOps",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "61ac9db1c334c906": {
+   "c": "societe generale global solution centre",
+   "t": "Lead Software Engineer - DevOps",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "e556d702cd635348": {
+   "c": "accenture in india",
+   "t": "Application Support Engineer",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "936d532df6352200": {
+   "c": "accenture in india",
+   "t": "Packaged/SaaS Application Engineer",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "951ab46a2dce0219": {
+   "c": "ntt data north america",
+   "t": "Systems Integration Specialist Advisor_Infra Automation Containers",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "c7ce6f00d61e7f49": {
+   "c": "trintech",
+   "t": "Senior Software Engineer",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "389413764cbe5dc9": {
+   "c": "rapyder cloud solutions",
+   "t": "Associate AI Solution Architect",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "ed80d0f96874b0b3": {
+   "c": "rapyder cloud solutions",
+   "t": "Enterprise Sr. AI Solution Architect",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "454010110fd75923": {
+   "c": "ntt data",
+   "t": "Systems Integration Specialist Advisor_Infra Automation Containers",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "1bd077b93c1a92e5": {
+   "c": "atyeti",
+   "t": "Dot Net Developer",
+   "d": "2026-11-05",
+   "s": "Naukri"
+  },
+  "18f9bf9ede76ba8b": {
+   "c": "tanasvi technologies",
+   "t": "Iot Engineer",
+   "d": "2026-11-05",
+   "s": "Naukri"
+  },
+  "fb2ebefaf10337d9": {
+   "c": "smile management solutions",
+   "t": "Electrical/Instrumentation Engineer",
+   "d": "2026-11-05",
+   "s": "Naukri"
+  },
+  "1787ffca7b267657": {
+   "c": "atkinsr alis",
+   "t": "Airport Systems BHS (SME)",
+   "d": "2026-11-05",
+   "s": "Naukri"
+  },
+  "ecf0430521e622cb": {
+   "c": "atkinsr alis",
+   "t": "Quality Assurance Specialist",
+   "d": "2026-11-05",
+   "s": "Naukri"
+  },
+  "6abc33b1ea2d044a": {
+   "c": "vlink",
+   "t": "Teradata Platform Engineer",
+   "d": "2026-11-05",
+   "s": "Naukri"
+  },
+  "4369ab036c85cd13": {
+   "c": "designtech systems",
+   "t": "Technical Writer",
+   "d": "2026-11-05",
+   "s": "Naukri"
+  },
+  "cca3aa240ee7e1a5": {
+   "c": "cognizant",
+   "t": "Critical Manufacturing MES developer",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "9597c7e2f6d0b5e8": {
+   "c": "starcom consultant",
+   "t": "Senior QA Engineer(GCP)",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "7309e288a88bfbab": {
+   "c": "wood",
+   "t": "Senior Software Developer (.Net Full Stack)",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "0468090904bf0627": {
+   "c": "msc mediterranean shipping company",
+   "t": ".NET - Technical Expert (Architect)",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "f87d3cbfa1a84b7d": {
+   "c": "atkinsr alis",
+   "t": "Quality Assurance Specialist",
+   "d": "2026-11-05",
+   "s": "Naukri"
+  },
+  "d64373a293825762": {
+   "c": "capgemini",
+   "t": "Cloud Architect",
+   "d": "2026-11-05",
+   "s": "Naukri"
+  },
+  "42c354a8c7b25c41": {
+   "c": "sycamore",
+   "t": "Infrastructure Engineer",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "a0cf1090872f6450": {
+   "c": "hp",
+   "t": "Software System Engineer",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "5e7884552c52de43": {
+   "c": "together ai",
+   "t": "Senior Software Engineer — Infra Agent Systems Remote India",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "1e84b500e39b9d82": {
+   "c": "eli lilly and company",
+   "t": "Principal Platform Engineer - Research Data Platform",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "8b794bf9ad9e4ee8": {
+   "c": "motorola solutions",
+   "t": "Senior Platform Engineer",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "b95abb5da5efade7": {
+   "c": "lseg",
+   "t": "ML Platform Lead Engineer",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "6066e165ebff4856": {
+   "c": "siemens",
+   "t": "Software Engineer",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "9a48c43327ac2df2": {
+   "c": "apple",
+   "t": "UX/UI Designer",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "16bf120c34cbe85c": {
+   "c": "l3harris",
+   "t": "Associate IT Security",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "5c54cad290a831a6": {
+   "c": "apple",
+   "t": "Service Reliability Engineer - Applications Support",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "3ac8c12cc5e3625a": {
+   "c": "tesco",
+   "t": "Software Development Engineer II",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "86b0ca902465e145": {
+   "c": "hewlett packard enterprise hpe",
+   "t": "Software Development Engineer II",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "eaeb1bdd18c468f1": {
+   "c": "ebay",
+   "t": "Platform Engineer, Python",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "093d51cfa843fee3": {
+   "c": "victor chasex",
+   "t": "Cloud Trainer",
+   "d": "2026-11-05",
+   "s": "Naukri"
+  },
+  "f6c747c8368124ab": {
+   "c": "capgemini",
+   "t": "GCP Architect",
+   "d": "2026-11-05",
+   "s": "Naukri"
+  },
+  "d6157501c4d1c26c": {
+   "c": "okta",
+   "t": "Staff Software Engineer, macOS",
+   "d": "2026-11-05",
+   "s": "Naukri"
+  },
+  "25223740a3ec1d62": {
+   "c": "jms buildtech",
+   "t": "Architect",
+   "d": "2026-11-05",
+   "s": "Naukri"
+  },
+  "9dbdd7d916370577": {
+   "c": "iris software",
+   "t": "Databricks - Senior Engineer",
+   "d": "2026-11-05",
+   "s": "Naukri"
+  },
+  "c4fb7cc252bd6860": {
+   "c": "pwc acceleration center india",
+   "t": "Site Reliability Engineer_6=years _AWS certified",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "aaebe46e891f9e92": {
+   "c": "atlassian",
+   "t": "Senior Site Reliability Engineer",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "e622be3c1d298f29": {
+   "c": "cisco",
+   "t": "Site Reliability Engineer (SRE) – Cloud Platform & Kubernetes , Docker (4 to 8Years)",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "0734a69ed8b22fd8": {
+   "c": "responsive",
+   "t": "Senior Site Reliability Engineer",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "4e6ef1a785d31409": {
+   "c": "jpmorganchase",
+   "t": "Lead Software Engineer - Production Support & SRE",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "9d2fcafd909600ed": {
+   "c": "proofpoint",
+   "t": "Site Reliablity Engineer III",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "86a92f6122e0f29c": {
+   "c": "jpmorganchase",
+   "t": "Software Engineer II - SRE/Java Engineer",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "de0c74c6b9dfb7e0": {
+   "c": "fivetran",
+   "t": "Staff Site Reliability Engineer",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "a4ad4a1fb47764a2": {
+   "c": "circles",
+   "t": "Principal Engineer, SRE & Service Operations",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "46988c2238f555c0": {
+   "c": "ntt data north america",
+   "t": "TechOps Engineer",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "4b95b411ab5d7ed7": {
+   "c": "ntt data",
+   "t": "Systems Integration Specialist _Ansible Advisor",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "7fd331274872318b": {
+   "c": "gsk",
+   "t": "Principal - Product Owner for Biometric Authentication Solution",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "d7b99a7d2d17b603": {
+   "c": "gsk",
+   "t": "Engineer - Technical SME, EHS & Sustainability",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "650772198a4d2ab4": {
+   "c": "gsk",
+   "t": "Senior Manager MES Infrastructure",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "891010d3ff55fd2e": {
+   "c": "commonwealth bank of australia",
+   "t": "Executive Product Owner - Enterprise Knowledge",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "67f649012e83575c": {
+   "c": "ntt data",
+   "t": "QA Automation Engineer",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "3ce5f77bb2f898f8": {
+   "c": "ntt data",
+   "t": "Systems Integration Senior Specialist_Cloud-AIML Platform eng",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "4b187ccc7fa35f80": {
+   "c": "ntt data",
+   "t": "Systems Integration Senior SpecialistCloud-AIML Platform eng",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "5eb8e4f677410a0a": {
+   "c": "apple",
+   "t": "Database Infrastructure and Reliability Engineer- Apple Services Engineering",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "33a1a90795ef665a": {
+   "c": "apple",
+   "t": "Senior Engineering Manager, Site Lead- Distributed Storage and Database Systems",
+   "d": "2026-11-05",
+   "s": "Indeed"
+  },
+  "3acbdbf922cbaed8": {
+   "c": "etg world",
+   "t": "Oracle FCCS",
+   "d": "2026-11-05",
+   "s": "Naukri"
+  },
+  "3eef5ff23299da22": {
+   "c": "capgemini",
+   "t": "Senior Software Engineer",
+   "d": "2026-11-05",
+   "s": "Naukri"
+  },
+  "fc5b5ed667b37914": {
+   "c": "visa consolidated support services india",
+   "t": "Sr. SW Engineer",
+   "d": "2026-11-05",
+   "s": "Naukri"
+  },
+  "309a1837a6065ebf": {
+   "c": "okta",
+   "t": "Senior Software Engineer in Test",
+   "d": "2026-11-05",
+   "s": "Naukri"
+  },
+  "34545eeb34f97b0c": {
+   "c": "capgemini",
+   "t": "Senior Software Engineer",
+   "d": "2026-11-05",
+   "s": "Naukri"
+  },
+  "61c54ba7a180e886": {
+   "c": "okta",
+   "t": "Staff Software Engineer, Identity Administration (Full Stack)",
+   "d": "2026-11-05",
+   "s": "Naukri"
+  },
+  "3db987b1210d3b81": {
+   "c": "okta",
+   "t": "Software Architect, Lifecycle Management",
+   "d": "2026-11-05",
+   "s": "Naukri"
+  },
+  "876b0df03631134e": {
+   "c": "infosys",
+   "t": "IT Consulting Professional",
+   "d": "2026-11-05",
+   "s": "Naukri"
+  },
+  "5f2d4b7055c0d665": {
+   "c": "ford business solutions",
+   "t": "IT Supply Chain Analyst",
+   "d": "2026-11-05",
+   "s": "Naukri"
+  },
+  "335b61dd54c923a6": {
+   "c": "optum",
+   "t": "Senior Manager Information Security Engineering",
+   "d": "2026-11-05",
+   "s": "Naukri"
+  },
+  "790ba87bfac0b926": {
+   "c": "atkinsr alis",
+   "t": "BIM Designer - Bridges",
+   "d": "2026-11-05",
+   "s": "Naukri"
+  },
+  "6ce8e184d81e6cdb": {
+   "c": "platform science",
+   "t": "Software Engineer II",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "c3693adbbd6c45d9": {
+   "c": "ford motor company",
+   "t": "Senior Software Developer",
+   "d": "2026-11-05",
+   "s": "LinkedIn"
+  },
+  "138594efeac22fbe": {
+   "c": "atkinsr alis",
+   "t": "BIM Designer - Bridges",
+   "d": "2026-11-05",
+   "s": "Naukri"
+  },
+  "d52f49dd89a1cb30": {
+   "c": "databricks",
+   "t": "AI Forward Deployed Engineer",
+   "d": "2026-11-05",
+   "s": "Career page"
+  },
+  "816661ade5243369": {
+   "c": "databricks",
+   "t": "AI Forward Deployed Engineer - France",
+   "d": "2026-11-05",
+   "s": "Career page"
+  },
+  "2a1307e9613d3007": {
+   "c": "databricks",
+   "t": "AI Forward Deployed Engineer - Germany",
+   "d": "2026-11-05",
+   "s": "Career page"
+  },
+  "8e3542d6de7d6058": {
+   "c": "databricks",
+   "t": "Enterprise Account Executive",
+   "d": "2026-11-05",
+   "s": "Career page"
+  },
+  "8ab7f44adecf02ef": {
+   "c": "databricks",
+   "t": "Enterprise Account Executive - Retail",
+   "d": "2026-11-05",
+   "s": "Career page"
+  },
+  "e30c6e1fac2a3e7b": {
+   "c": "databricks",
+   "t": "Named Core Account Executive",
+   "d": "2026-11-05",
+   "s": "Career page"
+  },
+  "4867c7a012451863": {
+   "c": "databricks",
+   "t": "Senior Manager, Real Estate & Workplace Services - India",
+   "d": "2026-11-05",
+   "s": "Career page"
+  },
+  "ea5f9064ddb33740": {
+   "c": "databricks",
+   "t": "Senior Software Engineer - Access Management",
+   "d": "2026-11-05",
+   "s": "Career page"
+  },
+  "0f14984c286b9f3c": {
+   "c": "databricks",
+   "t": "Senior Strategy & Execution Manager, India GTM",
+   "d": "2026-11-05",
+   "s": "Career page"
+  },
+  "f324acfee61cd4b6": {
+   "c": "databricks",
+   "t": "Sr Designated Support Engineer",
+   "d": "2026-11-05",
+   "s": "Career page"
+  },
+  "44da2e86e6723352": {
+   "c": "databricks",
+   "t": "Sr. Designated Support Engineer - Spark",
+   "d": "2026-11-05",
+   "s": "Career page"
+  },
+  "27f3a23672f23b7a": {
+   "c": "databricks",
+   "t": "Sr. Designated Support Engineer - Spark",
+   "d": "2026-11-05",
+   "s": "Career page"
+  },
+  "8275c918d3b076c1": {
+   "c": "databricks",
+   "t": "Sr. Manager, Payroll",
+   "d": "2026-11-05",
+   "s": "Career page"
+  },
+  "9a272090cb180930": {
+   "c": "databricks",
+   "t": "Sr. Product Designer",
+   "d": "2026-11-05",
+   "s": "Career page"
+  },
+  "2e631313e5409a95": {
+   "c": "databricks",
+   "t": "Sr. Solutions Architect Saudi Arabia",
+   "d": "2026-11-05",
+   "s": "Career page"
+  },
+  "af1c0be43da886d0": {
+   "c": "databricks",
+   "t": "Sr. Technical Program Manager, FDE",
+   "d": "2026-11-05",
+   "s": "Career page"
+  },
+  "1fe3d408fe95ee63": {
+   "c": "databricks",
+   "t": "Strategic Account Executive",
+   "d": "2026-11-05",
+   "s": "Career page"
+  },
+  "5c7c53201ceb43ff": {
+   "c": "databricks",
+   "t": "Strategic Account Executive - Energy",
+   "d": "2026-11-05",
+   "s": "Career page"
+  },
+  "e7a10605f97c930b": {
+   "c": "databricks",
+   "t": "Strategic Enterprise Account Executive",
+   "d": "2026-11-05",
+   "s": "Career page"
+  },
+  "82866fd343c5e81f": {
+   "c": "mongodb",
+   "t": "Account Development Representative",
+   "d": "2026-11-05",
+   "s": "Career page"
+  },
+  "5d8df766a7b60641": {
+   "c": "mongodb",
+   "t": "Mid Market Account Development Representative",
+   "d": "2026-11-05",
+   "s": "Career page"
+  },
+  "d3bcac9c9e017a51": {
+   "c": "mongodb",
+   "t": "Regional Director, Enterprise, Growth",
+   "d": "2026-11-05",
+   "s": "Career page"
+  },
+  "97403119e9aa636a": {
+   "c": "mongodb",
+   "t": "Renewals Specialist",
+   "d": "2026-11-05",
+   "s": "Career page"
+  },
+  "f423bbc64f67bb03": {
+   "c": "mongodb",
+   "t": "Senior Partner Enablement Manager",
+   "d": "2026-11-05",
+   "s": "Career page"
+  },
+  "f547e4d2fbe59b86": {
+   "c": "mongodb",
+   "t": "Senior Product Manager",
+   "d": "2026-11-05",
+   "s": "Career page"
+  },
+  "6b1621b5da52b063": {
+   "c": "mongodb",
+   "t": "Technical Services Engineer (Weekend Shift)",
+   "d": "2026-11-05",
+   "s": "Career page"
+  },
+  "87c23ad29b908812": {
+   "c": "elastic",
+   "t": "Principal Consulting Architect - Observability (Canberra)",
+   "d": "2026-11-05",
+   "s": "Career page"
+  },
+  "cbebe68df20fa1b4": {
+   "c": "elastic",
+   "t": "Principal Java Engineer - Distributed Systems, Serverless - Elasticsearch",
+   "d": "2026-11-05",
+   "s": "Career page"
+  },
+  "cebee60cc82acdfd": {
+   "c": "elastic",
+   "t": "Principal Java Engineer - Distributed Systems, Serverless - Elasticsearch",
+   "d": "2026-11-05",
+   "s": "Career page"
+  },
+  "7df96d0f051157e9": {
+   "c": "elastic",
+   "t": "Principal Java Engineer - Distributed Systems, Serverless - Elasticsearch",
+   "d": "2026-11-05",
+   "s": "Career page"
+  },
+  "dc241f1b849b116c": {
+   "c": "elastic",
+   "t": "Sales Operations Associate",
+   "d": "2026-11-05",
+   "s": "Career page"
+  },
+  "3405f69220c2f19a": {
+   "c": "elastic",
+   "t": "Senior Go/Kubernetes Engineer - Core/Infra - Elasticsearch",
+   "d": "2026-11-05",
+   "s": "Career page"
+  },
+  "d259ea5e8290921c": {
+   "c": "elastic",
+   "t": "Senior Go/Kubernetes Engineer - Core/Infra - Elasticsearch",
+   "d": "2026-11-05",
+   "s": "Career page"
+  },
+  "739aebaf41cc5fc5": {
+   "c": "elastic",
+   "t": "Senior Platform Productivity Engineer - Core/Infra - Elasticsearch",
+   "d": "2026-11-05",
+   "s": "Career page"
+  },
+  "4f2e9e41aa738403": {
+   "c": "elastic",
+   "t": "Senior Platform Productivity Engineer - Core/Infra - Elasticsearch",
+   "d": "2026-11-05",
+   "s": "Career page"
+  },
+  "49b3fc7b23b1f67c": {
+   "c": "elastic",
+   "t": "Senior Sales Operations Associate - Enterprise",
+   "d": "2026-11-05",
+   "s": "Career page"
+  },
+  "a1021c732fec0639": {
+   "c": "gitlab",
+   "t": "Backend Engineer, GitLab Orbit",
+   "d": "2026-11-05",
+   "s": "Career page"
+  },
+  "d20215e30eba9c2e": {
+   "c": "gitlab",
+   "t": "Customer Success Manager - East",
+   "d": "2026-11-05",
+   "s": "Career page"
+  },
+  "6dca1458c158077e": {
+   "c": "gitlab",
+   "t": "Intermediate Backend Engineer , Security Factory",
+   "d": "2026-11-05",
+   "s": "Career page"
+  },
+  "6e638ef0253947b6": {
+   "c": "gitlab",
+   "t": "Lead Journey Architect",
+   "d": "2026-11-05",
+   "s": "Career page"
+  },
+  "7be8ee28c7d27d10": {
+   "c": "gitlab",
+   "t": "Manager, Customer Success Manager (PubSec)",
+   "d": "2026-11-05",
+   "s": "Career page"
+  },
+  "51076dc1b742bbaf": {
+   "c": "gitlab",
+   "t": "Public Sector Account Executive, Canada - Local Governments",
+   "d": "2026-11-05",
+   "s": "Career page"
+  },
+  "6f5f7a833e1d1c90": {
+   "c": "gitlab",
+   "t": "Senior Backend Engineer, Cloud Cost & Capacity",
+   "d": "2026-11-05",
+   "s": "Career page"
+  },
+  "14527c336c58bf7e": {
+   "c": "gitlab",
+   "t": "Senior Journey Architect",
+   "d": "2026-11-05",
+   "s": "Career page"
+  },
+  "63989d6200687a0e": {
+   "c": "gitlab",
+   "t": "Senior Renewals Manager, Public Sector",
+   "d": "2026-11-05",
+   "s": "Career page"
+  },
+  "a7731c1ff585d864": {
+   "c": "gitlab",
+   "t": "Senior Website Manager, about.gitlab.com",
+   "d": "2026-11-05",
+   "s": "Career page"
+  },
+  "cb1c36a4a780cc1e": {
+   "c": "meesho",
+   "t": "Deputy Manager- FP&A",
+   "d": "2026-11-05",
+   "s": "Career page"
+  },
+  "bf6c240e50a4f2a1": {
+   "c": "sarvam ai",
+   "t": "Software Development Engineer 3, Samvaad",
+   "d": "2026-11-05",
+   "s": "Career page"
   }
  },
  "board_counts": {
@@ -61618,6 +64036,10 @@
    "2026-11-04": {
     "total": 917,
     "india": 88
+   },
+   "2026-11-05": {
+    "total": 926,
+    "india": 89
    }
   },
   "mongodb": {
@@ -61700,6 +64122,10 @@
    "2026-11-04": {
     "total": 360,
     "india": 81
+   },
+   "2026-11-05": {
+    "total": 361,
+    "india": 80
    }
   },
   "twilio": {
@@ -61782,6 +64208,10 @@
    "2026-11-04": {
     "total": 132,
     "india": 10
+   },
+   "2026-11-05": {
+    "total": 129,
+    "india": 9
    }
   },
   "elastic": {
@@ -61863,6 +64293,10 @@
    },
    "2026-11-04": {
     "total": 413,
+    "india": 15
+   },
+   "2026-11-05": {
+    "total": 424,
     "india": 15
    }
   },
@@ -61946,6 +64380,10 @@
    "2026-11-04": {
     "total": 238,
     "india": 32
+   },
+   "2026-11-05": {
+    "total": 243,
+    "india": 34
    }
   },
   "cred": {
@@ -62028,6 +64466,10 @@
    "2026-11-04": {
     "total": 14,
     "india": 13
+   },
+   "2026-11-05": {
+    "total": 13,
+    "india": 12
    }
   },
   "meesho": {
@@ -62110,6 +64552,10 @@
    "2026-11-04": {
     "total": 52,
     "india": 50
+   },
+   "2026-11-05": {
+    "total": 54,
+    "india": 52
    }
   },
   "sarvam ai": {
@@ -62192,330 +64638,14 @@
    "2026-11-04": {
     "total": 48,
     "india": 48
+   },
+   "2026-11-05": {
+    "total": 47,
+    "india": 47
    }
   }
  },
  "shortlist": {
-  "2026-10-29": [
-   {
-    "title": "DevOps Engineer",
-    "company": "TransUnion",
-    "location": "Chennai, Tamil Nadu, India",
-    "url": "https://www.linkedin.com/jobs/view/4484101382",
-    "description": "",
-    "salary_text": "",
-    "experience_text": "",
-    "posted": "2026-10-28",
-    "source": "LinkedIn",
-    "remote": false,
-    "workplace": "",
-    "id": "d56764b339e3e395",
-    "role_bucket": "devops",
-    "salary_min_lpa": 7.5,
-    "salary_max_lpa": 10.0,
-    "salary_estimated": true,
-    "exp_min": null,
-    "exp_max": null,
-    "prescore": 3,
-    "fit": {
-     "job": "J3",
-     "fit_score": 82,
-     "role_type": "devops",
-     "summary": "Strong fit for the candidate's primary DevOps target role with alignment in CI/CD automation, cloud platforms, and deployment tooling.",
-     "matched_skills": [
-      "CI/CD automation",
-      "Azure DevOps",
-      "Bitbucket Pipelines",
-      "Docker",
-      "AWS",
-      "Azure"
-     ],
-     "gaps": [
-      "Kubernetes",
-      "Terraform"
-     ],
-     "experience_ok": true,
-     "remote_open_to_india": false,
-     "salary_estimate_lpa": {
-      "min": 7.5,
-      "max": 10
-     },
-     "application_note": "Surya Somasundaram applies for the DevOps Engineer role with about two years of experience building and maintaining CI/CD pipelines using Bitbucket Pipelines and Azure DevOps. He has hands-on experience containerizing applications with Docker and deploying them across AWS ECS and Azure App Service. His technical toolkit includes Python, Bash, Linux, networking configuration, and security scanning tools like Trivy. He meets the experience requirements and is available to work on-site in Chennai."
-    },
-    "trend": {
-     "label": "Hiring more",
-     "tone": "up",
-     "detail": "4 new roles in the last 14 days, 0 in the 14 before",
-     "board": "",
-     "recent": 4
-    },
-    "first_seen": "2026-10-29"
-   },
-   {
-    "title": "Associate, Platform Engineer",
-    "company": "GSK",
-    "location": "Bengaluru, Karnataka, India",
-    "url": "https://www.linkedin.com/jobs/view/4482573001",
-    "description": "",
-    "salary_text": "",
-    "experience_text": "",
-    "posted": "2026-10-28",
-    "source": "LinkedIn",
-    "remote": false,
-    "workplace": "",
-    "id": "af2918196d73b9db",
-    "role_bucket": "platform",
-    "salary_min_lpa": 7.5,
-    "salary_max_lpa": 10.0,
-    "salary_estimated": true,
-    "exp_min": null,
-    "exp_max": null,
-    "prescore": 2,
-    "fit": {
-     "job": "J5",
-     "fit_score": 78,
-     "role_type": "platform",
-     "summary": "Aligns well with the platform engineering target role, focusing on deployment workflows, automation, and container management.",
-     "matched_skills": [
-      "CI/CD",
-      "Docker",
-      "Azure DevOps",
-      "Python",
-      "Linux"
-     ],
-     "gaps": [
-      "Kubernetes",
-      "Infrastructure as Code"
-     ],
-     "experience_ok": true,
-     "remote_open_to_india": false,
-     "salary_estimate_lpa": {
-      "min": 7.5,
-      "max": 10
-     },
-     "application_note": "Surya Somasundaram applies for the Associate Platform Engineer position with nearly two years of experience supporting CI/CD pipelines and developer deployment workflows. He has built automated release pipelines using Azure DevOps and Bitbucket, and containerized applications with multi-stage Docker builds. His technical skills include Python scripting, Linux command line usage, and integrating security checks into deployment processes. He is comfortable working on-site in Bengaluru and fits the target experience level."
-    },
-    "trend": {
-     "label": "Hiring more",
-     "tone": "up",
-     "detail": "38 new roles in the last 14 days, 0 in the 14 before",
-     "board": "",
-     "recent": 38
-    },
-    "first_seen": "2026-10-29"
-   },
-   {
-    "title": "Platform Engineer",
-    "company": "Cargill",
-    "location": "Bengaluru, Karnataka, India",
-    "url": "https://www.linkedin.com/jobs/view/4423698099",
-    "description": "Job Purpose and Impact\n* The Professional, Platform Engineering job maintains and partners to design and develop digital technology infrastructure to support information technology applications and services. With limited supervision, this job collaborates with cross functional teams to implement new software features to meet user needs and business goals and upgrade existing platforms to improve performance and functionality through writing clean, efficient and scalable code and troubleshooting and debugging moderately complex issues. This job also participates in code reviews to maintain high",
-    "salary_text": "",
-    "experience_text": "",
-    "posted": "2026-10-27",
-    "source": "LinkedIn",
-    "remote": false,
-    "workplace": "",
-    "id": "0e5f28ea8249da4a",
-    "role_bucket": "platform",
-    "salary_min_lpa": 7.0,
-    "salary_max_lpa": 10.0,
-    "salary_estimated": true,
-    "exp_min": 2.0,
-    "exp_max": null,
-    "prescore": 5,
-    "fit": {
-     "job": "J2",
-     "fit_score": 75,
-     "role_type": "platform",
-     "summary": "This platform engineering role matches the candidate's experience level and tech stack, though some advanced automated deployment platform standards may require on-the-job learning.",
-     "matched_skills": [
-      "CI/CD",
-      "Python",
-      "Docker",
-      "Git",
-      "Troubleshooting"
-     ],
-     "gaps": [
-      "Advanced platform engineering tooling",
-      "Test-driven development at scale"
-     ],
-     "experience_ok": true,
-     "remote_open_to_india": false,
-     "salary_estimate_lpa": {
-      "min": 7,
-      "max": 10
-     },
-     "application_note": "With about two years of experience as a Junior Software Analyst working on CI/CD pipelines, Docker containerization, and Python automation, I am well-positioned for this platform engineering role in Bengaluru. In my current role, I build and maintain deployment pipelines for FastAPI backends and frontend applications on Azure and AWS. I am comfortable writing clean Python code, debugging deployment issues, and collaborating across teams to ensure smooth releases. I am looking for a package around 7-8 LPA and am available to work on-site or hybrid in Bengaluru."
-    },
-    "trend": {
-     "label": "Steady",
-     "tone": "neutral",
-     "detail": "2 new roles in the last 14 days, 0 in the 14 before",
-     "board": "",
-     "recent": 2
-    },
-    "first_seen": "2026-10-29"
-   },
-   {
-    "title": "Azure Cloud Administrator",
-    "company": "CTC",
-    "location": "Chennai, Tamil Nadu, India",
-    "url": "https://www.linkedin.com/jobs/view/4482512914",
-    "description": "",
-    "salary_text": "",
-    "experience_text": "",
-    "posted": "2026-10-28",
-    "source": "LinkedIn",
-    "remote": false,
-    "workplace": "",
-    "id": "bc8cc6f614e4091b",
-    "role_bucket": "cloud",
-    "salary_min_lpa": 7.0,
-    "salary_max_lpa": 9.0,
-    "salary_estimated": true,
-    "exp_min": null,
-    "exp_max": null,
-    "prescore": 3,
-    "fit": {
-     "job": "J2",
-     "fit_score": 75,
-     "role_type": "cloud",
-     "summary": "The role matches the candidate's Azure cloud skills and target location, though specific requirements are not fully detailed.",
-     "matched_skills": [
-      "Azure",
-      "Cloud",
-      "Linux",
-      "Networking"
-     ],
-     "gaps": [
-      "Specific enterprise tools"
-     ],
-     "experience_ok": true,
-     "remote_open_to_india": false,
-     "salary_estimate_lpa": {
-      "min": 7,
-      "max": 9
-     },
-     "application_note": "Surya Somasundaram applies for the Azure Cloud Administrator position with experience deploying applications to Azure App Service and managing Azure resources. He has worked with Azure CLI, VNet configurations, Key Vault, and Service Principals during his time as a Junior Software Analyst. His background includes Linux administration, troubleshooting deployment issues, and implementing security practices like RBAC and secret management. He is based in India and ready to work on-site in Chennai."
-    },
-    "trend": {
-     "label": "Steady",
-     "tone": "neutral",
-     "detail": "1 new roles in the last 14 days, 0 in the 14 before",
-     "board": "",
-     "recent": 1
-    },
-    "first_seen": "2026-10-29"
-   },
-   {
-    "title": "Associate Software Engineer - DevOps & Kubernetes",
-    "company": "Blue Yonder",
-    "location": "Bengaluru, Karnataka, India",
-    "url": "https://www.linkedin.com/jobs/view/4484465089",
-    "description": "**Scope**\nSupports the reliability, availability, and performance of cloud-based applications and services.\nWorks on CI/CD pipelines, deployment automation, monitoring, incident response, and routine operational tasks under the guidance of senior engineers.\nCollaborates with development, QA, security, and platform teams to deliver stable and secure releases.\nInvestigates alerts and service issues, documents findings, and contributes to corrective and preventive actions.\nApplies DevOps and SRE practices to reduce manual effort, improve observability, and strengthen operational readiness.\n**Our ",
-    "salary_text": "",
-    "experience_text": "",
-    "posted": "2026-10-28",
-    "source": "LinkedIn",
-    "remote": false,
-    "workplace": "",
-    "id": "0bd5d61b012cc541",
-    "role_bucket": "devops",
-    "salary_min_lpa": 7.0,
-    "salary_max_lpa": 10.0,
-    "salary_estimated": true,
-    "exp_min": null,
-    "exp_max": null,
-    "prescore": 24,
-    "fit": {
-     "job": "J3",
-     "fit_score": 70,
-     "role_type": "devops",
-     "summary": "The role fits the candidate's experience level and Azure cloud focus, but requires Kubernetes experience which is currently a gap.",
-     "matched_skills": [
-      "Azure DevOps",
-      "CI/CD",
-      "Docker",
-      "Git",
-      "Azure App Services"
-     ],
-     "gaps": [
-      "Kubernetes",
-      "Terraform or Bicep",
-      "Java/Spring Boot"
-     ],
-     "experience_ok": true,
-     "remote_open_to_india": false,
-     "salary_estimate_lpa": {
-      "min": 7,
-      "max": 10
-     },
-     "application_note": "I have hands-on experience supporting CI/CD pipelines using Azure DevOps YAML, deploying applications to Azure App Services, and managing Docker containers. While I do not yet have production experience with Kubernetes or Terraform, I work regularly with Docker, Python scripting, and Azure cloud services. I am based in Bengaluru, looking for roles matching my 2 years of experience, and expect a package between 7-8 LPA."
-    },
-    "trend": {
-     "label": "Hiring more",
-     "tone": "up",
-     "detail": "3 new roles in the last 14 days, 0 in the 14 before",
-     "board": "",
-     "recent": 3
-    },
-    "first_seen": "2026-10-29"
-   },
-   {
-    "title": "Hybrid Cloud Infrastructure Engineer",
-    "company": "AtkinsRéalis",
-    "location": "Bengaluru East, Karnataka, India",
-    "url": "https://www.linkedin.com/jobs/view/4484483508",
-    "description": "",
-    "salary_text": "",
-    "experience_text": "",
-    "posted": "2026-10-29",
-    "source": "LinkedIn",
-    "remote": false,
-    "workplace": "",
-    "id": "14755684763cd276",
-    "role_bucket": "cloud",
-    "salary_min_lpa": 7.0,
-    "salary_max_lpa": 9.5,
-    "salary_estimated": true,
-    "exp_min": null,
-    "exp_max": null,
-    "prescore": 2,
-    "fit": {
-     "job": "J4",
-     "fit_score": 70,
-     "role_type": "cloud",
-     "summary": "Fits the candidate's cloud infrastructure target role well, though infrastructure-as-code requirements might require rapid upskilling.",
-     "matched_skills": [
-      "AWS",
-      "Azure",
-      "Linux",
-      "Networking",
-      "Security"
-     ],
-     "gaps": [
-      "Terraform",
-      "Ansible"
-     ],
-     "experience_ok": true,
-     "remote_open_to_india": false,
-     "salary_estimate_lpa": {
-      "min": 7,
-      "max": 9.5
-     },
-     "application_note": "Surya Somasundaram applies for the Hybrid Cloud Infrastructure Engineer role bringing practical experience with AWS and Azure virtual private clouds, subnets, route tables, and security groups. In his current role as a Junior Software Analyst, he has managed cloud resources, deployment automation, and Linux-based environments. He has also built monitoring infrastructure using Prometheus, Node Exporter, and Grafana on AWS EC2. He is based in India and open to working on-site in Bengaluru."
-    },
-    "trend": {
-     "label": "Steady",
-     "tone": "neutral",
-     "detail": "1 new roles in the last 14 days, 0 in the 14 before",
-     "board": "",
-     "recent": 1
-    },
-    "first_seen": "2026-10-29"
-   }
-  ],
   "2026-10-30": [
    {
     "title": "Core Platform Engineer",
@@ -63020,6 +65150,484 @@
      "recent": 145
     },
     "first_seen": "2026-11-04"
+   }
+  ],
+  "2026-11-05": [
+   {
+    "title": "Devops Engineer",
+    "company": "msg global solutions",
+    "location": "Bengaluru, Karnataka, India",
+    "url": "https://www.linkedin.com/jobs/view/4478182125",
+    "description": "**What**\n**we do**\nmsg global is a consulting and system integration company with a strong focus on the insurance and reinsurance industry. We help clients design, transform, and implement integrated IT architectures, delivering high‑quality SAP‑based solutions tailored to insurance and reinsurance needs.\n**What We Are Looking For**\nWe are looking for a motivated DevOps Engineer with 2–4 years of hands-on experience in cloud infrastructure, CI/CD automation, containerization, and application deployment. The ideal candidate should be comfortable working with AWS, GitLab pipelines, Jenkins, Dock",
+    "salary_text": "",
+    "experience_text": "",
+    "posted": "2026-11-04",
+    "source": "LinkedIn",
+    "remote": false,
+    "workplace": "",
+    "id": "4e812a0428735f37",
+    "role_bucket": "devops",
+    "salary_min_lpa": null,
+    "salary_max_lpa": null,
+    "salary_estimated": false,
+    "exp_min": 2.0,
+    "exp_max": 4.0,
+    "prescore": 23,
+    "fit": {
+     "fit_score": 92,
+     "role_type": "devops",
+     "summary": "Keyword match on 21 of your skills. Not checked by AI yet.",
+     "matched_skills": [
+      "devops",
+      "ci/cd",
+      "pipeline",
+      "pipelines",
+      "yaml",
+      "docker"
+     ],
+     "gaps": [],
+     "experience_ok": true,
+     "remote_open_to_india": null,
+     "salary_estimate_lpa": null,
+     "application_note": "",
+     "heuristic": true
+    },
+    "trend": {
+     "label": "Steady",
+     "tone": "neutral",
+     "detail": "1 new roles in the last 14 days, 0 in the 14 before",
+     "board": "",
+     "recent": 1
+    },
+    "first_seen": "2026-11-05"
+   },
+   {
+    "title": "Platform Engineer III – AWS Network",
+    "company": "Smarsh",
+    "location": "Bengaluru, Karnataka, India",
+    "url": "https://www.linkedin.com/jobs/view/4442705283",
+    "description": "**Who are we?**\nSmarsh empowers its customers to manage risk and unleash intelligence in their digital communications. Our growing community of over 6500 organizations in regulated industries counts on Smarsh every day to help them spot compliance, legal or reputational risks in 80+ communication channels before those risks become regulatory fines or headlines. Relentless innovation has fueled our journey to consistent leadership recognition from analysts like Gartner and Forrester, and our sustained, aggressive growth has landed Smarsh in the annual Inc. 5000 list of fastest-growing American ",
+    "salary_text": "",
+    "experience_text": "",
+    "posted": "2026-11-04",
+    "source": "LinkedIn",
+    "remote": false,
+    "workplace": "",
+    "id": "4a81b9646045181a",
+    "role_bucket": "platform",
+    "salary_min_lpa": null,
+    "salary_max_lpa": null,
+    "salary_estimated": false,
+    "exp_min": null,
+    "exp_max": null,
+    "prescore": 17,
+    "fit": {
+     "fit_score": 92,
+     "role_type": "platform",
+     "summary": "Keyword match on 15 of your skills. Not checked by AI yet.",
+     "matched_skills": [
+      "devops",
+      "ci/cd",
+      "pipelines",
+      "git",
+      "docker",
+      "aws"
+     ],
+     "gaps": [],
+     "experience_ok": true,
+     "remote_open_to_india": null,
+     "salary_estimate_lpa": null,
+     "application_note": "",
+     "heuristic": true
+    },
+    "trend": {
+     "label": "Hiring more",
+     "tone": "up",
+     "detail": "5 new roles in the last 14 days, 1 in the 14 before",
+     "board": "",
+     "recent": 5
+    },
+    "first_seen": "2026-11-05"
+   },
+   {
+    "title": "DevOps Engineer - Azure Databricks & Azure Cloud Operations",
+    "company": "Unisys",
+    "location": "Bengaluru East, Karnataka, India",
+    "url": "https://www.linkedin.com/jobs/view/4479525173",
+    "description": "**What Success Looks Like In This Role**\n* Design and provision a secure Azure AI Foundry ML architecture for OCR-based billing data extraction, taking models from validation through production deployment to resolve revenue-impacting invoice processing delays.\n* Build and operate an end-to-end AI pipeline — ingestion, model inference, and REST API integration — Azure Container Apps, API Gateway\n* Containerized Python/FastAPI microservices with Docker, publish images to Azure Container Registry, and deploy to Azure Container Apps, enabling scalable HTTP-based model serving.\n* Build CI/CD pipeli",
+    "salary_text": "",
+    "experience_text": "",
+    "posted": "2026-11-04",
+    "source": "LinkedIn",
+    "remote": false,
+    "workplace": "",
+    "id": "9adc025b20a08a88",
+    "role_bucket": "devops",
+    "salary_min_lpa": null,
+    "salary_max_lpa": null,
+    "salary_estimated": false,
+    "exp_min": 2.0,
+    "exp_max": null,
+    "prescore": 17,
+    "fit": {
+     "fit_score": 92,
+     "role_type": "devops",
+     "summary": "Keyword match on 15 of your skills. Not checked by AI yet.",
+     "matched_skills": [
+      "devops",
+      "ci/cd",
+      "pipeline",
+      "pipelines",
+      "azure devops",
+      "github"
+     ],
+     "gaps": [],
+     "experience_ok": true,
+     "remote_open_to_india": null,
+     "salary_estimate_lpa": null,
+     "application_note": "",
+     "heuristic": true
+    },
+    "trend": {
+     "label": "Hiring more",
+     "tone": "up",
+     "detail": "3 new roles in the last 14 days, 2 in the 14 before",
+     "board": "",
+     "recent": 3
+    },
+    "first_seen": "2026-11-05"
+   },
+   {
+    "title": "Devops Engineer (1-3 years)",
+    "company": "NielsenIQ",
+    "location": "Chennai, Tamil Nadu, India",
+    "url": "https://www.linkedin.com/jobs/view/4486508843",
+    "description": "**Job Description**\n**Engineer, Chennai**\nOur Technology teams are focused on supporting and modernizing enterprise applications through automation, DevOps best practices, and continuous improvement. The DevOps team manages these platforms while adopting modern engineering practices including GitHub Actions, Infrastructure Automation, Cloud technologies, and AI-assisted development tools.\nAs a Junior DevOps Engineer, you'll work alongside experienced engineers to support application deployments, CI/CD pipelines, operational excellence, and platform reliability. This role provides an excellent ",
+    "salary_text": "",
+    "experience_text": "",
+    "posted": "2026-11-04",
+    "source": "LinkedIn",
+    "remote": false,
+    "workplace": "",
+    "id": "aff7091400c8c093",
+    "role_bucket": "devops",
+    "salary_min_lpa": null,
+    "salary_max_lpa": null,
+    "salary_estimated": false,
+    "exp_min": 1.0,
+    "exp_max": 3.0,
+    "prescore": 16,
+    "fit": {
+     "fit_score": 92,
+     "role_type": "devops",
+     "summary": "Keyword match on 14 of your skills. Not checked by AI yet.",
+     "matched_skills": [
+      "devops",
+      "ci/cd",
+      "cicd",
+      "pipelines",
+      "github",
+      "docker"
+     ],
+     "gaps": [],
+     "experience_ok": true,
+     "remote_open_to_india": null,
+     "salary_estimate_lpa": null,
+     "application_note": "",
+     "heuristic": true
+    },
+    "trend": {
+     "label": "Hiring more",
+     "tone": "up",
+     "detail": "16 new roles in the last 14 days, 4 in the 14 before",
+     "board": "",
+     "recent": 16
+    },
+    "first_seen": "2026-11-05"
+   },
+   {
+    "title": "Platform Engineer, Python",
+    "company": "eBay",
+    "location": "Bengaluru, Karnataka, India",
+    "url": "https://www.linkedin.com/jobs/view/4485502664",
+    "description": "At eBay, we're more than a global ecommerce leader — we’re changing the way the world shops and sells. Our platform empowers millions of buyers and sellers in more than 190 markets around the world. We’re committed to pushing boundaries and leaving our mark as we reinvent the future of ecommerce for enthusiasts.\nOur customers are our compass, authenticity thrives, bold ideas are welcome, and everyone can bring their unique selves to work — every day. We're in this together, sustaining the future of our customers, our company, and our planet.\nJoin a team of passionate thinkers, innovators, and ",
+    "salary_text": "",
+    "experience_text": "",
+    "posted": "2026-11-04",
+    "source": "LinkedIn",
+    "remote": false,
+    "workplace": "",
+    "id": "0537937cc2df4e70",
+    "role_bucket": "platform",
+    "salary_min_lpa": null,
+    "salary_max_lpa": null,
+    "salary_estimated": false,
+    "exp_min": null,
+    "exp_max": null,
+    "prescore": 13,
+    "fit": {
+     "fit_score": 92,
+     "role_type": "platform",
+     "summary": "Keyword match on 11 of your skills. Not checked by AI yet.",
+     "matched_skills": [
+      "ci/cd",
+      "pipelines",
+      "docker",
+      "ubuntu",
+      "python",
+      "fastapi"
+     ],
+     "gaps": [],
+     "experience_ok": true,
+     "remote_open_to_india": null,
+     "salary_estimate_lpa": null,
+     "application_note": "",
+     "heuristic": true
+    },
+    "trend": {
+     "label": "Hiring more",
+     "tone": "up",
+     "detail": "9 new roles in the last 14 days, 5 in the 14 before",
+     "board": "",
+     "recent": 9
+    },
+    "first_seen": "2026-11-05"
+   },
+   {
+    "title": "Cloud Engineer, Professional Services",
+    "company": "Abacus",
+    "location": "Chennai, Tamil Nadu, India",
+    "url": "https://www.linkedin.com/jobs/view/4485081648",
+    "description": "We are looking for an experienced Cloud Engineer with strong capabilities in Microsoft Azure, DevOps, cloud administration, and development. The ideal candidate will have experience delivering cloud and technology projects, developing reporting solutions using Power BI, and supporting enterprise-level Microsoft cloud environments.\nThis role requires a combination of hands-on technical expertise, development capabilities, and the ability to deliver cloud-based solutions while working closely with internal teams and clients.\nPrevious project delivery and professional services experience would be",
+    "salary_text": "",
+    "experience_text": "",
+    "posted": "2026-11-04",
+    "source": "LinkedIn",
+    "remote": false,
+    "workplace": "",
+    "id": "98a4de4edde32195",
+    "role_bucket": "cloud",
+    "salary_min_lpa": null,
+    "salary_max_lpa": null,
+    "salary_estimated": false,
+    "exp_min": null,
+    "exp_max": null,
+    "prescore": 12,
+    "fit": {
+     "fit_score": 92,
+     "role_type": "cloud",
+     "summary": "Keyword match on 10 of your skills. Not checked by AI yet.",
+     "matched_skills": [
+      "devops",
+      "ci/cd",
+      "pipelines",
+      "azure devops",
+      "git",
+      "azure"
+     ],
+     "gaps": [],
+     "experience_ok": true,
+     "remote_open_to_india": null,
+     "salary_estimate_lpa": null,
+     "application_note": "",
+     "heuristic": true
+    },
+    "trend": {
+     "label": "Steady",
+     "tone": "neutral",
+     "detail": "1 new roles in the last 14 days, 1 in the 14 before",
+     "board": "",
+     "recent": 1
+    },
+    "first_seen": "2026-11-05"
+   },
+   {
+    "title": "DevOps Engineer",
+    "company": "ITC Infotech",
+    "location": "Bengaluru, Karnataka, India",
+    "url": "https://www.linkedin.com/jobs/view/4486382224",
+    "description": "**Role - DevOps Engineer (AWS EKS/Kubernetes)**\n**Location - Bangalore**\n**Work Type - Work from Office**\n**DevOps Engineer (AWS EKS/Kubernetes) -**\n**Must Have Skills**\n* Hands-on experience with\n**AWS cloud services provisioning and management**\n, preferably:\n* EKS (Elastic Kubernetes Service)\n* ElastiCache Redis\n* Aurora RDS\n* ActiveMQ\n* Experience in\n**microservices deployment**\nusing:\n* Jenkins CI/CD pipelines\n* Helm charts\n* Strong hands-on experience with\n**Kubernetes**\n* Ability to deploy, monitor, and troubleshoot containerized applications in production environments.\n**Should Have Sk",
+    "salary_text": "",
+    "experience_text": "",
+    "posted": "2026-11-04",
+    "source": "LinkedIn",
+    "remote": false,
+    "workplace": "",
+    "id": "1ee0752c4514e78a",
+    "role_bucket": "devops",
+    "salary_min_lpa": null,
+    "salary_max_lpa": null,
+    "salary_estimated": false,
+    "exp_min": null,
+    "exp_max": null,
+    "prescore": 10,
+    "fit": {
+     "fit_score": 85,
+     "role_type": "devops",
+     "summary": "Keyword match on 8 of your skills. Not checked by AI yet.",
+     "matched_skills": [
+      "devops",
+      "ci/cd",
+      "pipelines",
+      "aws",
+      "linux",
+      "troubleshooting"
+     ],
+     "gaps": [],
+     "experience_ok": true,
+     "remote_open_to_india": null,
+     "salary_estimate_lpa": null,
+     "application_note": "",
+     "heuristic": true
+    },
+    "trend": {
+     "label": "Hiring more",
+     "tone": "up",
+     "detail": "3 new roles in the last 14 days, 1 in the 14 before",
+     "board": "",
+     "recent": 3
+    },
+    "first_seen": "2026-11-05"
+   },
+   {
+    "title": "DevOps Engineer",
+    "company": "Enterprise Bot",
+    "location": "Bengaluru, Karnataka, India",
+    "url": "https://www.linkedin.com/jobs/view/4485074177",
+    "description": "At Enterprise Bot, we create AI-powered bots to automate customer interactions and provide enterprises with a readily accessible digital agent to improve customer experience and create operational efficiency. We are a cashflow positive startup that has been accelerated by Startupbootcamp, Plug and Play and the F10 in and are currently situated in the Generali Innovation Garage in Adliswil, Zurich.\nOur current esteemed clients include companies in multiple domain across Europe & UK such as AfterPay, SIX Group, Generali Switzerland, PwC Switzerland, Swica, GoAhead Group, LNER among others with o",
+    "salary_text": "",
+    "experience_text": "",
+    "posted": "2026-11-04",
+    "source": "LinkedIn",
+    "remote": false,
+    "workplace": "",
+    "id": "6b18b075df43b5f3",
+    "role_bucket": "devops",
+    "salary_min_lpa": null,
+    "salary_max_lpa": null,
+    "salary_estimated": false,
+    "exp_min": 2.0,
+    "exp_max": 4.0,
+    "prescore": 7,
+    "fit": {
+     "fit_score": 70,
+     "role_type": "devops",
+     "summary": "Keyword match on 5 of your skills. Not checked by AI yet.",
+     "matched_skills": [
+      "devops",
+      "git",
+      "docker",
+      "python",
+      "deployment"
+     ],
+     "gaps": [],
+     "experience_ok": true,
+     "remote_open_to_india": null,
+     "salary_estimate_lpa": null,
+     "application_note": "",
+     "heuristic": true
+    },
+    "trend": {
+     "label": "Hiring more",
+     "tone": "up",
+     "detail": "5 new roles in the last 14 days, 0 in the 14 before",
+     "board": "",
+     "recent": 5
+    },
+    "first_seen": "2026-11-05"
+   },
+   {
+    "title": "AWS Engineer",
+    "company": "dotSolved Systems Inc.",
+    "location": "Chennai, Tamil Nadu, India",
+    "url": "https://www.linkedin.com/jobs/view/4486563635",
+    "description": "**Position: AWS Engineer**\nLocation: Chennai - Onsite/Hybrid/Remote\nShift Timing: 3.00AM - 12.00PM PST (US Pacific Time)\n**About the role:**\nWe are looking for an experienced AWS Amazon Connect & Salesforce Integration Developer with strong expertise in developing cloud-based contact center solutions and integrating Amazon Connect with Salesforce CRM. The ideal candidate should have hands-on experience building Amazon Connect contact flows, IVR solutions, queues, routing configurations, Amazon Lex chatbots, and Contact Lens analytics. The candidate will also be responsible for developing scala",
+    "salary_text": "",
+    "experience_text": "",
+    "posted": "2026-11-04",
+    "source": "LinkedIn",
+    "remote": false,
+    "workplace": "",
+    "id": "eb1c6581075d9353",
+    "role_bucket": "cloud",
+    "salary_min_lpa": null,
+    "salary_max_lpa": null,
+    "salary_estimated": false,
+    "exp_min": null,
+    "exp_max": null,
+    "prescore": 7,
+    "fit": {
+     "fit_score": 70,
+     "role_type": "cloud",
+     "summary": "Keyword match on 5 of your skills. Not checked by AI yet.",
+     "matched_skills": [
+      "aws",
+      "lambda",
+      "monitoring",
+      "logging",
+      "troubleshooting"
+     ],
+     "gaps": [],
+     "experience_ok": true,
+     "remote_open_to_india": null,
+     "salary_estimate_lpa": null,
+     "application_note": "",
+     "heuristic": true
+    },
+    "trend": {
+     "label": "Steady",
+     "tone": "neutral",
+     "detail": "2 new roles in the last 14 days, 0 in the 14 before",
+     "board": "",
+     "recent": 2
+    },
+    "first_seen": "2026-11-05"
+   },
+   {
+    "title": "Specialist Software Engineer- Devops SRE",
+    "company": "Societe Generale Global Solution Centre",
+    "location": "Bengaluru, Karnataka, India",
+    "url": "https://www.linkedin.com/jobs/view/4474348155",
+    "description": "**Responsibilities**\n7+ years’ experience in cloud platform production support, DevOps, and application development.\n* Significant experience in SRE or DevOps\n* Past experience as a Python / GitHub/ Terraform / Ansible developer\n* Experience on infrastructures based mainly on API, containers, micro-services\n* Ability to set up the metrics needed to monitor applications\n* Ability to work independently and in a multicultural team, distributed team (France, India)\n* Involved in application environment updates, DR, server/OS patches upgrades\n* Assist the DevOps of the perimeter as well as their te",
+    "salary_text": "",
+    "experience_text": "",
+    "posted": "2026-11-04",
+    "source": "LinkedIn",
+    "remote": false,
+    "workplace": "",
+    "id": "e08265995f5d458d",
+    "role_bucket": "sre",
+    "salary_min_lpa": null,
+    "salary_max_lpa": null,
+    "salary_estimated": false,
+    "exp_min": null,
+    "exp_max": null,
+    "prescore": 6,
+    "fit": {
+     "fit_score": 65,
+     "role_type": "sre",
+     "summary": "Keyword match on 4 of your skills. Not checked by AI yet.",
+     "matched_skills": [
+      "devops",
+      "github",
+      "python",
+      "monitoring"
+     ],
+     "gaps": [],
+     "experience_ok": true,
+     "remote_open_to_india": null,
+     "salary_estimate_lpa": null,
+     "application_note": "",
+     "heuristic": true
+    },
+    "trend": {
+     "label": "Hiring more",
+     "tone": "up",
+     "detail": "10 new roles in the last 14 days, 5 in the 14 before",
+     "board": "",
+     "recent": 10
+    },
+    "first_seen": "2026-11-05"
    }
   ]
  },
@@ -64025,7 +66633,325 @@
    "errors": [],
    "tracking_days": 20,
    "mock": false
+  },
+  {
+   "date": "2026-11-05",
+   "time": "10:52",
+   "collected": 3017,
+   "unique": 2622,
+   "new": 403,
+   "passed_filters": 10,
+   "scored": 10,
+   "shortlisted": 10,
+   "ai_scoring": false,
+   "ai_scored": 0,
+   "carried_over": 0,
+   "notes": [
+    "10 jobs couldn't be checked by AI today (it was busy); they show keyword scores and will be re-checked on the next run."
+   ],
+   "sources": {
+    "LinkedIn": {
+     "jobs": 320,
+     "searches": 16,
+     "failed": 0
+    },
+    "Indeed": {
+     "jobs": 208,
+     "searches": 16,
+     "failed": 0
+    },
+    "Naukri": {
+     "jobs": 292,
+     "searches": 16,
+     "failed": 0
+    },
+    "Career pages": {
+     "jobs": 2197,
+     "companies": 8
+    }
+   },
+   "skipped": {
+    "title excluded (seniority or stack)": 208,
+    "not a target role": 162,
+    "outside Bangalore/Chennai": 14,
+    "needs more experience": 8,
+    "fully remote (on-site or hybrid wanted)": 1
+   },
+   "errors": [],
+   "tracking_days": 21,
+   "mock": false
   }
  ],
- "pending": {}
+ "pending": {
+  "4e812a0428735f37": {
+   "since": "2026-11-05",
+   "job": {
+    "title": "Devops Engineer",
+    "company": "msg global solutions",
+    "location": "Bengaluru, Karnataka, India",
+    "url": "https://www.linkedin.com/jobs/view/4478182125",
+    "description": "**What**\n**we do**\nmsg global is a consulting and system integration company with a strong focus on the insurance and reinsurance industry. We help clients design, transform, and implement integrated IT architectures, delivering high‑quality SAP‑based solutions tailored to insurance and reinsurance needs.\n**What We Are Looking For**\nWe are looking for a motivated DevOps Engineer with 2–4 years of hands-on experience in cloud infrastructure, CI/CD automation, containerization, and application deployment. The ideal candidate should be comfortable working with AWS, GitLab pipelines, Jenkins, Docker, Kubernetes, Helm charts, Windows and Linux environments, monitoring tools, and troubleshooting across build, deployment, and runtime layers.\n**What You Will Do**\n2–4 years of experience in DevOps, Cloud, Platform Engineering, or Infrastructure Engineering roles.\nBuild, maintain, and optimize CI/CD pipelines using GitLab and Jenkins.\nDeploy and manage applications and services on AWS cloud environments.\nCreate and maintain Docker images, Dockerfiles, and container registries.\nDeploy and troubleshoot workloads on Kubernetes clusters.\nUse Helm charts for packaging, configuration, and deployment of applications.\nSupport infrastructure automation, release activities, and environment management.\nMonitor application and infrastructure health using tools such as Grafana, Prometheus, CloudWatch, or ELK.\nTroubleshoot issues across application, infrastructure, network, and CI/CD layers\nWork with both Windows and Linux systems, scripting, logs, services, and command-line tools for deployment support, debugging, and automation.\nFollow DevOps best practices for automation, documentation, security, and operational reliability.\nHands-on experience with CI/CD concepts and pipeline automation.\n**Nice to have**\nExperience in creating and maintaining GitLab pipelines using YAML-based configuration.\nWorking knowledge of Jenkins for build, deployment, and release automation.\nGood understanding of AWS services such as EC2, S3, IAM, VPC, or EKS.\nGood experience with Docker, including Dockerfiles, image builds, tagging, scanning, and registry usage.\nPractical understanding of Kubernetes concepts such as pods, deployments, services, ingress, config maps, secrets, and namespaces.\nExperience using Helm charts for Kubernetes application deployment and configuration management.\nStrong understanding of Windows and Linux environments, scripting, log analysis, services, permissions, and basic networking concepts.\nFamiliarity with monitoring and logging tools such as Grafana, Prometheus, CloudWatch, or ELK.\nExposure to Infrastructure as Code tools such as Terraform or Ansible is desirable.\nGood communication, ownership, documentation, and problem-solving skills.\n**What We Offer**\nAn inclusive team that values diversity and expertise\nCompetitive salary and benefits\nExposure to global clients and complex AI transformation projects\nA key role in shaping AI adoption in insurance and reinsurance\nStrong growth path within a specialized consulting organization\n**Benefits**\n* Health Insurance: We provide hospitalization and non-hospitalization benefits like annual medical screening and mental health assistance program for employees and their dependents.\n* Employee Wellbeing: We provide various options for sport and recreation benefits.\n* Job for Friends: Get your friends on board through our employee referral program, and we will reward you.\n* Flexible Working: We offer flexible work schedules, including flexible start and end times as well as remote and/or hybrid work.\n* Anniversary & Success Milestones: We celebrate your work anniversaries and success by rewarding your loyalty and dedication.\n* Gift Vouchers: We share your happiness with you and provide vouchers for newborns, wedding, work anniversaries, annual and festival gifts.\n* Team Events: We celebrate our success with team-building activities throughout the year.\n* Training and Development: We provide a broad training portfolio for personal and professional growth, including unlimited access to course platform to all our employees.",
+    "salary_text": "",
+    "experience_text": "",
+    "posted": "2026-11-04",
+    "source": "LinkedIn",
+    "remote": false,
+    "workplace": "",
+    "id": "4e812a0428735f37",
+    "role_bucket": "devops",
+    "salary_min_lpa": null,
+    "salary_max_lpa": null,
+    "salary_estimated": false,
+    "exp_min": 2.0,
+    "exp_max": 4.0,
+    "prescore": 23,
+    "fit": {},
+    "trend": {},
+    "first_seen": ""
+   }
+  },
+  "4a81b9646045181a": {
+   "since": "2026-11-05",
+   "job": {
+    "title": "Platform Engineer III – AWS Network",
+    "company": "Smarsh",
+    "location": "Bengaluru, Karnataka, India",
+    "url": "https://www.linkedin.com/jobs/view/4442705283",
+    "description": "**Who are we?**\nSmarsh empowers its customers to manage risk and unleash intelligence in their digital communications. Our growing community of over 6500 organizations in regulated industries counts on Smarsh every day to help them spot compliance, legal or reputational risks in 80+ communication channels before those risks become regulatory fines or headlines. Relentless innovation has fueled our journey to consistent leadership recognition from analysts like Gartner and Forrester, and our sustained, aggressive growth has landed Smarsh in the annual Inc. 5000 list of fastest-growing American companies since 2008.\n**Summary**\nWe are seeking an experienced Senior Cloud Platform Engineer to architect, build, and maintain next-generation AWS cloud platform. This role combines deep technical expertise in Information Security, Identity and Access Management, cloud architecture, networks, and DevOps practices while ensuring platform reliability, security, and operational excellence. Periodic international travel may be required.\n**How will you contribute?**\n* Platform Architecture (40%)\n* Design and Implementation of cloud network architectures, primarily in AWS\n* Advanced level understanding of VPCs, subnets routing, and Transit Gateways\n* Implement and manage core AWS networking services such as Route 53, Direct Connect, and VPNs\n* Optimize network performance for high availability\n* Ensure multi-tenant isolation and resource management\n* Identify and design system security requirements using security best practices and compliance requirements\n* Advanced understanding of NACLs and Security Groups\n* Develop standard operating procedures and protocols\n* Advanced understanding of IPAM and DNS\n* Monitor and troubleshoot network issues\n* Design and implementation of hybrid cloud connectivity solutions\n* Create and maintain comprehensive architectural diagrams\n* Lead security incidents involving cloud network systems\n* Architect high-availability solutions ensuring business continuity and disaster recovery\n* Optimize platform performance and resource utilization across environments\n* Define integration patterns for microservices architectures\n* Infrastructure Automation (40%)\n* Develop and maintain infrastructure as code using Terraform for AWS resources\n* Implement GitOps workflows\n* Build and maintain CI/CD pipelines for automated deployment\n* Automate routine operational tasks using shell scripting\n* Manage backup and recovery procedures across the platform\n* Operations & Observability (20%)\n* Design and implement monitoring solutions using Prometheus and DataDog\n* Create and maintain alerting systems and dashboards\n* Lead troubleshooting of complex platform issues related to networks\n* Participate in on-call rotation\n* Maintain operational documentation and runbooks\n**What will you bring?**\n* Programming & Scripting\n* Cloud & Infrastructure\n* Kubernetes\n* Docker\n* AWS services\n* DevOps & Tools\n* Git\n* Terraform\n* Development Practices\n* Continuous integration/deployment\n* Code review processes\n* Performance optimization\n* Jenkins\n* Network firewall\n* Hub & Spoke model\n* Transit Gateways\n* Professional Qualifications\n* Bachelor's/master’s in computer science or related field\n* Minimum of six years’ experience in a Platforms Engineer or Site Reliability Engineering role utilizing the AWS platform\n* Preference to AWS certification for Advanced Networking - Specialty Certification\n* Strong system design skills\n* Impact & Opportunity\n* Influence technical architecture decisions\n* Build scalable enterprise solutions\n* Contribute to open-source projects\n**What do we offer?**\n* We value our people and offer a competitive salary along with company bonus\n* Strong maternity and paternity scheme\n* A workplace pension scheme\n* Take what you need holiday package\n* Private medical insurance\n* Dental plan\n* Group life assurance\n* Group income protection\n* Employee assistance programme\n* A monthly wellness allowance\n* Adoption assistance\n* Stock options\nDon't meet every requirement? Apply anyway! We value diverse candidates and encourage applications, even if you don't perfectly match the job description. Studies have shown that some strong candidates may self-select out of the interview process prematurely, at Smarsh we encourage an inclusive, high-performing environment.\nSmarsh is an equal opportunity and affirmative action employer. Qualified applicants will receive consideration without regard to their race, colour, religion, sex, sexual orientation, gender identity, national origin, disability, or status as a protected veteran. Smarsh invites all qualified interested applicants to apply for career opportunities. Reasonable accommodations may be made to enable individuals with disabilities to perform essential functions. Including frequency of functions.\n**About Our Culture**\nSmarsh hires lifelong learners with a passion for innovating with purpose, humility and humor. Collaboration is at the heart of everything we do. We work closely with the most popular communications platforms and the world’s leading cloud infrastructure platforms. We use the latest in AI/ML technology to help our customers break new ground at scale. We are a global organization that values diversity, and we believe that providing opportunities for everyone to be their authentic self is key to our success. Smarsh leadership, culture, and commitment to developing our people have all garnered Comparably.com Best Places to Work Awards. Come join us and find out what the best work of your career looks like.",
+    "salary_text": "",
+    "experience_text": "",
+    "posted": "2026-11-04",
+    "source": "LinkedIn",
+    "remote": false,
+    "workplace": "",
+    "id": "4a81b9646045181a",
+    "role_bucket": "platform",
+    "salary_min_lpa": null,
+    "salary_max_lpa": null,
+    "salary_estimated": false,
+    "exp_min": null,
+    "exp_max": null,
+    "prescore": 17,
+    "fit": {},
+    "trend": {},
+    "first_seen": ""
+   }
+  },
+  "9adc025b20a08a88": {
+   "since": "2026-11-05",
+   "job": {
+    "title": "DevOps Engineer - Azure Databricks & Azure Cloud Operations",
+    "company": "Unisys",
+    "location": "Bengaluru East, Karnataka, India",
+    "url": "https://www.linkedin.com/jobs/view/4479525173",
+    "description": "**What Success Looks Like In This Role**\n* Design and provision a secure Azure AI Foundry ML architecture for OCR-based billing data extraction, taking models from validation through production deployment to resolve revenue-impacting invoice processing delays.\n* Build and operate an end-to-end AI pipeline — ingestion, model inference, and REST API integration — Azure Container Apps, API Gateway\n* Containerized Python/FastAPI microservices with Docker, publish images to Azure Container Registry, and deploy to Azure Container Apps, enabling scalable HTTP-based model serving.\n* Build CI/CD pipelines (Azure DevOps) automating deployment and version control for ML-enabled infrastructure and application services.\n* Implement pipeline monitoring and observability (Azure Application Insights, centralized logging) to track model and service performance in production.\n* Designing and managing environments that combine on-premises infrastructure\nwith cloud services.\n* Integrating AI-driven automation to streamline tasks like resource provisioning and security enforcement, enhancing efficiency and adaptability.\n* Researching new technologies related to the development of distributed\napplications on the Cloud platform\n**You will be successful in this role if you have:**\nBE degree with 2+ years relevant experience\n* Experience in DevOps and Cloud Operations.\n* Strong knowledge of Microsoft Azure services.\n* Experience with Azure Databricks (ADB).\n* CI/CD tools such as Azure DevOps, Jenkins, or GitHub Actions.\n* Scripting experience in Python, PowerShell, or Shell scripting.\n* Knowledge of Infrastructure as Code (Terraform, ARM templates, etc.).\n* Experience with monitoring and incident management.\n**Preferred Skills**\n* Experience supporting data platforms and analytics environments.\n* Knowledge of containers (Docker/Kubernetes).\n* Understanding of cloud security and governance.\n* AI/ML technical writer from the perspective of a perpetual learn\n* Distilled intricate topics into digestible content, catering to both novice learners and seasoned professionals in the field\n* Demystify the intricacies of computer vision, machine learning frameworks, and advanced neural network architectures\nUnisys is proud to be an equal opportunity employer that considers all qualified applicants without regard to age, blood type, caste, citizenship, color, disability, family medical history, family status, ethnicity, gender, gender expression, gender identity, genetic information, marital status, national origin, parental status, pregnancy, race, religion, sex, sexual orientation, transgender status, veteran status or any other category protected by law.\n*Local employment practices and rights may vary by jurisdiction and are subject to applicable local laws. This commitment includes our efforts to provide for all those who seek to express interest in employment the opportunity to participate without barriers.*\n*If you are a US job seeker unable to review the job opportunities herein, or cannot otherwise complete your expression of interest, without additional assistance and would like to discuss a request for reasonable accommodation, please contact our Global Recruiting organization at*\n*GlobalRecruiting@unisys.com*\n*. US job seekers can find more information about Unisys’*\n*EEO commitment here*\n*.*",
+    "salary_text": "",
+    "experience_text": "",
+    "posted": "2026-11-04",
+    "source": "LinkedIn",
+    "remote": false,
+    "workplace": "",
+    "id": "9adc025b20a08a88",
+    "role_bucket": "devops",
+    "salary_min_lpa": null,
+    "salary_max_lpa": null,
+    "salary_estimated": false,
+    "exp_min": 2.0,
+    "exp_max": null,
+    "prescore": 17,
+    "fit": {},
+    "trend": {},
+    "first_seen": ""
+   }
+  },
+  "aff7091400c8c093": {
+   "since": "2026-11-05",
+   "job": {
+    "title": "Devops Engineer (1-3 years)",
+    "company": "NielsenIQ",
+    "location": "Chennai, Tamil Nadu, India",
+    "url": "https://www.linkedin.com/jobs/view/4486508843",
+    "description": "**Job Description**\n**Engineer, Chennai**\nOur Technology teams are focused on supporting and modernizing enterprise applications through automation, DevOps best practices, and continuous improvement. The DevOps team manages these platforms while adopting modern engineering practices including GitHub Actions, Infrastructure Automation, Cloud technologies, and AI-assisted development tools.\nAs a Junior DevOps Engineer, you'll work alongside experienced engineers to support application deployments, CI/CD pipelines, operational excellence, and platform reliability. This role provides an excellent opportunity to gain hands-on experience across DevOps, Linux administration, security, cloud technologies, and AI-enabled engineering practices while contributing to critical business platforms.\n**Responsibilities**\n* Support CI/CD pipelines using GitHub Actions for application build, test, deployment, and release activities.\n* Assist in managing and supporting applications hosted in on-premise and hybrid environments.\n* Perform log analysis, shell scripting, service monitoring, and troubleshooting.\n* Assist with automation initiatives to improve deployment efficiency, operational stability, and repeatability.\n* Follow DevSecOps practices including secure handling of credentials, access management, vulnerability remediation, and compliance requirements.\n* Monitor application and infrastructure health, investigate alerts, and support root cause analysis activities.\n* Utilize AI-powered engineering tools such as GitHub Copilot and Microsoft Copilot to improve productivity, documentation, automation, and troubleshooting.\n* Collaborate with development, infrastructure, database, security, and business teams while continuously building technical expertise\n**Qualifications**\n* **Must Have:**\nAt least 1-3 years of experience in DevOps in on-prem/cloud environment or a related technical role.\n* Strong understanding of CI/CD concepts and source control systems such as GitHub.\n* Hands-on with GitHub Actions or other CICD tools.\n* Experience in container technologies such as Docker or Kubernetes.\n* Basic Linux/Unix knowledge including commands, file systems, process management, and shell scripting.\n* Understanding of DevOps principles, software delivery lifecycle, and release management concepts.\n* Exposure to Oracle databases or relational database concepts and SQL fundamentals.\n* Basic understanding of security best practices, including access controls, password management, and secure software delivery.\n* Strong troubleshooting, problem-solving, and communication skills.\n* Demonstrated ability to work effectively within Agile/Scrum teams.\n* **Nice to Have:**\nExposure to cloud platforms and Infrastructure as Code concepts (Terraform, Ansible, etc.).\n* Knowledge of monitoring and observability tools.\n* Experience using AI-enabled developer tools such as GitHub Copilot.\n* Strong learning mindset and eagerness to adopt new technologies\n**Additional Information**\nCareer site\nhttps://nielseniq.com/global/en/careers/\n**Our Benefits**\n* Flexible working environment\n* Volunteer time off\n* LinkedIn Learning\n* Employee-Assistance-Program (EAP)\nNIQ may utilize artificial intelligence (AI) tools at various stages of the recruitment process, including résumé screening, candidate assessments, interview scheduling, job matching, communication support, and certain administrative tasks that help streamline workflows. These tools are intended to improve efficiency and support fair and consistent evaluation based on job-related criteria. All use of AI is governed by NIQ’s principles of fairness, transparency, human oversight, and inclusion. Final hiring decisions are made exclusively by humans. NIQ regularly reviews its AI tools to help mitigate bias and ensure compliance with applicable laws and regulations. If you have questions, require accommodations, or wish to request human review were permitted by law, please contact your local HR representative. For more information, please visit NIQ’s AI Safety Policies and Guiding Principles: https://nielseniq.com/global/en/info/niqs-ai-safety-policies/\n**About NIQ**\nNIQ is the world’s leading consumer intelligence company, delivering the most complete understanding of consumer buying behavior and revealing new pathways to growth. In 2023, NIQ combined with GfK, bringing together the two industry leaders with unparalleled global reach. With a holistic retail read and the most comprehensive consumer insights—delivered with advanced analytics through state-of-the-art platforms—NIQ delivers the Full View™. NIQ is an Advent International portfolio company with operations in 100+ markets, covering more than 90% of the world’s population.\nFor more information, visit NIQ.com\nWant to keep up with our latest updates?\nFollow us on: LinkedIn | Instagram | Twitter | Facebook\n**Our commitment to Diversity, Equity, and Inclusion**\nAt NIQ, we are steadfast in our commitment to fostering an inclusive workplace that mirrors the rich diversity of the communities and markets we serve. We believe that embracing a wide range of perspectives drives innovation and excellence. All employment decisions at NIQ are made without regard to race, color, religion, sex (including pregnancy, sexual orientation, or gender identity), national origin, age, disability, genetic information, marital status, veteran status, or any other characteristic protected by applicable laws. We invite individuals who share our dedication to inclusivity and equity to join us in making a meaningful impact. To learn more about our ongoing efforts in diversity and inclusion, please visit the https://nielseniq.com/global/en/news-center/diversity-inclusion",
+    "salary_text": "",
+    "experience_text": "",
+    "posted": "2026-11-04",
+    "source": "LinkedIn",
+    "remote": false,
+    "workplace": "",
+    "id": "aff7091400c8c093",
+    "role_bucket": "devops",
+    "salary_min_lpa": null,
+    "salary_max_lpa": null,
+    "salary_estimated": false,
+    "exp_min": 1.0,
+    "exp_max": 3.0,
+    "prescore": 16,
+    "fit": {},
+    "trend": {},
+    "first_seen": ""
+   }
+  },
+  "0537937cc2df4e70": {
+   "since": "2026-11-05",
+   "job": {
+    "title": "Platform Engineer, Python",
+    "company": "eBay",
+    "location": "Bengaluru, Karnataka, India",
+    "url": "https://www.linkedin.com/jobs/view/4485502664",
+    "description": "At eBay, we're more than a global ecommerce leader — we’re changing the way the world shops and sells. Our platform empowers millions of buyers and sellers in more than 190 markets around the world. We’re committed to pushing boundaries and leaving our mark as we reinvent the future of ecommerce for enthusiasts.\nOur customers are our compass, authenticity thrives, bold ideas are welcome, and everyone can bring their unique selves to work — every day. We're in this together, sustaining the future of our customers, our company, and our planet.\nJoin a team of passionate thinkers, innovators, and dreamers — and help us connect people and build communities to create economic opportunity for all.\nWe are the eBay Frameworks Team — we build the developer platforms that power eBay's engineering organization.\nWe’re looking for a Platform Engineer in Bangalore to help build and grow the Python Managed Stack — eBay's paved path for Python application lifecycle management on eBay Cloud. Reaching GA in mid-2026, this stack now powers 30+ applications across 13 domains. We practice end-to-end engineering ownership: the team that builds the platform also tests, releases, operates, and supports it. This is an opportunity to shape an expanding platform alongside US and Shanghai-based teammates.\n**What You Will Accomplish**\n* Platform Development: Design, develop and maintain core Python modules used daily by internal engineers.\n* Platform Certification, Releases, Upgrade Automation: Drive certifications, automated monthly releases, and Site-Wide Upgrades (SWU) to ensure secure, seamless deployments.\n* Developer Support: Provide support to developers, debugging issues and triaging requests in our Slack channels.\n* Support as a feedback loop: Turn recurring issues into platform capabilities, automation, tests, or documentation to reduce recurring support work.\n* Containerization & Observability: Maintain base images (Ubuntu 24 + Python 3.12), optimize image registries, and embed out-of-the-box tracing (OpenTelemetry), metrics (Prometheus), and logging.\n* Security & Auth: Integrate TrustFabric, OAuth, and secrets management directly into the framework layer.\n* AI Tooling: Build AI-driven developer productivity tools (Python AI Assistant skills) and knowledge graphs.\n**What You Bring**\n* Experience: 3+ years in backend/platform software engineering.\n* Core Python: Deep familiarity with Python 3.10+, type hints, async programming, and modern web frameworks (FastAPI, Flask).\n* Delivery Engineering: Hands-on experience with Docker, Kubernetes, and CI/CD pipelines (Tekton, Jenkins).\n* Tooling: Familiarity with Python dependency tools (Poetry, UV), packaging, and REST/OpenAPI.\n* Ownership: Comfortable owning software beyond writing the code—testing, shipping, operating, supporting its users, and improving the platform based on what you learn.\n* Collaboration: High developer empathy with strong written communication skills to partner across time zones.\n**Nice to Have**\n* Experience with OpenTelemetry, Prometheus, or Grafana/Sherlock.\n* Background in Internal Developer Platforms\nIf you're excited about building robust, scalable platforms for developers at a global company, we'd love to hear from you.\n**Additional Details**\neBay is an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, national origin, sex, sexual orientation, gender identity, veteran status, and disability, or other legally protected status. If you have a need that requires accommodation, please contact us at talent@ebay.com. We will make every effort to respond to your request for accommodation as soon as possible. View our accessibility statement to learn more about eBay's commitment to ensuring digital accessibility for people with disabilities.\nWe use cookies to enhance your experience and may use AI tools for administrative tasks in the hiring process. To learn how we handle your personal data and use AI responsibly, please visit our Talent Privacy Notice, Privacy Center, and AI Hiring Guidelines.",
+    "salary_text": "",
+    "experience_text": "",
+    "posted": "2026-11-04",
+    "source": "LinkedIn",
+    "remote": false,
+    "workplace": "",
+    "id": "0537937cc2df4e70",
+    "role_bucket": "platform",
+    "salary_min_lpa": null,
+    "salary_max_lpa": null,
+    "salary_estimated": false,
+    "exp_min": null,
+    "exp_max": null,
+    "prescore": 13,
+    "fit": {},
+    "trend": {},
+    "first_seen": ""
+   }
+  },
+  "98a4de4edde32195": {
+   "since": "2026-11-05",
+   "job": {
+    "title": "Cloud Engineer, Professional Services",
+    "company": "Abacus",
+    "location": "Chennai, Tamil Nadu, India",
+    "url": "https://www.linkedin.com/jobs/view/4485081648",
+    "description": "We are looking for an experienced Cloud Engineer with strong capabilities in Microsoft Azure, DevOps, cloud administration, and development. The ideal candidate will have experience delivering cloud and technology projects, developing reporting solutions using Power BI, and supporting enterprise-level Microsoft cloud environments.\nThis role requires a combination of hands-on technical expertise, development capabilities, and the ability to deliver cloud-based solutions while working closely with internal teams and clients.\nPrevious project delivery and professional services experience would be an added advantage.\n**Key Resposibilites**\n* Design, develop, implement, and maintain cloud-based solutions using Microsoft Azure.\n* Manage Azure infrastructure, administration, configuration, monitoring, and optimization.\n* Develop and maintain Power BI dashboards, reports, and data visualizations to support business requirements.\n* Work on Power BI development, data modelling, reporting, and analytics solutions.\n* Implement and maintain DevOps practices, including CI/CD pipelines, automation, and deployment processes.\n* Develop and support solutions using Microsoft Power Platform, including Power Apps and Power Automate.\n* Collaborate with cross-functional teams to understand business requirements and translate them into technical solutions.\n* Support cloud migration, implementation, integration, and modernization projects.\n* Troubleshoot technical issues across cloud infrastructure, applications, reporting solutions, and deployments.\n* Ensure solutions follow security, performance, scalability, and reliability best practices.\n* Participate in client-facing discussions, technical presentations, and project delivery activities\n**Required Qualificaitons**\n* Microsoft Power BI\n* Hands-on experience in Power BI development and reporting.\n* Experience creating interactive dashboards and business reports.\n* Strong understanding of data modelling, DAX, Power Query, and report optimization.\n* Ability to translate business requirements into meaningful data visualizations.\n* Microsoft Azure\n* Experience with Azure administration and cloud infrastructure.\n* Knowledge of Azure services, resource management, networking, storage, and security.\n* Experience supporting cloud-based applications and enterprise environments.\n* DevOps & Automation\n* Experience with Azure administration and cloud infrastructure..\n* Knowledge of Azure DevOps, Git, and source control management.\n* Understanding of infrastructure automation and configuration management.\n* Microsoft Power Platform\n* Exposure to Power Apps and Power Automate.\n* Ability to develop and integrate business process automation solutions.\n* Understanding of Microsoft cloud ecosystem and integrations.\n* Cloud & Systems Engineering\n* Understanding of cloud architecture and enterprise systems.\n* Experience with cloud integration, troubleshooting, and performance optimization.\n* Knowledge of Microsoft cloud technologies and related services\n**Preferred Qualifiaction**\n* Previous experience in Professional Services, consulting, or client-facing project delivery.\n* Experience working on enterprise cloud transformation or migration projects.\n* Exposure to Microsoft 365 and broader Microsoft technology solutions.\n* Relevant Microsoft Azure, Power BI, or Power Platform certifications.\n* Strong analytical, problem-solving, communication, and stakeholder management skills.",
+    "salary_text": "",
+    "experience_text": "",
+    "posted": "2026-11-04",
+    "source": "LinkedIn",
+    "remote": false,
+    "workplace": "",
+    "id": "98a4de4edde32195",
+    "role_bucket": "cloud",
+    "salary_min_lpa": null,
+    "salary_max_lpa": null,
+    "salary_estimated": false,
+    "exp_min": null,
+    "exp_max": null,
+    "prescore": 12,
+    "fit": {},
+    "trend": {},
+    "first_seen": ""
+   }
+  },
+  "1ee0752c4514e78a": {
+   "since": "2026-11-05",
+   "job": {
+    "title": "DevOps Engineer",
+    "company": "ITC Infotech",
+    "location": "Bengaluru, Karnataka, India",
+    "url": "https://www.linkedin.com/jobs/view/4486382224",
+    "description": "**Role - DevOps Engineer (AWS EKS/Kubernetes)**\n**Location - Bangalore**\n**Work Type - Work from Office**\n**DevOps Engineer (AWS EKS/Kubernetes) -**\n**Must Have Skills**\n* Hands-on experience with\n**AWS cloud services provisioning and management**\n, preferably:\n* EKS (Elastic Kubernetes Service)\n* ElastiCache Redis\n* Aurora RDS\n* ActiveMQ\n* Experience in\n**microservices deployment**\nusing:\n* Jenkins CI/CD pipelines\n* Helm charts\n* Strong hands-on experience with\n**Kubernetes**\n* Ability to deploy, monitor, and troubleshoot containerized applications in production environments.\n**Should Have Skills**\n* Hands-on experience deploying and managing\n**microservices on EKS clusters**\n.\n* Experience in troubleshooting application, pod, node, networking, and deployment issues in Kubernetes.\n* Good understanding of\n**HPA (Horizontal Pod Autoscaler)**\nand pod scaling mechanisms.\n* Strong Linux administration and troubleshooting skills.\n* Understanding of\n**end-to-end multi-tier application architecture**\n, including:\n* Web tier\n* Application tier\n* Database tier\n* Networking and load balancing\n**Nice to Have Skills**\n* Experience working on\n**Banking or Financial Services applications**\n.\n* Hands-on experience with\n**Karpenter**\nfor Kubernetes node scaling.\n* Experience with\n**RDS administration and performance tuning**\n.\n* Experience configuring and managing\n**Nginx**",
+    "salary_text": "",
+    "experience_text": "",
+    "posted": "2026-11-04",
+    "source": "LinkedIn",
+    "remote": false,
+    "workplace": "",
+    "id": "1ee0752c4514e78a",
+    "role_bucket": "devops",
+    "salary_min_lpa": null,
+    "salary_max_lpa": null,
+    "salary_estimated": false,
+    "exp_min": null,
+    "exp_max": null,
+    "prescore": 10,
+    "fit": {},
+    "trend": {},
+    "first_seen": ""
+   }
+  },
+  "6b18b075df43b5f3": {
+   "since": "2026-11-05",
+   "job": {
+    "title": "DevOps Engineer",
+    "company": "Enterprise Bot",
+    "location": "Bengaluru, Karnataka, India",
+    "url": "https://www.linkedin.com/jobs/view/4485074177",
+    "description": "At Enterprise Bot, we create AI-powered bots to automate customer interactions and provide enterprises with a readily accessible digital agent to improve customer experience and create operational efficiency. We are a cashflow positive startup that has been accelerated by Startupbootcamp, Plug and Play and the F10 in and are currently situated in the Generali Innovation Garage in Adliswil, Zurich.\nOur current esteemed clients include companies in multiple domain across Europe & UK such as AfterPay, SIX Group, Generali Switzerland, PwC Switzerland, Swica, GoAhead Group, LNER among others with our focus on several languages such as English, German, French, Italian, Portuguese and Dutch.\nSpread across three office locations with hardhearted in Switzerland, we are a team of over 50 super talented people of diverse nationality and culture. Fostering a truly open and progressive company culture with state-of-the-art engineering solutions - working at Enterprise Bot is a refreshing mix of purpose, challenge, and fun.\n**Tasks**\n* Test, build, design, deployment, and ability to maintain continuous integration and continuous delivery process using tools like Jenkins, maven Git, etc.\n* Must know how to choose the best tools and technologies which best fits the business needs.\n* Ability to automate test and deploy the code and monitor.\n* Work in close coordination with the development and operations team such that the application is in line with performance according to the customer's expectation.\n**Requirements**\n* 2-4 years of experience in deploying and managing multiple servers\n* hands on experience managing DB technologies like Mongo/Redis/Elastic search\n* containerization, ideally using Docker and Kubernetes\n* experience in running & deploying node.js and python webservers\n* experience in blue-green deployments is a plus\n**Benefits**\n* A culture comprised of diverse, global teams who have a passion for collaboration and client service.\n* A competitive salary and scope for further advancement\n* State-of-the-art engineering solutions - working at Enterprise Bot is a refreshing mix of purpose, challenge, and fun",
+    "salary_text": "",
+    "experience_text": "",
+    "posted": "2026-11-04",
+    "source": "LinkedIn",
+    "remote": false,
+    "workplace": "",
+    "id": "6b18b075df43b5f3",
+    "role_bucket": "devops",
+    "salary_min_lpa": null,
+    "salary_max_lpa": null,
+    "salary_estimated": false,
+    "exp_min": 2.0,
+    "exp_max": 4.0,
+    "prescore": 7,
+    "fit": {},
+    "trend": {},
+    "first_seen": ""
+   }
+  },
+  "eb1c6581075d9353": {
+   "since": "2026-11-05",
+   "job": {
+    "title": "AWS Engineer",
+    "company": "dotSolved Systems Inc.",
+    "location": "Chennai, Tamil Nadu, India",
+    "url": "https://www.linkedin.com/jobs/view/4486563635",
+    "description": "**Position: AWS Engineer**\nLocation: Chennai - Onsite/Hybrid/Remote\nShift Timing: 3.00AM - 12.00PM PST (US Pacific Time)\n**About the role:**\nWe are looking for an experienced AWS Amazon Connect & Salesforce Integration Developer with strong expertise in developing cloud-based contact center solutions and integrating Amazon Connect with Salesforce CRM. The ideal candidate should have hands-on experience building Amazon Connect contact flows, IVR solutions, queues, routing configurations, Amazon Lex chatbots, and Contact Lens analytics. The candidate will also be responsible for developing scalable integrations using AWS serverless services, implementing call and chat routing between existing CTI platforms and Amazon Connect, and providing production support.\n**Key Responsibilities:**\n* Design, develop, and configure Amazon Connect contact center solutions, including contact flows, queues, routing profiles, and IVR workflows.\n* Develop and configure Amazon Lex bots for automated customer interactions and self-service capabilities.\n* Implement Amazon Connect Contact Lens for call recording, analytics, conversational insights, and quality monitoring.\n* Integrate Amazon Connect with Salesforce CRM using Salesforce Voice (formerly Service Cloud Voice) or Salesforce CTI Adapter.\n* Develop scalable and secure integrations using AWS services such as:\n* AWS Lambda\n* API Gateway\n* DynamoDB\n* Kinesis\n* EventBridge\n* SNS and SQS\n* Implement seamless voice and chat routing between existing CTI platforms and Amazon Connect.\n* Configure monitoring, logging, and troubleshooting using Amazon CloudWatch, AWS CloudTrail, and AWS X-Ray.\n* Automate infrastructure provisioning and deployments using CloudFormation, AWS CDK, or Terraform.\n* Troubleshoot integration issues, call routing failures, latency, and production incidents.\n* Collaborate with Salesforce, AWS, and application development teams to deliver reliable contact center solutions.\n* Provide ongoing production support, performance optimization, and maintenance.\n**Required Technical Skills:**\n* Strong hands-on experience with Amazon Connect implementation and customization.\n* Experience with Amazon Connect contact flows, IVR, queues, routing profiles, and Lex bots.\n* Experience with Amazon Connect Contact Lens and contact center analytics.\n* Hands-on experience integrating Amazon Connect with Salesforce CRM.\n* Knowledge of Salesforce Voice (Service Cloud Voice) or Salesforce CTI Adapter.\n* Strong experience with AWS Lambda, API Gateway, DynamoDB, Kinesis, EventBridge, SNS, and SQS.\n* Experience with AWS monitoring and tracing tools such as CloudWatch, CloudTrail, and X-Ray.\n* Experience with Infrastructure as Code (IaC) tools such as CloudFormation, CDK, or Terraform.\n* Strong understanding of REST APIs, webhooks, event-driven architecture, and system integrations.\n* Experience in production troubleshooting and application support.",
+    "salary_text": "",
+    "experience_text": "",
+    "posted": "2026-11-04",
+    "source": "LinkedIn",
+    "remote": false,
+    "workplace": "",
+    "id": "eb1c6581075d9353",
+    "role_bucket": "cloud",
+    "salary_min_lpa": null,
+    "salary_max_lpa": null,
+    "salary_estimated": false,
+    "exp_min": null,
+    "exp_max": null,
+    "prescore": 7,
+    "fit": {},
+    "trend": {},
+    "first_seen": ""
+   }
+  },
+  "e08265995f5d458d": {
+   "since": "2026-11-05",
+   "job": {
+    "title": "Specialist Software Engineer- Devops SRE",
+    "company": "Societe Generale Global Solution Centre",
+    "location": "Bengaluru, Karnataka, India",
+    "url": "https://www.linkedin.com/jobs/view/4474348155",
+    "description": "**Responsibilities**\n7+ years’ experience in cloud platform production support, DevOps, and application development.\n* Significant experience in SRE or DevOps\n* Past experience as a Python / GitHub/ Terraform / Ansible developer\n* Experience on infrastructures based mainly on API, containers, micro-services\n* Ability to set up the metrics needed to monitor applications\n* Ability to work independently and in a multicultural team, distributed team (France, India)\n* Involved in application environment updates, DR, server/OS patches upgrades\n* Assist the DevOps of the perimeter as well as their teams to define and implement an automation strategy (CI / CD, tests, deployments, supervision, Monitoring etc.).\n* Contribute to technological choices and architecture of the tooling of the team\n* Manage internal hosting infrastructures and IaaS / PaaS services on the Societe Generale Private Cloud.\n* Ensure the delivery and operations of a consistent, resilient, scalable and reliable.\n* Contribute to ensuring the security of the solutions offered to customers and their data.\n**Required**\n**Profile required**\nWe are committed to creating a diverse environment and are proud to be an equal opportunity employer. All qualified applicants receive consideration for employment without regard to race, color, religion, gender, gender identity or expression, sexual orientation, national origin, genetics, disability, age, or veteran status”.\n**Why join us**\nWe are committed to creating a diverse environment and are proud to be an equal opportunity employer. All qualified applicants receive consideration for employment without regard to race, color, religion, gender, gender identity or expression, sexual orientation, national origin, genetics, disability, age, or veteran status”.\n**Business insight**\nAt Société Générale, we are convinced that people are drivers of change, and that the world of tomorrow will be shaped by all their initiatives, from the smallest to the most ambitious.\nWhether you’re joining us for a period of months, years or your entire career, together we can have a positive impact on the future. Creating, daring, innovating and taking action are part of our DNA.\nIf you too want to be directly involved, grow in a stimulating and caring environment, feel useful on a daily basis and develop or strengthen your expertise, you will feel right at home with us!\nStill hesitating?\nYou should know that our employees can dedicate several days per year to solidarity actions during their working hours, including sponsoring people struggling with their orientation or professional integration, participating in the financial education of young apprentices and sharing their skills with charities. There are many ways to get involved.\nWe are committed to support accelerating our Group’s ESG strategy by implementing ESG principles in all our activities and policies. They are translated in our business activity (ESG assessment, reporting, project management or IT activities), our work environment and in our responsible practices for environment protection.\nWe are committed to creating a diverse environment and are proud to be an equal opportunity employer. All qualified applicants receive consideration for employment without regard to race, color, religion, gender, gender identity or expression, sexual orientation, national origin, genetics, disability, age, or veteran status”.",
+    "salary_text": "",
+    "experience_text": "",
+    "posted": "2026-11-04",
+    "source": "LinkedIn",
+    "remote": false,
+    "workplace": "",
+    "id": "e08265995f5d458d",
+    "role_bucket": "sre",
+    "salary_min_lpa": null,
+    "salary_max_lpa": null,
+    "salary_estimated": false,
+    "exp_min": null,
+    "exp_max": null,
+    "prescore": 6,
+    "fit": {},
+    "trend": {},
+    "first_seen": ""
+   }
+  }
+ }
 }
