@@ -24,7 +24,7 @@ note for the recruiter, so applying to the day's best 5-10 takes about 15 minute
 4. **Hiring trend**: history is saved in `data/history.json`, so the page shows whether a
    company is posting more or fewer roles over time. It says "Tracking" for the first
    two weeks while history builds up.
-5. **Publish**: the page goes to Netlify. Your "applied" marks are saved in your browser.
+5. **Publish**: the page goes to Vercel. Your "applied" marks are saved in your browser.
 
 ## One-time setup (about 20 minutes)
 
@@ -43,13 +43,14 @@ contains your resume details.
 
 ### 2. Get the keys
 - **Gemini**: create an API key in Google AI Studio (aistudio.google.com).
-- **Netlify**: in Netlify, create a new site with "Deploy manually" (drop any small
-  folder). Copy its Site ID from Site configuration. Then create a personal access
-  token under User settings, Applications.
+- **Vercel**: 
+  - Create a project on [Vercel](https://vercel.com).
+  - Get a personal access token under Account Settings -> Tokens.
+  - Get your Project ID and Org ID under Project Settings -> General.
 
 ### 3. Add them as repo secrets
 In GitHub: Settings, Secrets and variables, Actions, New repository secret.
-Add `GEMINI_API_KEY`, `NETLIFY_AUTH_TOKEN`, `NETLIFY_SITE_ID`.
+Add `GEMINI_API_KEY`, `VERCEL_TOKEN`, `VERCEL_ORG_ID`, `VERCEL_PROJECT_ID`.
 Also: Settings, Actions, General, Workflow permissions: choose "Read and write permissions".
 
 ### 4. Check the company list
@@ -58,7 +59,7 @@ Delete the lines marked FAIL in `companies.yaml` and add companies you want to t
 
 ### 5. Do a test run
 In GitHub, open Actions, "Daily job radar", "Run workflow". After it finishes, open your
-Netlify site URL. Bookmark it. From now on it updates every morning.
+Vercel site URL. Bookmark it. From now on it updates every morning.
 
 ## When the AI is busy
 Scoring is built to survive busy periods. Jobs are scored 5 at a time, so a day needs
@@ -77,7 +78,7 @@ jobs 5-30 minutes late, and scraping takes a few minutes. That way the page is r
 ## Costs
 Everything is free: GitHub Actions (private repos get 2,000 minutes a month; this uses
 about 300), Gemini's free tier (about 40 scored jobs a day; lower `max_jobs_per_day` if
-you hit limits), JobSpy, and Netlify.
+you hit limits), JobSpy, and Vercel.
 
 ## Tuning
 Everything is in `config.yaml`: the job-site searches, role keywords, excluded title words, cities, experience
@@ -95,6 +96,6 @@ current name in Google AI Studio and update `gemini_model`.
   or a longer `delay_seconds` helps.
 - Collecting LinkedIn listings automatically is against LinkedIn's terms even without
   logging in. JobSpy never uses your account, so your profile isn't at risk.
-- The Netlify URL is not listed or indexed by search engines, but anyone with the link
+- The Vercel URL is not listed or indexed by search engines, but anyone with the link
   can open it. Don't share it.
 - Estimated salaries and hiring trends are signals, not facts. Confirm pay with the recruiter.
