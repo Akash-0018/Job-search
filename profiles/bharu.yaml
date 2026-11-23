@@ -1,0 +1,69 @@
+# Bharu's job search. Published inside Akash's page at /akash/bharu/
+name: Bharu
+resume_file: profiles/bharu.md
+
+# Told to the AI when it judges each job.
+preferences: |
+  - Target roles: Java Backend Developer, Junior Software Engineer (Java), Java Full Stack Developer, Associate Software Engineer, Spring Boot Developer
+  - Locations: Chennai, Bangalore/Bengaluru (on-site or hybrid), or 100% remote open to India-based candidates
+  - Beginner / fresher / junior level (0-2 years of experience; 2025 B.E. CSE graduate)
+  - Minimum acceptable package: 4 LPA (target 5-7+ LPA)
+
+# Searches run on LinkedIn, Indeed and Naukri every morning.
+searches:
+  - {term: "Java Developer", location: "Chennai, Tamil Nadu, India"}
+  - {term: "Java Developer", location: "Bengaluru, Karnataka, India"}
+  - {term: "Java Backend Developer", location: "Chennai, Tamil Nadu, India"}
+  - {term: "Java Backend Developer", location: "Bengaluru, Karnataka, India"}
+  - {term: "Junior Java Developer", location: "Chennai, Tamil Nadu, India"}
+  - {term: "Junior Java Developer", location: "Bengaluru, Karnataka, India"}
+  - {term: "Java Full Stack Developer", location: "Chennai, Tamil Nadu, India"}
+  - {term: "Java Full Stack Developer", location: "Bengaluru, Karnataka, India"}
+  - {term: "Spring Boot Developer", location: "Bengaluru, Karnataka, India"}
+  - {term: "Spring Boot Developer", location: "Chennai, Tamil Nadu, India"}
+  - {term: "Associate Software Engineer Java", location: "India"}
+  - {term: "Java Developer", location: "India", remote: true}
+
+search:
+  roles:
+    java_backend:
+      label: Java backend
+      title_keywords: [java backend, backend java, java developer, java engineer, spring boot,
+                       springboot, j2ee, java microservices, core java developer, backend engineer]
+      jd_must_mention: [java, spring, spring boot, rest, mysql, api, backend, sql]
+    java_fullstack:
+      label: Java full stack
+      title_keywords: [java full stack, java fullstack, full stack java, fullstack java,
+                       full stack developer, fullstack developer]
+      jd_must_mention: [java, react, javascript, html, css, frontend, fullstack, full stack]
+    junior_sde:
+      label: Junior Java SDE
+      title_keywords: [junior software engineer, junior java, associate software engineer,
+                       trainee software engineer, software engineer trainee, graduate engineer trainee,
+                       get, fresher java, entry level java, sde 1, sde-1, junior developer]
+      jd_must_mention: [java, oop, data structures, sql, git]
+
+  # Titles containing any of these words are skipped (whole words).
+  # Kept junior/fresher friendly: does NOT exclude intern, trainee, fresher, junior, associate.
+  title_exclude: [senior, sr, lead, staff, principal, manager, head, director, architect, vp,
+                  devops, sre, data analyst, data engineer, qa, sdet, test, sales, presales,
+                  pre-sales, .net, dotnet, c#, php, ruby, android, ios, flutter, embedded]
+
+  locations: [chennai, bangalore, bengaluru]
+  include_remote: true
+  exclude_hybrid_remote: true
+
+  experience:
+    max_min_years: 2            # skip roles whose minimum required experience is above 2 years
+
+  salary:
+    min_lpa: 4                  # 4 LPA minimum for beginner / entry-level roles
+    undisclosed: estimate
+    usd_to_inr: 84
+
+  max_age_days: 3
+  first_run_lookback_days: 14
+
+profile_keywords: [java, core java, spring, spring boot, microservices, hibernate, jpa, rest api,
+                   restful, mysql, sql, react, react.js, javascript, html5, css3, bootstrap, git,
+                   github, django, python, oop, multithreading, collections, maven, postman, agile]

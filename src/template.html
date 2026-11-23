@@ -30,9 +30,14 @@ body { margin: 0; background: var(--bg); color: var(--ink); font: 400 16px/1.55 
 a { color: inherit; }
 :focus-visible { outline: 3px solid var(--marigold); outline-offset: 2px; border-radius: 4px; }
 .wrap { max-width: 920px; margin: 0 auto; padding: 40px 20px 80px; }
-.people { display: flex; gap: 8px; margin-bottom: 28px; }
+.people { display: flex; gap: 8px; margin-bottom: 24px; }
 .people a { font: 600 0.9rem var(--body); text-decoration: none; padding: 6px 14px; border-radius: 999px; border: 1px solid var(--line); color: var(--muted); }
 .people a[aria-current="page"] { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+
+.modules { display: flex; gap: 8px; margin: -14px 0 26px; }
+.modules a { font: 600 0.85rem var(--body); text-decoration: none; padding: 5px 14px; border-radius: 999px; border: 1px solid var(--line); color: var(--muted); background: var(--surface); }
+.modules a[aria-current="page"] { background: var(--marigold); color: #fff; border-color: var(--marigold); }
+.modules a:hover:not([aria-current="page"]) { border-color: var(--marigold); color: var(--ink); }
 
 header h1 { font: 700 clamp(2.2rem, 6vw, 3.6rem)/1.02 var(--display); letter-spacing: -0.02em; margin: 0; }
 .date { color: var(--muted); margin: 10px 0 0; font-size: 1.05rem; }
@@ -118,6 +123,7 @@ footer ul { padding-left: 18px; margin: 6px 0 14px; }
 <body>
 <div class="wrap">
   <nav class="people" id="people" aria-label="Switch person"></nav>
+  <nav class="modules" id="modules" aria-label="Sub-modules" style="display:none;"></nav>
   <header>
     <h1 id="hello">Good morning</h1>
     <p class="date" id="date"></p>
@@ -289,8 +295,18 @@ function wire() {
   const roleSeg = document.getElementById("roleSeg");
   const placeSeg = document.getElementById("placeSeg");
   (DATA.places || []).forEach(([k, label]) => placeSeg.insertAdjacentHTML("beforeend", `<button data-v="${esc(k)}">${esc(label)}</button>`));
-  if ((DATA.people || []).length > 1) document.getElementById("people").innerHTML = DATA.people.map(p =>
-    `<a href="../${esc(p.id)}/"${p.id === DATA.id ? ' aria-current="page"' : ""}>${esc(p.name)}</a>`).join("");
+  const base = DATA.base_root || "../";
+  if ((DATA.people || []).length > 1) {
+    const curPerson = DATA.parent_id || DATA.id;
+    document.getElementById("people").innerHTML = DATA.people.map(p =>
+      `<a href="${base}${esc(p.id)}/"${p.id === curPerson ? ' aria-current="page"' : ""}>${esc(p.name)}</a>`).join("");
+  }
+  if ((DATA.submodules || []).length > 1) {
+    const modEl = document.getElementById("modules");
+    modEl.style.display = "flex";
+    modEl.innerHTML = DATA.submodules.map(m =>
+      `<a href="${esc(m.url)}"${m.active ? ' aria-current="page"' : ""}>${esc(m.subname || m.name)}</a>`).join("");
+  }
   Object.entries(DATA.roles).forEach(([k, label]) => roleSeg.insertAdjacentHTML("beforeend", `<button data-v="${esc(k)}">${esc(label)}</button>`));
   document.querySelectorAll(".seg").forEach(seg => {
     const key = seg.dataset.key;

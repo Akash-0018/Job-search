@@ -32,13 +32,60 @@ def load_profiles(cfg):
         merged = {**shared, **own, "id": entry["id"], "your_name": own.get("name", entry["id"].title())}
         merged["scoring"] = {**shared.get("scoring", {}), **own.get("scoring", {})}
         merged["resume"] = (ROOT / own["resume_file"]).read_text()
-        profiles.append(merged)
+        merged["base_root"] = "../"
+
+        sub_entries = entry.get("submodules", [])
+        if sub_entries:
+            submodule_nav_for_parent = [
+                {"name": merged["your_name"], "subname": merged["your_name"], "url": "./", "active": True}
+            ]
+            for sub in sub_entries:
+                sub_own = yaml.safe_load((ROOT / sub["file"]).read_text())
+                sub_name = sub.get("subname", sub_own.get("name", sub["id"].title()))
+                submodule_nav_for_parent.append({
+                    "name": sub_name, "subname": sub_name, "url": f"{sub['id']}/", "active": False
+                })
+
+            merged["submodule_nav"] = submodule_nav_for_parent
+            profiles.append(merged)
+
+            for sub in sub_entries:
+                sub_own = yaml.safe_load((ROOT / sub["file"]).read_text())
+                sub_id = f"{entry['id']}/{sub['id']}"
+                sub_name = sub.get("subname", sub_own.get("name", sub["id"].title()))
+                sub_nav = [
+                    {"name": merged["your_name"], "subname": merged["your_name"], "url": "../", "active": False}
+                ]
+                for s in sub_entries:
+                    s_name = s.get("subname", s["id"].title())
+                    sub_nav.append({
+                        "name": s_name, "subname": s_name,
+                        "url": "./" if s["id"] == sub["id"] else f"../{s['id']}/",
+                        "active": s["id"] == sub["id"]
+                    })
+                sub_merged = {
+                    **shared, **sub_own,
+                    "id": sub_id,
+                    "parent_id": entry["id"],
+                    "parent_name": merged["your_name"],
+                    "sub_id": sub["id"],
+                    "your_name": sub_name,
+                    "subname": sub_name,
+                    "base_root": "../../",
+                    "submodule_nav": sub_nav,
+                }
+                sub_merged["scoring"] = {**shared.get("scoring", {}), **sub_own.get("scoring", {})}
+                sub_merged["resume"] = (ROOT / sub_own["resume_file"]).read_text()
+                profiles.append(sub_merged)
+        else:
+            profiles.append(merged)
     return profiles
 
 
 def history_path(pid, mock):
     data = ROOT / "data"
-    path = data / (f"mock-history-{pid}.json" if mock else f"history-{pid}.json")
+    safe_pid = pid.replace("/", "-")
+    path = data / (f"mock-history-{safe_pid}.json" if mock else f"history-{safe_pid}.json")
     old = data / "history.json"  # single-person history from before profiles existed
     if not mock and pid == "akash" and old.exists() and not path.exists():
         old.rename(path)
@@ -196,12 +243,16 @@ def run_profile(cfg, all_jobs, collect_errors, source_stats, board_counts, now, 
     trends.save(hist_path, history, today)
 
     out = ROOT / "site" / cfg["id"] / "index.html"
-    render.write(out, history, run, cfg, people)
+    render.write(out, history, run, cfg, people,
+                 submodules=cfg.get("submodule_nav"),
+                 base_root=cfg.get("base_root", "../"))
     log.info("%s: %d new, %d passed filters, %d shortlisted. Page: %s",
              cfg["your_name"], len(new_jobs), len(passed), len(shortlist), out)
     for e in scorer.errors:
         log.warning(e)
     return {"id": cfg["id"], "name": cfg["your_name"],
+            "parent_id": cfg.get("parent_id"), "parent_name": cfg.get("parent_name"),
+            "subname": cfg.get("subname"),
             "today": len(history["shortlist"].get(today_s, []))}
 
 
@@ -220,7 +271,7 @@ def main():
     jobs, errors, stats, counts = collect(cfg, profiles, args.mock, any_first)
     for e in errors:
         log.warning(e)
-    people = [{"id": p["id"], "name": p["your_name"]} for p in profiles]
+    people = [{"id": p["id"], "name": p["your_name"]} for p in profiles if not p.get("parent_id")]
     summaries = [run_profile(p, jobs, errors, stats, counts, now, args, people) for p in profiles]
     render.write_index(ROOT / "site" / "index.html", summaries, now)
 

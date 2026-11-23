@@ -8,6 +8,9 @@ BACKEND_JD = ("Build multi-tenant SaaS APIs in Python with Django and PostgreSQL
               "OAuth, Stripe payments, and event-driven microservices on GCP Pub/Sub. 2+ years.")
 FDE_JD = ("Work directly with customers to deploy our AI platform: Python integrations, REST "
           "APIs, LLM workflows, and on-site problem solving. 2-4 years of experience.")
+JAVA_JD = ("Build robust backend services and REST APIs in Java using Spring Boot, Hibernate, "
+           "and MySQL database. Write unit tests, integrate with React frontend, and participate "
+           "in agile code reviews. 0-2 years of experience.")
 
 
 def fetch():
@@ -25,6 +28,13 @@ def fetch():
             BACKEND_JD, "", "2-4 years", source=m),
         Job("LLM Engineer", "Sample Labs A", "Bangalore", "https://example.com/6",
             AI_JD, "10-18 LPA", "", source=m),
+        # Java roles for Bharu module:
+        Job("Java Backend Developer", "Sample Cloud Labs", "Chennai, Tamil Nadu, India",
+            "https://example.com/13", JAVA_JD, "₹4,50,000 - ₹6,50,000 a year", "0-2 Yrs", source=m),
+        Job("Junior Java Full Stack Developer", "Sample Systems", "Bengaluru, Karnataka, India",
+            "https://example.com/14", JAVA_JD, "5-8 LPA", "0-1 Yrs", source=m),
+        Job("Java Developer", "Sample Corp J", "Chennai", "https://example.com/11",
+            JAVA_JD, "4-6 LPA", "1-2 Yrs", source=m),
         # These should all be filtered out:
         Job("Senior AI Engineer", "Sample Labs F", "Bengaluru", "https://example.com/7",
             AI_JD, "30-40 LPA", "6-10 Yrs", source=m),
@@ -34,8 +44,6 @@ def fetch():
             BACKEND_JD, "3-5 Lacs P.A.", "", source=m),
         Job("AI Engineer", "Sample Corp I", "Remote - United States only", "https://example.com/10",
             AI_JD, "", "", source=m, remote=True),
-        Job("Java Developer", "Sample Corp J", "Chennai", "https://example.com/11",
-            "Spring Boot microservices", "", "", source=m),
         Job("Python Developer", "Sample Corp K", "Bengaluru", "https://example.com/12",
             "Python scripting, 5+ years of experience required in automation", "", "", source=m),
     ]

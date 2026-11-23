@@ -3,9 +3,14 @@ timezone: Asia/Kolkata
 
 # One page per person, published at /<id>/ (for example /akash/ and /surya/).
 # To add someone, copy a profile .yaml and .md, edit them, and add a line here.
+# Submodules live inside a person's page (for example /akash/bharu/).
 profiles:
-  - {id: akash, file: profiles/akash.yaml}
-  - {id: surya, file: profiles/surya.yaml}
+  - id: akash
+    file: profiles/akash.yaml
+    submodules:
+      - {id: bharu, file: profiles/bharu.yaml, subname: Bharu}
+  - id: surya
+    file: profiles/surya.yaml
 
 scoring:
   # AI options, tried in this order. If one is busy (overloaded or rate-limited), the next
