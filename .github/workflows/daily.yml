@@ -36,7 +36,9 @@ jobs:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
 
       - name: Publish page to Vercel
-        run: npx --yes vercel deploy site --prod --yes --token "$VERCEL_TOKEN"
+        run: |
+          cp vercel.json site/ 2>/dev/null || true
+          npx --yes vercel deploy site --prod --yes --token "$VERCEL_TOKEN"
         env:
           VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
           VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
