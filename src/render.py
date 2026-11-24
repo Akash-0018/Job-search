@@ -44,16 +44,11 @@ def write_index(out: Path, summaries, now):
     rows = []
     for p in summaries:
         if p.get("parent_id"):
-            rows.append(
-                f'<a class="person submodule" href="{html.escape(p["id"])}/">'
-                f'<span class="n">↳ {html.escape(p["name"])} <small>({html.escape(p.get("parent_name", ""))})</small></span>'
-                f'<span class="c">{p["today"]} {"role" if p["today"] == 1 else "roles"} today</span></a>'
-            )
-        else:
-            rows.append(
-                f'<a class="person" href="{html.escape(p["id"])}/"><span class="n">{html.escape(p["name"])}</span>'
-                f'<span class="c">{p["today"]} {"role" if p["today"] == 1 else "roles"} today</span></a>'
-            )
+            continue
+        rows.append(
+            f'<a class="person" href="{html.escape(p["id"])}/"><span class="n">{html.escape(p["name"])}</span>'
+            f'<span class="c">{p["today"]} {"role" if p["today"] == 1 else "roles"} today</span></a>'
+        )
     links = "\n".join(rows)
     page = f"""<!doctype html>
 <html lang="en"><head><meta charset="utf-8">
@@ -72,11 +67,7 @@ p {{ color:var(--muted); margin:0 0 28px; }}
 .person {{ display:flex; justify-content:space-between; align-items:center; gap:12px; padding:20px 22px; margin-top:12px;
   background:var(--surface); border:1px solid var(--line); border-left:6px solid var(--marigold); border-radius:8px; text-decoration:none; color:inherit; }}
 .person:hover {{ border-color:var(--marigold); }}
-.person.submodule {{ margin-top:6px; margin-left:24px; border-left:6px solid var(--teal); padding:14px 18px; }}
-.person.submodule:hover {{ border-color:var(--teal); }}
-.person.submodule small {{ font-weight:normal; font-size:0.85rem; color:var(--muted); }}
 .n {{ font:700 1.4rem "Bricolage Grotesque", system-ui, sans-serif; }}
-.person.submodule .n {{ font-size: 1.15rem; }}
 .c {{ color:var(--muted); font-size:.95rem; }}
 </style></head>
 <body><div class="wrap"><h1>Morning jobs</h1>
